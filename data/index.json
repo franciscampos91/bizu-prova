@@ -5,11 +5,11 @@
   "atualizadoEm": "2026-08-18",
   "conteudos": [
     {
-      "id": "disposicao-qts",
-      "nome": "Disposição do QTS",
+      "id": "i-30-pm",
+      "nome": "I-30-PM — Utilização da Internet e Intranet",
       "semana": 1,
       "tipo": "quiz",
-      "arquivo": "semana-01/disposicao-qts.json",
+      "arquivo": "semana-01/i-30-pm.json",
       "ativo": true
     }
   ]

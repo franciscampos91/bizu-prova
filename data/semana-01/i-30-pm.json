@@ -1,0 +1,516 @@
+{
+  "id": "i-30-pm",
+  "nome": "I-30-PM — Utilização da Internet e Intranet",
+  "sigla": "I-30-PM",
+  "semana": 1,
+  "tipo": "quiz",
+  "descricao": "Instruções para utilização da Internet, Intranet e demais recursos de Tecnologia da Informação e Comunicação da PMESP.",
+  "objetivo": "Conhecer a finalidade da I-30-PM e as normas institucionais para utilização dos recursos de Internet, Intranet, VPN e TIC.",
+  "fonte": "Material de aula — I-30-PM",
+  "observacao": "As questões foram elaboradas com base no material fornecido. Para questões que exigirem redação literal, conferir a versão oficial da norma.",
+  "palavrasChave": [
+    "Internet",
+    "Intranet",
+    "VPN",
+    "DTIC",
+    "segurança da informação",
+    "senha",
+    "confidencialidade",
+    "integridade",
+    "disponibilidade"
+  ],
+  "questoes": [
+    {
+      "id": "i30-q001",
+      "tema": "Finalidade da norma",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a finalidade principal da I-30-PM?",
+      "alternativas": [
+        "Regular o acesso e a utilização da Internet, Intranet e dos recursos de TIC da PMESP.",
+        "Regular somente o uso das redes sociais institucionais.",
+        "Controlar exclusivamente a aquisição de computadores.",
+        "Permitir acesso irrestrito a qualquer conteúdo da Internet."
+      ],
+      "correta": 0,
+      "explicacao": "A I-30-PM regula as condições de acesso e utilização dos recursos de Internet, Intranet e TIC da PMESP, buscando corrigir procedimentos e garantir o uso adequado desses recursos."
+    },
+    {
+      "id": "i30-q002",
+      "tema": "Segurança da informação",
+      "dificuldade": "facil",
+      "enunciado": "O uso dos recursos de rede deve preservar quais propriedades da informação?",
+      "alternativas": [
+        "Velocidade, custo e simplicidade.",
+        "Confidencialidade, integridade e disponibilidade.",
+        "Publicidade, acessibilidade e compartilhamento.",
+        "Anonimato, informalidade e liberdade."
+      ],
+      "correta": 1,
+      "explicacao": "A norma busca preservar a confidencialidade, a integridade e a disponibilidade das informações."
+    },
+    {
+      "id": "i30-q003",
+      "tema": "Abrangência",
+      "dificuldade": "facil",
+      "enunciado": "A quem se aplica a I-30-PM?",
+      "alternativas": [
+        "Somente aos policiais militares da ativa.",
+        "Somente aos funcionários civis da PMESP.",
+        "A policiais militares, funcionários civis e terceiros autorizados que utilizam recursos de TIC da PMESP.",
+        "Somente aos prestadores de serviço da área de tecnologia."
+      ],
+      "correta": 2,
+      "explicacao": "A norma alcança policiais militares, funcionários civis e terceiros contratados ou autorizados que utilizam recursos de TIC da PMESP."
+    },
+    {
+      "id": "i30-q004",
+      "tema": "Objetivos da I-30-PM",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa apresenta um objetivo da I-30-PM?",
+      "alternativas": [
+        "Permitir a instalação livre de qualquer software.",
+        "Estabelecer normas para gerenciamento de sites na Internet e na Intranet.",
+        "Eliminar a necessidade de autenticação individual.",
+        "Autorizar o compartilhamento de senhas entre usuários."
+      ],
+      "correta": 1,
+      "explicacao": "Entre os objetivos da norma está estabelecer regras para o gerenciamento de sites na Internet e na Intranet."
+    },
+    {
+      "id": "i30-q005",
+      "tema": "Conteúdos proibidos",
+      "dificuldade": "medio",
+      "enunciado": "A I-30-PM busca coibir o acesso ou a inserção de conteúdos que sejam:",
+      "alternativas": [
+        "Exclusivamente de interesse pessoal.",
+        "Ilícitos, contrários à disciplina, à moral, aos bons costumes ou que violem direitos de terceiros.",
+        "Apenas conteúdos relacionados à tecnologia.",
+        "Somente conteúdos publicados fora do Brasil."
+      ],
+      "correta": 1,
+      "explicacao": "A norma busca impedir acesso ou inserção de matérias ilícitas, contrárias à disciplina, à moral e aos bons costumes, atentatórias à ordem pública ou violadoras de direitos de terceiros."
+    },
+    {
+      "id": "i30-q006",
+      "tema": "Internet",
+      "dificuldade": "facil",
+      "enunciado": "Como deve ocorrer o acesso institucional à Internet?",
+      "alternativas": [
+        "De forma irrestrita e sem autenticação.",
+        "Por meio de autenticação, respeitando as políticas institucionais de acesso.",
+        "Somente por meio de redes sociais.",
+        "Exclusivamente por dispositivos pessoais."
+      ],
+      "correta": 1,
+      "explicacao": "O acesso à Internet ocorre mediante autenticação com login e senha, respeitando as políticas institucionais definidas pela DTIC."
+    },
+    {
+      "id": "i30-q007",
+      "tema": "Acesso à Intranet",
+      "dificuldade": "medio",
+      "enunciado": "Quais são os canais indicados para acesso à Rede Intranet PM?",
+      "alternativas": [
+        "Link Intragov e Rede Privada Virtual — VPN.",
+        "Somente redes sociais e aplicativos de mensagens.",
+        "Internet pública e Bluetooth.",
+        "Somente conexão por telefone."
+      ],
+      "correta": 0,
+      "explicacao": "O material indica o Link Intragov e a Rede Privada Virtual — VPN — como canais de acesso à Rede Intranet PM."
+    },
+    {
+      "id": "i30-q008",
+      "tema": "VPN",
+      "dificuldade": "medio",
+      "enunciado": "Como é caracterizado o acesso por VPN à Rede Intranet PM?",
+      "alternativas": [
+        "Permanente, coletivo e sem necessidade de justificativa.",
+        "Excepcional, temporário, individual, não compartilhado e condicionado à efetiva necessidade.",
+        "Livre, anônimo e destinado ao público externo.",
+        "Obrigatório para todos os usuários da PMESP."
+      ],
+      "correta": 1,
+      "explicacao": "A VPN é um acesso excepcional e temporário, direcionado individualmente ao policial militar da ativa, sem compartilhamento e diante de efetiva necessidade."
+    },
+    {
+      "id": "i30-q009",
+      "tema": "Autorização da VPN",
+      "dificuldade": "medio",
+      "enunciado": "Quem compete autorizar o acesso à Rede VPN, conforme o material?",
+      "alternativas": [
+        "Qualquer usuário da Intranet.",
+        "O CComSoc.",
+        "O Diretor de TIC, mediante decisão fundamentada.",
+        "O usuário interessado, mediante autodeclaração."
+      ],
+      "correta": 2,
+      "explicacao": "Compete ao Diretor de TIC autorizar o acesso à Rede VPN mediante decisão fundamentada."
+    },
+    {
+      "id": "i30-q010",
+      "tema": "VPN e sigilo",
+      "dificuldade": "medio",
+      "enunciado": "O acesso à VPN deve ser precedido de qual providência?",
+      "alternativas": [
+        "Compartilhamento da senha com a equipe.",
+        "Assinatura do Termo de Compromisso de Sigilo e Confidencialidade.",
+        "Instalação de software não homologado.",
+        "Publicação da autorização em rede social."
+      ],
+      "correta": 1,
+      "explicacao": "O acesso à Rede VPN deve ser precedido obrigatoriamente da assinatura do Termo de Compromisso de Sigilo e Confidencialidade."
+    },
+    {
+      "id": "i30-q011",
+      "tema": "Responsabilidade da DTIC",
+      "dificuldade": "facil",
+      "enunciado": "Qual conjunto resume as atribuições gerais da DTIC?",
+      "alternativas": [
+        "Planejar, prover, proteger e fiscalizar os recursos tecnológicos.",
+        "Compartilhar senhas, instalar programas e liberar acessos irrestritos.",
+        "Produzir exclusivamente vídeos para redes sociais.",
+        "Apenas registrar a frequência dos usuários."
+      ],
+      "correta": 0,
+      "explicacao": "O material resume que à DTIC compete planejar, prover, proteger e fiscalizar os recursos tecnológicos."
+    },
+    {
+      "id": "i30-q012",
+      "tema": "Responsabilidade do usuário",
+      "dificuldade": "facil",
+      "enunciado": "Ao usuário compete principalmente:",
+      "alternativas": [
+        "Utilizar corretamente os recursos, proteger seu acesso e responder por seus atos.",
+        "Desativar os mecanismos de proteção quando desejar.",
+        "Criar conexões externas paralelas.",
+        "Instalar qualquer aplicativo necessário sem autorização."
+      ],
+      "correta": 0,
+      "explicacao": "O usuário deve utilizar os recursos conforme as normas, proteger as informações e o próprio acesso, além de responder por suas ações ou omissões."
+    },
+    {
+      "id": "i30-q013",
+      "tema": "Incidente de segurança",
+      "dificuldade": "medio",
+      "enunciado": "O que deve ocorrer diante de suspeita de violação de segurança ligada à Internet?",
+      "alternativas": [
+        "Os serviços devem continuar funcionando até a confirmação definitiva.",
+        "Os serviços baseados na rede devem ser imediatamente suspensos e o fato comunicado ao escalão superior e à DTIC.",
+        "O usuário deve apagar todos os registros.",
+        "O fato deve ser divulgado primeiro em redes sociais."
+      ],
+      "correta": 1,
+      "explicacao": "Diante da suspeita, os serviços baseados naquela rede devem ser imediatamente suspensos e o fato comunicado ao escalão superior e à DTIC."
+    },
+    {
+      "id": "i30-q014",
+      "tema": "Atualização e instalação de software",
+      "dificuldade": "facil",
+      "enunciado": "O usuário pode realizar atualizações, instalações ou alterações por conta própria?",
+      "alternativas": [
+        "Sim, sempre que considerar necessário.",
+        "Sim, desde que o software seja gratuito.",
+        "Não. Deve utilizar apenas os sistemas disponibilizados e autorizados.",
+        "Sim, desde que não comunique à DTIC."
+      ],
+      "correta": 2,
+      "explicacao": "O usuário não deve realizar atualizações, instalações ou alterações por conta própria; deve utilizar os sistemas disponibilizados."
+    },
+    {
+      "id": "i30-q015",
+      "tema": "Arquivos da Internet",
+      "dificuldade": "facil",
+      "enunciado": "A obtenção de arquivos da Internet pelo usuário deve limitar-se a:",
+      "alternativas": [
+        "Qualquer conteúdo de interesse pessoal.",
+        "Assuntos de interesse institucional e do serviço.",
+        "Arquivos enviados por terceiros sem verificação.",
+        "Programas não homologados."
+      ],
+      "correta": 1,
+      "explicacao": "O usuário deve limitar a obtenção de arquivos a assuntos de interesse institucional e do serviço."
+    },
+    {
+      "id": "i30-q016",
+      "tema": "Criptografia",
+      "dificuldade": "medio",
+      "enunciado": "Sobre recursos de criptografia, é correto afirmar que o usuário:",
+      "alternativas": [
+        "Pode utilizar qualquer ferramenta disponível na Internet.",
+        "Pode compartilhar suas chaves e senhas livremente.",
+        "Não deve utilizar recursos de hardware ou software não homologados pela PMESP.",
+        "Deve desativar a criptografia para facilitar o acesso."
+      ],
+      "correta": 2,
+      "explicacao": "O usuário não pode utilizar recursos de criptografia, de hardware ou software, que não sejam homologados pela PMESP."
+    },
+    {
+      "id": "i30-q017",
+      "tema": "Firewall",
+      "dificuldade": "facil",
+      "enunciado": "O usuário pode desativar ou burlar os mecanismos de firewall e proteção?",
+      "alternativas": [
+        "Sim, para acelerar a conexão.",
+        "Sim, desde que temporariamente.",
+        "Não. É vedado desativar, burlar ou interferir nos mecanismos de segurança.",
+        "Sim, desde que tenha conhecimento técnico."
+      ],
+      "correta": 2,
+      "explicacao": "O usuário não deve tentar desativar, burlar ou interferir nos mecanismos de segurança implementados."
+    },
+    {
+      "id": "i30-q018",
+      "tema": "Códigos maliciosos",
+      "dificuldade": "facil",
+      "enunciado": "Qual conduta é adequada em relação a softwares externos e arquivos suspeitos?",
+      "alternativas": [
+        "Instalar todos os arquivos recebidos.",
+        "Não instalar softwares externos ou arquivos suspeitos e seguir as orientações de segurança.",
+        "Desativar o antivírus antes de abrir anexos.",
+        "Compartilhar arquivos suspeitos com outros usuários."
+      ],
+      "correta": 1,
+      "explicacao": "O usuário não deve instalar softwares externos ou arquivos suspeitos e deve seguir as orientações de segurança."
+    },
+    {
+      "id": "i30-q019",
+      "tema": "Gestão de senhas",
+      "dificuldade": "facil",
+      "enunciado": "A senha institucional deve ser:",
+      "alternativas": [
+        "Pessoal e intransferível.",
+        "Compartilhada com o substituto.",
+        "Anotada em local público.",
+        "Descoberta por meio da conta de outro usuário."
+      ],
+      "correta": 0,
+      "explicacao": "A senha deve ser pessoal e intransferível. O usuário não deve divulgá-la nem tentar descobrir senhas de terceiros."
+    },
+    {
+      "id": "i30-q020",
+      "tema": "Responsabilização",
+      "dificuldade": "medio",
+      "enunciado": "O usuário pode responder por ações ou omissões relacionadas ao uso indevido dos sistemas nas esferas:",
+      "alternativas": [
+        "Somente moral.",
+        "Somente administrativa.",
+        "Administrativa, civil e penal.",
+        "Somente disciplinar interna."
+      ],
+      "correta": 2,
+      "explicacao": "O material informa que o usuário pode responder administrativa, civil e penalmente por ações ou omissões relacionadas ao uso indevido dos sistemas."
+    },
+    {
+      "id": "i30-q021",
+      "tema": "Comunicação interna",
+      "dificuldade": "medio",
+      "enunciado": "Qual endereço é indicado no material para comunicação com o público interno?",
+      "alternativas": [
+        "policiamilitar.sp.gov.br",
+        "intranet.policiamilitar.sp.gov.br",
+        "gov.br",
+        "dtic.gov.br"
+      ],
+      "correta": 1,
+      "explicacao": "O material indica a página intranet.policiamilitar.sp.gov.br para comunicação com o público interno."
+    },
+    {
+      "id": "i30-q022",
+      "tema": "Comunicação externa",
+      "dificuldade": "facil",
+      "enunciado": "Qual página é indicada no material para comunicação com o público externo?",
+      "alternativas": [
+        "intranet.policiamilitar.sp.gov.br",
+        "policiamilitar.sp.gov.br",
+        "localhost",
+        "intragov.gov.br"
+      ],
+      "correta": 1,
+      "explicacao": "Para o público externo, o material indica a página da Internet policiamilitar.sp.gov.br."
+    },
+    {
+      "id": "i30-q023",
+      "tema": "Redes sociais",
+      "dificuldade": "medio",
+      "enunciado": "Conforme o material, a fiscalização, produção e criação de ferramentas de comunicação em redes sociais compete ao:",
+      "alternativas": [
+        "CComSoc.",
+        "Usuário individual.",
+        "Diretor de TIC exclusivamente.",
+        "Prestador de serviço sem autorização."
+      ],
+      "correta": 0,
+      "explicacao": "O material atribui ao CComSoc a fiscalização, produção e criação dessas ferramentas, especialmente quanto ao uso da imagem institucional."
+    },
+    {
+      "id": "i30-q024",
+      "tema": "Conscientização",
+      "dificuldade": "facil",
+      "enunciado": "A conscientização sobre segurança da informação é responsabilidade de qual órgão?",
+      "alternativas": [
+        "CComSoc.",
+        "DTIC.",
+        "Somente do usuário.",
+        "CIPM exclusivamente."
+      ],
+      "correta": 1,
+      "explicacao": "A conscientização em segurança da informação é responsabilidade da DTIC, que promove ações para disciplinar, educar e disseminar informações."
+    },
+    {
+      "id": "i30-q025",
+      "tema": "Responsabilidades institucionais",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a associação correta entre órgão e atribuição:",
+      "alternativas": [
+        "DTIC — cuidar exclusivamente da imagem institucional em redes sociais.",
+        "CComSoc — autorizar o acesso individual à VPN.",
+        "CIPM — observar páginas eletrônicas quanto aos aspectos de segurança da informação, conforme o material.",
+        "Usuário — homologar recursos de criptografia para toda a PMESP."
+      ],
+      "correta": 2,
+      "explicacao": "Conforme o material, cabe ao CIPM observar as páginas eletrônicas quanto aos aspectos de segurança da informação; ao CComSoc cabem os aspectos relacionados ao uso da imagem institucional."
+    }
+  ],
+  "stories": [
+    {
+      "id": "i30-s001",
+      "ordem": 1,
+      "titulo": "I-30-PM",
+      "texto": "Regula o uso da Internet, Intranet e dos recursos de TIC da PMESP.",
+      "destaque": "Uso institucional seguro e disciplinado."
+    },
+    {
+      "id": "i30-s002",
+      "ordem": 2,
+      "titulo": "Objetivo principal",
+      "texto": "Garantir que os recursos de rede sejam usados com segurança e de acordo com as necessidades institucionais.",
+      "destaque": "Segurança + disciplina + finalidade institucional."
+    },
+    {
+      "id": "i30-s003",
+      "ordem": 3,
+      "titulo": "Tríade da informação",
+      "texto": "A norma busca preservar a confidencialidade, a integridade e a disponibilidade das informações.",
+      "destaque": "CID: Confidencialidade, Integridade e Disponibilidade."
+    },
+    {
+      "id": "i30-s004",
+      "ordem": 4,
+      "titulo": "Abrangência",
+      "texto": "Aplica-se a policiais militares, funcionários civis e terceiros autorizados que utilizam recursos de TIC da PMESP.",
+      "destaque": "Todos são usuários quando utilizam os recursos institucionais."
+    },
+    {
+      "id": "i30-s005",
+      "ordem": 5,
+      "titulo": "Internet",
+      "texto": "Permite acesso controlado a conteúdos externos mediante autenticação e respeito às políticas institucionais.",
+      "destaque": "Login e senha."
+    },
+    {
+      "id": "i30-s006",
+      "ordem": 6,
+      "titulo": "Intranet",
+      "texto": "É destinada ao tráfego interno de informações e ao acesso aos sistemas institucionais.",
+      "destaque": "Rede interna."
+    },
+    {
+      "id": "i30-s007",
+      "ordem": 7,
+      "titulo": "VPN",
+      "texto": "É um acesso remoto excepcional e temporário à Rede Intranet PM.",
+      "destaque": "Individual, não compartilhado e diante de efetiva necessidade."
+    },
+    {
+      "id": "i30-s008",
+      "ordem": 8,
+      "titulo": "Quem autoriza a VPN?",
+      "texto": "O Diretor de TIC, mediante decisão fundamentada.",
+      "destaque": "Autorização formal."
+    },
+    {
+      "id": "i30-s009",
+      "ordem": 9,
+      "titulo": "Antes de acessar a VPN",
+      "texto": "É obrigatória a assinatura do Termo de Compromisso de Sigilo e Confidencialidade.",
+      "destaque": "Sigilo e confidencialidade."
+    },
+    {
+      "id": "i30-s010",
+      "ordem": 10,
+      "titulo": "DTIC",
+      "texto": "Planeja, provê, protege e fiscaliza os recursos tecnológicos da Instituição.",
+      "destaque": "A DTIC define e mantém a estrutura de TIC."
+    },
+    {
+      "id": "i30-s011",
+      "ordem": 11,
+      "titulo": "Usuário",
+      "texto": "Deve usar corretamente os recursos, proteger seu acesso e responder por seus atos.",
+      "destaque": "Responsabilidade individual."
+    },
+    {
+      "id": "i30-s012",
+      "ordem": 12,
+      "titulo": "Suspeita de incidente",
+      "texto": "Suspenda imediatamente os serviços relacionados e comunique o fato ao escalão superior e à DTIC.",
+      "destaque": "Não ignore uma suspeita de violação."
+    },
+    {
+      "id": "i30-s013",
+      "ordem": 13,
+      "titulo": "Softwares",
+      "texto": "Não realize instalações ou alterações por conta própria. Utilize apenas sistemas disponibilizados e autorizados.",
+      "destaque": "Software não homologado é risco."
+    },
+    {
+      "id": "i30-s014",
+      "ordem": 14,
+      "titulo": "Firewall",
+      "texto": "É proibido desativar, burlar ou interferir nos mecanismos de segurança implementados.",
+      "destaque": "Não contorne a proteção."
+    },
+    {
+      "id": "i30-s015",
+      "ordem": 15,
+      "titulo": "Senha",
+      "texto": "A senha institucional é pessoal, intransferível e um ativo de alto valor.",
+      "destaque": "Não divulgue nem compartilhe."
+    },
+    {
+      "id": "i30-s016",
+      "ordem": 16,
+      "titulo": "Comunicação interna",
+      "texto": "O material indica a Intranet para divulgação de informações e serviços ao público interno.",
+      "destaque": "Cada OPM deve possuir apenas um endereço na Intranet."
+    },
+    {
+      "id": "i30-s017",
+      "ordem": 17,
+      "titulo": "Comunicação externa",
+      "texto": "A página da Internet é utilizada para comunicação com o público externo.",
+      "destaque": "policiamilitar.sp.gov.br"
+    },
+    {
+      "id": "i30-s018",
+      "ordem": 18,
+      "titulo": "Redes sociais",
+      "texto": "O CComSoc atua na fiscalização, produção e criação das ferramentas relacionadas à imagem institucional.",
+      "destaque": "Imagem institucional."
+    },
+    {
+      "id": "i30-s019",
+      "ordem": 19,
+      "titulo": "Conscientização",
+      "texto": "A DTIC promove ações para disciplinar, educar e disseminar a segurança da informação.",
+      "destaque": "Segurança também se aprende."
+    },
+    {
+      "id": "i30-s020",
+      "ordem": 20,
+      "titulo": "Bizu final",
+      "texto": "Sua senha é um ativo de alto valor.",
+      "destaque": "Proteja-a."
+    }
+  ]
+}
