@@ -11,6 +11,14 @@
       "tipo": "quiz",
       "arquivo": "semana-01/i-30-pm.json",
       "ativo": true
+    },
+    {
+      "id": "i-31-pm",
+      "nome": "I-31-PM — Ferramentas Eletrônicas de Comunicação",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/i-31-pm.json",
+      "ativo": true
     }
   ]
 }

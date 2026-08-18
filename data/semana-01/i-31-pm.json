@@ -1,0 +1,656 @@
+{
+  "id": "i-31-pm",
+  "nome": "I-31-PM — Ferramentas Eletrônicas de Comunicação",
+  "sigla": "I-31-PM",
+  "semana": 1,
+  "tipo": "quiz",
+  "descricao": "Normas para utilização das ferramentas eletrônicas de comunicação no âmbito da PMESP, especialmente o correio eletrônico corporativo e a mensageria instantânea.",
+  "objetivo": "Conhecer as ferramentas eletrônicas de comunicação, suas responsabilidades, regras de uso, segurança, formatação, arquivamento e controle de contas.",
+  "fonte": "Material de aula — I-31-PM",
+  "observacao": "Questões elaboradas com base no material fornecido. Para cobrança literal, conferir a versão oficial da I-31-PM e as normas citadas no material.",
+  "palavrasChave": [
+    "e-mail corporativo",
+    "mensageria instantânea",
+    "e-mail organizacional",
+    "e-mail funcional",
+    "e-mail pessoal",
+    "senha do AD",
+    "mensagem numerada",
+    "auditoria",
+    "arquivamento"
+  ],
+  "questoes": [
+    {
+      "id": "i31-q001",
+      "tema": "Finalidade da norma",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a finalidade principal da I-31-PM?",
+      "alternativas": [
+        "Regular a utilização das ferramentas eletrônicas de comunicação no âmbito da PMESP.",
+        "Regular exclusivamente o uso de redes sociais pessoais.",
+        "Controlar somente a aquisição de computadores.",
+        "Permitir o uso irrestrito do correio eletrônico institucional."
+      ],
+      "correta": 0,
+      "explicacao": "A I-31-PM regula as condições de utilização das ferramentas eletrônicas de comunicação da PMESP, especialmente os recursos de TIC colocados sob responsabilidade dos usuários."
+    },
+    {
+      "id": "i31-q002",
+      "tema": "Ferramentas eletrônicas",
+      "dificuldade": "facil",
+      "enunciado": "Quais ferramentas são consideradas meios eletrônicos de comunicação no material?",
+      "alternativas": [
+        "Somente telefone fixo e rádio.",
+        "E-mail corporativo e serviço de mensageria instantânea.",
+        "Somente redes sociais externas.",
+        "Apenas sistemas de videomonitoramento."
+      ],
+      "correta": 1,
+      "explicacao": "O material considera ferramentas eletrônicas de comunicação o e-mail corporativo e o serviço de mensageria instantânea."
+    },
+    {
+      "id": "i31-q003",
+      "tema": "Obrigatoriedade de uso",
+      "dificuldade": "medio",
+      "enunciado": "Segundo o material, todo policial militar deverá ser usuário de qual ferramenta?",
+      "alternativas": [
+        "Da ferramenta de comunicação determinada pela PMESP.",
+        "De qualquer aplicativo pessoal escolhido livremente.",
+        "Somente de serviços externos não homologados.",
+        "Apenas de e-mail pessoal."
+      ],
+      "correta": 0,
+      "explicacao": "Todo policial militar deverá ser usuário da ferramenta de comunicação determinada pela PMESP, visando o acesso rápido e universalizado às informações institucionais."
+    },
+    {
+      "id": "i31-q004",
+      "tema": "Objetivos da instrução",
+      "dificuldade": "facil",
+      "enunciado": "É objetivo da I-31-PM:",
+      "alternativas": [
+        "Padronizar o rito administrativo e a formatação das mensagens.",
+        "Eliminar a necessidade de identificação do usuário.",
+        "Permitir mensagens sem rastreabilidade.",
+        "Autorizar a divulgação de conteúdos ilícitos."
+      ],
+      "correta": 0,
+      "explicacao": "A instrução busca padronizar o rito administrativo e a formatação das mensagens, além de estabelecer responsabilidades, proibições e procedimentos técnicos."
+    },
+    {
+      "id": "i31-q005",
+      "tema": "Conteúdo proibido",
+      "dificuldade": "facil",
+      "enunciado": "É expressamente proibido manter, distribuir ou veicular arquivos contendo matéria:",
+      "alternativas": [
+        "De interesse institucional.",
+        "Ilícita, contrária à disciplina militar, à moral e aos bons costumes.",
+        "Administrativa e devidamente autorizada.",
+        "Classificada como ostensiva e pertinente ao serviço."
+      ],
+      "correta": 1,
+      "explicacao": "A I-31-PM proíbe a manutenção, distribuição ou veiculação de arquivos com conteúdo ilícito ou contrário à disciplina militar, à moral e aos bons costumes."
+    },
+    {
+      "id": "i31-q006",
+      "tema": "Classificação de e-mails",
+      "dificuldade": "medio",
+      "enunciado": "O e-mail organizacional tem como finalidade principal:",
+      "alternativas": [
+        "Comunicação institucional da OPM.",
+        "Uso individual e particular do policial.",
+        "Comunicação exclusivamente com familiares.",
+        "Acesso a serviços externos de entretenimento."
+      ],
+      "correta": 0,
+      "explicacao": "O e-mail organizacional é destinado à comunicação institucional da OPM."
+    },
+    {
+      "id": "i31-q007",
+      "tema": "Classificação de e-mails",
+      "dificuldade": "medio",
+      "enunciado": "O e-mail funcional é aquele relacionado:",
+      "alternativas": [
+        "À função desempenhada pelo usuário.",
+        "Somente à vida particular do policial.",
+        "À comunicação publicitária externa.",
+        "Exclusivamente à administração de redes sociais."
+      ],
+      "correta": 0,
+      "explicacao": "O e-mail funcional é ligado à função desempenhada, como no exemplo apresentado para uma função de comando."
+    },
+    {
+      "id": "i31-q008",
+      "tema": "Classificação de e-mails",
+      "dificuldade": "facil",
+      "enunciado": "O e-mail pessoal institucional é destinado ao:",
+      "alternativas": [
+        "Uso individual do policial.",
+        "Uso exclusivo do comandante da OPM.",
+        "Atendimento de toda a unidade.",
+        "Controle de firewall."
+      ],
+      "correta": 0,
+      "explicacao": "O e-mail pessoal é destinado ao uso individual do policial, embora faça parte do ambiente institucional."
+    },
+    {
+      "id": "i31-q009",
+      "tema": "Consulta de e-mails",
+      "dificuldade": "medio",
+      "enunciado": "Os e-mails organizacionais e funcionais devem ser consultados obrigatoriamente:",
+      "alternativas": [
+        "Somente uma vez por mês.",
+        "No início e no término de cada turno de serviço pelo responsável designado.",
+        "Apenas quando houver mensagem urgente.",
+        "Somente durante o período de férias."
+      ],
+      "correta": 1,
+      "explicacao": "O responsável designado deve consultar os e-mails organizacionais e funcionais no início e no término de cada turno de serviço."
+    },
+    {
+      "id": "i31-q010",
+      "tema": "Mensagens indesejadas",
+      "dificuldade": "medio",
+      "enunciado": "Ao receber mensagem indesejada, de caráter pornográfico, ofensivo ou discriminatório, o usuário deve:",
+      "alternativas": [
+        "Propagá-la para alertar outros usuários.",
+        "Informar ao CMT/Ch/Dir e não propagar a mensagem.",
+        "Publicá-la em rede social.",
+        "Encaminhá-la para todos os contatos."
+      ],
+      "correta": 1,
+      "explicacao": "O usuário deve informar a mensagem indesejada ao CMT/Ch/Dir e jamais propagar o conteúdo recebido."
+    },
+    {
+      "id": "i31-q011",
+      "tema": "Auditoria",
+      "dificuldade": "medio",
+      "enunciado": "A auditoria dos arquivos hospedados nos ativos de TIC do usuário compete a quem?",
+      "alternativas": [
+        "Ao Comandante, Chefe ou Diretor da OPM onde o policial está lotado.",
+        "A qualquer usuário da rede.",
+        "Exclusivamente ao destinatário da mensagem.",
+        "Ao provedor de Internet particular."
+      ],
+      "correta": 0,
+      "explicacao": "A auditoria compete ao Comandante, Chefe ou Diretor da OPM de lotação, podendo ser realizada pessoalmente ou por delegação."
+    },
+    {
+      "id": "i31-q012",
+      "tema": "Violação de segurança",
+      "dificuldade": "facil",
+      "enunciado": "Em caso de uso não autorizado ou violação de segurança, o usuário deve informar imediatamente:",
+      "alternativas": [
+        "A Telemática de sua unidade.",
+        "Somente seus contatos pessoais.",
+        "Uma rede social externa.",
+        "Qualquer usuário desconhecido."
+      ],
+      "correta": 0,
+      "explicacao": "O material determina que o usuário informe imediatamente a Telemática de sua unidade para análise."
+    },
+    {
+      "id": "i31-q013",
+      "tema": "Senha do AD",
+      "dificuldade": "facil",
+      "enunciado": "A senha utilizada no ambiente institucional é considerada:",
+      "alternativas": [
+        "Pública e compartilhável.",
+        "Pessoal e intransferível.",
+        "De propriedade do destinatário da mensagem.",
+        "Temporária em qualquer situação."
+      ],
+      "correta": 1,
+      "explicacao": "A senha é pessoal e intransferível, sendo o usuário responsável pela confidencialidade da conta e por qualquer atividade realizada nela."
+    },
+    {
+      "id": "i31-q014",
+      "tema": "Prazo de alteração da senha",
+      "dificuldade": "medio",
+      "enunciado": "Qual é o prazo máximo indicado para alteração da senha do Active Directory?",
+      "alternativas": [
+        "24 horas.",
+        "72 horas.",
+        "180 dias.",
+        "Um ano."
+      ],
+      "correta": 2,
+      "explicacao": "O material informa que o prazo máximo para alteração da senha do AD é de 180 dias. O descumprimento gera bloqueio automático."
+    },
+    {
+      "id": "i31-q015",
+      "tema": "Senha provisória",
+      "dificuldade": "medio",
+      "enunciado": "Qual é o prazo crítico para trocar a senha provisória gerada após reset no P1?",
+      "alternativas": [
+        "12 horas.",
+        "24 horas.",
+        "72 horas.",
+        "180 dias."
+      ],
+      "correta": 2,
+      "explicacao": "A senha provisória deve ser trocada no prazo crítico de 72 horas. Caso isso não ocorra, a conta será bloqueada novamente."
+    },
+    {
+      "id": "i31-q016",
+      "tema": "Formatação de mensagens",
+      "dificuldade": "facil",
+      "enunciado": "Na elaboração de mensagens de correio eletrônico, qual fonte e tamanho devem ser utilizados?",
+      "alternativas": [
+        "Arial, tamanho 12.",
+        "Times New Roman, tamanho 10.",
+        "Calibri, tamanho 14.",
+        "Qualquer fonte decorativa, tamanho livre."
+      ],
+      "correta": 0,
+      "explicacao": "O Artigo 15 indica a utilização da fonte Arial, tamanho 12."
+    },
+    {
+      "id": "i31-q017",
+      "tema": "Formatação de mensagens",
+      "dificuldade": "facil",
+      "enunciado": "O que não deve ser utilizado na mensagem de correio eletrônico?",
+      "alternativas": [
+        "Plano de fundo, papel de carta, temas ou figuras.",
+        "Texto claro e objetivo.",
+        "Fonte Arial tamanho 12.",
+        "Confirmação de envio e leitura."
+      ],
+      "correta": 0,
+      "explicacao": "A mensagem não deverá ter plano de fundo, papel de carta, temas ou figuras."
+    },
+    {
+      "id": "i31-q018",
+      "tema": "Confirmação de recebimento",
+      "dificuldade": "medio",
+      "enunciado": "Segundo as regras de elaboração, a confirmação de envio e leitura deve estar:",
+      "alternativas": [
+        "Desabilitada em qualquer circunstância.",
+        "Habilitada, cabendo ao destinatário confirmar o recebimento.",
+        "Disponível apenas para mensagens pessoais.",
+        "Restrita a mensagens sem anexos."
+      ],
+      "correta": 1,
+      "explicacao": "A opção de solicitar confirmação de envio e leitura deverá estar habilitada, cabendo ao destinatário confirmar o recebimento."
+    },
+    {
+      "id": "i31-q019",
+      "tema": "Anexos",
+      "dificuldade": "facil",
+      "enunciado": "Sempre que possível, quanto aos anexos, deve-se:",
+      "alternativas": [
+        "Evitar anexá-los e dar preferência à inserção do texto na mensagem.",
+        "Enviar todos os arquivos disponíveis.",
+        "Enviar arquivos sem verificar o tamanho.",
+        "Utilizar somente arquivos executáveis."
+      ],
+      "correta": 0,
+      "explicacao": "Sempre que possível, deve-se evitar a anexação de arquivos, preferindo inserir o texto diretamente na mensagem."
+    },
+    {
+      "id": "i31-q020",
+      "tema": "Compactação",
+      "dificuldade": "facil",
+      "enunciado": "Quando necessário o envio de anexos, eles podem ser:",
+      "alternativas": [
+        "Compactados de acordo com o tamanho do arquivo.",
+        "Enviados somente sem extensão.",
+        "Convertidos obrigatoriamente em imagem.",
+        "Divulgados em rede social antes do envio."
+      ],
+      "correta": 0,
+      "explicacao": "Quando necessário, os anexos poderão ser compactados conforme o tamanho do arquivo a ser enviado."
+    },
+    {
+      "id": "i31-q021",
+      "tema": "Mensagem numerada",
+      "dificuldade": "medio",
+      "enunciado": "Na primeira linha de uma mensagem numerada deve aparecer:",
+      "alternativas": [
+        "A palavra MENSAGEM em letras maiúsculas, seguida dos elementos de identificação previstos.",
+        "Somente o nome do destinatário.",
+        "A assinatura do remetente.",
+        "A palavra Anexo, independentemente da existência de anexo."
+      ],
+      "correta": 0,
+      "explicacao": "A primeira linha deve iniciar com MENSAGEM em letras maiúsculas e conter os elementos de identificação, número, OPM, ano e classificações aplicáveis."
+    },
+    {
+      "id": "i31-q022",
+      "tema": "Mensagem numerada",
+      "dificuldade": "dificil",
+      "enunciado": "Na sequência do cabeçalho de uma mensagem numerada, a segunda linha deve iniciar com:",
+      "alternativas": [
+        "Ao, seguida do destinatário.",
+        "Do, seguida do cargo do signatário e da OPM remetente.",
+        "Assunto, seguido do resumo.",
+        "Interessado, seguido do nome do policial."
+      ],
+      "correta": 1,
+      "explicacao": "A segunda linha deve conter a palavra Do, seguida do cargo do signatário e da denominação da OPM remetente."
+    },
+    {
+      "id": "i31-q023",
+      "tema": "Mensagem numerada",
+      "dificuldade": "dificil",
+      "enunciado": "Na mensagem numerada, a quarta linha deve conter:",
+      "alternativas": [
+        "A palavra Assunto, seguida de dois pontos e de um breve resumo.",
+        "A palavra Anexo, mesmo quando não houver anexo.",
+        "A assinatura digital do destinatário.",
+        "A classificação do arquivo local."
+      ],
+      "correta": 0,
+      "explicacao": "A quarta linha é destinada ao Assunto, seguido de dois pontos, um resumo breve e exato, e ponto final."
+    },
+    {
+      "id": "i31-q024",
+      "tema": "Mensagem numerada",
+      "dificuldade": "dificil",
+      "enunciado": "Qual é a ordem inicial correta das linhas de uma mensagem numerada?",
+      "alternativas": [
+        "MENSAGEM, Do, Ao, Assunto.",
+        "Assunto, MENSAGEM, Anexo, Do.",
+        "Ao, Assunto, MENSAGEM, Do.",
+        "Do, Interessado, Anexo, MENSAGEM."
+      ],
+      "correta": 0,
+      "explicacao": "A ordem inicial prevista é: primeira linha MENSAGEM; segunda linha Do; terceira linha Ao; quarta linha Assunto."
+    },
+    {
+      "id": "i31-q025",
+      "tema": "Controle de fluxo",
+      "dificuldade": "facil",
+      "enunciado": "O e-mail funcional deverá ser consultado:",
+      "alternativas": [
+        "Diariamente.",
+        "Somente uma vez por semestre.",
+        "Apenas quando houver auditoria.",
+        "Somente pelo usuário que criou a conta."
+      ],
+      "correta": 0,
+      "explicacao": "O material determina que o e-mail funcional seja consultado diariamente, com verificação obrigatória no início e no término do turno para contas organizacionais e funcionais."
+    },
+    {
+      "id": "i31-q026",
+      "tema": "Encaminhamento de mensagens",
+      "dificuldade": "medio",
+      "enunciado": "Ao receber uma mensagem para conhecimento ou decisão, o usuário deve:",
+      "alternativas": [
+        "Ignorá-la até o final do mês.",
+        "Encaminhá-la imediatamente para as providências cabíveis.",
+        "Apagá-la após a leitura.",
+        "Publicá-la em canal externo."
+      ],
+      "correta": 1,
+      "explicacao": "A mensagem recebida para conhecimento ou decisão deve ser encaminhada imediatamente para as providências cabíveis."
+    },
+    {
+      "id": "i31-q027",
+      "tema": "CC e CCO",
+      "dificuldade": "medio",
+      "enunciado": "Quando não for necessário que os destinatários visualizem uma extensa lista de endereços, deve-se utilizar:",
+      "alternativas": [
+        "Somente o campo Para.",
+        "CC ou CCO, conforme o caso.",
+        "O campo Assunto.",
+        "A linha Anexo."
+      ],
+      "correta": 1,
+      "explicacao": "O material indica o uso dos campos CC — com cópia — ou CCO — com cópia oculta — para evitar a visualização de extensas listas de endereços."
+    },
+    {
+      "id": "i31-q028",
+      "tema": "Arquivamento",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a regra de ouro indicada para arquivamento local?",
+      "alternativas": [
+        "Arquivar somente quando a caixa estiver cheia.",
+        "Realizar arquivamento quando a caixa atingir 80% de ocupação.",
+        "Arquivar apenas mensagens sem anexos.",
+        "Nunca realizar arquivamento local."
+      ],
+      "correta": 1,
+      "explicacao": "O material indica o arquivamento sempre que a caixa atingir 80% de ocupação."
+    },
+    {
+      "id": "i31-q029",
+      "tema": "Risco do arquivamento local",
+      "dificuldade": "medio",
+      "enunciado": "Qual é o risco do arquivamento realizado exclusivamente na estação de trabalho?",
+      "alternativas": [
+        "As mensagens ficam automaticamente disponíveis em qualquer computador.",
+        "As mensagens podem ser perdidas se houver pane ou troca de máquina sem backup do arquivo local.",
+        "O arquivamento impede qualquer recuperação.",
+        "O Webmail sempre mantém uma cópia do arquivo local."
+      ],
+      "correta": 1,
+      "explicacao": "O material alerta que o arquivamento local não fica disponível via Webmail e pode ser perdido em caso de pane ou troca de computador sem backup do arquivo .nsf."
+    },
+    {
+      "id": "i31-q030",
+      "tema": "Desativação e cancelamento",
+      "dificuldade": "dificil",
+      "enunciado": "Conforme o material, o militar que passar para a reserva terá o correio eletrônico desativado no prazo de:",
+      "alternativas": [
+        "72 horas.",
+        "30 dias.",
+        "06 meses.",
+        "03 anos."
+      ],
+      "correta": 2,
+      "explicacao": "O material informa que o correio eletrônico do militar que passar para a reserva será desativado no prazo de seis meses."
+    },
+    {
+      "id": "i31-q031",
+      "tema": "Privacidade",
+      "dificuldade": "dificil",
+      "enunciado": "Segundo o Artigo 33 transcrito no material, a proteção constitucional e legal de inviolabilidade diz respeito:",
+      "alternativas": [
+        "A toda comunicação institucional sem exceção.",
+        "Apenas à comunicação estritamente pessoal, especialmente ao e-mail pessoal ou particular provido por provedor próprio.",
+        "Somente às mensagens numeradas.",
+        "A qualquer arquivo armazenado em ativo de TIC da PMESP."
+      ],
+      "correta": 1,
+      "explicacao": "O texto diferencia a comunicação estritamente pessoal das comunicações institucionais e indica proteção ao e-mail pessoal ou particular provido por provedor próprio."
+    },
+    {
+      "id": "i31-q032",
+      "tema": "Responsabilidade pelo conteúdo",
+      "dificuldade": "facil",
+      "enunciado": "Quem é responsável pelo conteúdo transmitido por sua conta de comunicação?",
+      "alternativas": [
+        "O usuário.",
+        "Somente o destinatário.",
+        "O provedor externo.",
+        "Qualquer colega da unidade."
+      ],
+      "correta": 0,
+      "explicacao": "O usuário é responsável pela confidencialidade da conta, por suas atividades e pelo conteúdo transmitido."
+    },
+    {
+      "id": "i31-q033",
+      "tema": "Mensagem numerada",
+      "dificuldade": "medio",
+      "enunciado": "A classificação quanto à tramitação de uma mensagem numerada pode ser:",
+      "alternativas": [
+        "Normal ou urgente.",
+        "Pessoal ou familiar.",
+        "Interna ou informal apenas.",
+        "Compactada ou descompactada."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta as classificações de tramitação normal e urgente."
+    },
+    {
+      "id": "i31-q034",
+      "tema": "Mensagem numerada",
+      "dificuldade": "medio",
+      "enunciado": "Quanto à natureza, uma mensagem numerada pode ser classificada como:",
+      "alternativas": [
+        "Ostensiva ou sigilosa, conforme a legislação vigente.",
+        "Somente urgente.",
+        "Somente pessoal.",
+        "Externa ou informal."
+      ],
+      "correta": 0,
+      "explicacao": "A mensagem pode receber classificação quanto à natureza, como ostensiva ou sigilosa, conforme a legislação vigente."
+    },
+    {
+      "id": "i31-q035",
+      "tema": "Conectividade",
+      "dificuldade": "dificil",
+      "enunciado": "Segundo o material, para abrir e-mails funcionais no Notes Client (PT171), utiliza-se o comando:",
+      "alternativas": [
+        "Ctrl+O.",
+        "Ctrl+P.",
+        "Alt+F4.",
+        "F12."
+      ],
+      "correta": 0,
+      "explicacao": "O material informa que o comando Ctrl+O deve ser utilizado para abrir e-mails funcionais no Notes Client (PT171)."
+    }
+  ],
+  "stories": [
+    {
+      "id": "i31-s001",
+      "ordem": 1,
+      "titulo": "I-31-PM",
+      "texto": "Disciplina o uso das ferramentas eletrônicas de comunicação na PMESP.",
+      "destaque": "Comunicação institucional com clareza, rastreabilidade e segurança."
+    },
+    {
+      "id": "i31-s002",
+      "ordem": 2,
+      "titulo": "Ferramentas",
+      "texto": "São consideradas ferramentas eletrônicas o e-mail corporativo e o serviço de mensageria instantânea.",
+      "destaque": "Todo policial deve usar a ferramenta determinada pela PMESP."
+    },
+    {
+      "id": "i31-s003",
+      "ordem": 3,
+      "titulo": "E-mail organizacional",
+      "texto": "Destinado à comunicação institucional da OPM.",
+      "destaque": "Representa a unidade."
+    },
+    {
+      "id": "i31-s004",
+      "ordem": 4,
+      "titulo": "E-mail funcional",
+      "texto": "Relacionado à função exercida pelo usuário.",
+      "destaque": "Deve ser consultado diariamente."
+    },
+    {
+      "id": "i31-s005",
+      "ordem": 5,
+      "titulo": "E-mail pessoal",
+      "texto": "Destinado ao uso individual do policial.",
+      "destaque": "Uso individual não elimina a responsabilidade."
+    },
+    {
+      "id": "i31-s006",
+      "ordem": 6,
+      "titulo": "Dever de consulta",
+      "texto": "E-mails organizacionais e funcionais devem ser consultados no início e no término de cada turno pelo responsável designado.",
+      "destaque": "Início e término do turno."
+    },
+    {
+      "id": "i31-s007",
+      "ordem": 7,
+      "titulo": "Mensagem indesejada",
+      "texto": "Informe ao CMT/Ch/Dir e nunca propague mensagem pornográfica, ofensiva ou discriminatória.",
+      "destaque": "Comunicar, não encaminhar."
+    },
+    {
+      "id": "i31-s008",
+      "ordem": 8,
+      "titulo": "Senha",
+      "texto": "A senha é pessoal, intransferível e protege o acesso à rede, aos sistemas e ao e-mail institucional.",
+      "destaque": "Você responde pelas atividades da sua conta."
+    },
+    {
+      "id": "i31-s009",
+      "ordem": 9,
+      "titulo": "Prazo do AD",
+      "texto": "A senha do Active Directory deve ser alterada no máximo a cada 180 dias.",
+      "destaque": "O descumprimento provoca bloqueio automático."
+    },
+    {
+      "id": "i31-s010",
+      "ordem": 10,
+      "titulo": "Senha provisória",
+      "texto": "Após reset no P1, a senha provisória deve ser trocada em até 72 horas.",
+      "destaque": "Ignore o prazo e a conta será bloqueada novamente."
+    },
+    {
+      "id": "i31-s011",
+      "ordem": 11,
+      "titulo": "Padrão do e-mail",
+      "texto": "Não use plano de fundo, papel de carta, temas ou figuras.",
+      "destaque": "A comunicação institucional deve ser objetiva."
+    },
+    {
+      "id": "i31-s012",
+      "ordem": 12,
+      "titulo": "Fonte padrão",
+      "texto": "Utilize Arial, tamanho 12.",
+      "destaque": "Regra de formatação do Artigo 15."
+    },
+    {
+      "id": "i31-s013",
+      "ordem": 13,
+      "titulo": "Confirmação",
+      "texto": "A confirmação de envio e leitura deve estar habilitada.",
+      "destaque": "Cabe ao destinatário confirmar o recebimento."
+    },
+    {
+      "id": "i31-s014",
+      "ordem": 14,
+      "titulo": "Anexos",
+      "texto": "Sempre que possível, evite anexos e insira o texto diretamente na mensagem.",
+      "destaque": "Se necessário, o anexo pode ser compactado."
+    },
+    {
+      "id": "i31-s015",
+      "ordem": 15,
+      "titulo": "Mensagem numerada",
+      "texto": "A primeira linha começa com MENSAGEM em letras maiúsculas.",
+      "destaque": "O cabeçalho segue rito padronizado."
+    },
+    {
+      "id": "i31-s016",
+      "ordem": 16,
+      "titulo": "Ordem do cabeçalho",
+      "texto": "A sequência inicial é: MENSAGEM, Do, Ao e Assunto.",
+      "destaque": "Decore essa ordem."
+    },
+    {
+      "id": "i31-s017",
+      "ordem": 17,
+      "titulo": "CC e CCO",
+      "texto": "Use CC ou CCO quando não for necessário exibir extensa lista de endereços.",
+      "destaque": "CC = cópia; CCO = cópia oculta."
+    },
+    {
+      "id": "i31-s018",
+      "ordem": 18,
+      "titulo": "Arquivamento",
+      "texto": "Realize o arquivamento quando a caixa atingir 80% de ocupação.",
+      "destaque": "Regra de ouro do Artigo 24."
+    },
+    {
+      "id": "i31-s019",
+      "ordem": 19,
+      "titulo": "Risco local",
+      "texto": "O arquivamento no computador local pode ser perdido sem backup do arquivo .nsf.",
+      "destaque": "O conteúdo não fica disponível via Webmail."
+    },
+    {
+      "id": "i31-s020",
+      "ordem": 20,
+      "titulo": "Bizu final",
+      "texto": "Clareza, objetividade, segurança e responsabilidade em toda comunicação institucional.",
+      "destaque": "Comunicar corretamente também é proteger a Instituição."
+    }
+  ]
+}
