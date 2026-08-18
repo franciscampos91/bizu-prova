@@ -5,6 +5,14 @@
   "atualizadoEm": "2026-08-18",
   "conteudos": [
     {
+      "id": "disposicao-qts",
+      "nome": "Disposição do QTS",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/disposicao-qts.json",
+      "ativo": true
+    },
+    {
       "id": "i-30-pm",
       "nome": "I-30-PM — Utilização da Internet e Intranet",
       "semana": 1,
@@ -18,6 +26,14 @@
       "semana": 1,
       "tipo": "quiz",
       "arquivo": "semana-01/i-31-pm.json",
+      "ativo": true
+    },
+    {
+      "id": "i-33-pm",
+      "nome": "I-33-PM — Administração de Dados",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/i-33-pm.json",
       "ativo": true
     }
   ]

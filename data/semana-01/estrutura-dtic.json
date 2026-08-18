@@ -1,0 +1,587 @@
+{
+  "id": "estrutura-dtic",
+  "nome": "Estrutura da DTIC",
+  "sigla": "DTIC",
+  "semana": 1,
+  "tipo": "quiz",
+  "descricao": "Contextualização histórica, estrutura organizacional, departamentos, missão, visão e valores da Diretoria de Tecnologia da Informação e Comunicação da PMESP.",
+  "objetivo": "Conhecer a evolução histórica da DTIC, sua posição organizacional e as atribuições de seus departamentos.",
+  "fonte": "Material de aula — Estrutura da DTIC",
+  "observacao": "Questões elaboradas com base no material fornecido. Para cobrança literal de datas, denominações ou atribuições, conferir a fonte oficial utilizada no curso.",
+  "palavrasChave": [
+    "DTIC",
+    "DPC",
+    "DAS",
+    "DCI",
+    "radiotelegrafia",
+    "Diretoria de Sistemas",
+    "Diretoria de Telemática",
+    "cibersegurança",
+    "infraestrutura",
+    "missão e valores"
+  ],
+  "questoes": [
+    {
+      "id": "dtic-q001",
+      "tema": "História da DTIC",
+      "dificuldade": "facil",
+      "enunciado": "Em que ano ocorreu a implantação das comunicações na Força Pública, com a criação das primeiras estações de radiotelegrafia?",
+      "alternativas": [
+        "1927",
+        "1937",
+        "1967",
+        "1987"
+      ],
+      "correta": 0,
+      "explicacao": "Conforme a linha do tempo do material, a implantação das comunicações na Força Pública ocorreu em 1927."
+    },
+    {
+      "id": "dtic-q002",
+      "tema": "História da DTIC",
+      "dificuldade": "facil",
+      "enunciado": "Em 1937, teve início qual atividade na Corporação?",
+      "alternativas": [
+        "A criação da DTIC com a denominação atual.",
+        "As atividades de processamento de dados com a Seção de Máquinas do Serviço de Fundos.",
+        "A instalação do primeiro computador.",
+        "A transformação em Diretoria de Telemática."
+      ],
+      "correta": 1,
+      "explicacao": "O ano de 1937 marca o início das atividades de processamento de dados com a Seção de Máquinas do Serviço de Fundos."
+    },
+    {
+      "id": "dtic-q003",
+      "tema": "História da DTIC",
+      "dificuldade": "facil",
+      "enunciado": "Quando foi instalado o primeiro computador da Corporação?",
+      "alternativas": [
+        "1927",
+        "1937",
+        "1967",
+        "1989"
+      ],
+      "correta": 2,
+      "explicacao": "O primeiro computador da Corporação foi instalado em 1967, segundo a linha do tempo apresentada."
+    },
+    {
+      "id": "dtic-q004",
+      "tema": "História da DTIC",
+      "dificuldade": "medio",
+      "enunciado": "O que ocorreu em 1987?",
+      "alternativas": [
+        "Criação experimental da Diretoria de Sistemas.",
+        "Criação definitiva da Diretoria de Sistemas.",
+        "Transformação em Diretoria de Telemática.",
+        "Adoção da denominação DTIC."
+      ],
+      "correta": 0,
+      "explicacao": "Em 1987 ocorreu a criação experimental da Diretoria de Sistemas, também identificada no material pela sigla DSist."
+    },
+    {
+      "id": "dtic-q005",
+      "tema": "História da DTIC",
+      "dificuldade": "medio",
+      "enunciado": "Em que ano ocorreu a criação definitiva da Diretoria de Sistemas?",
+      "alternativas": [
+        "1967",
+        "1987",
+        "1989",
+        "2004"
+      ],
+      "correta": 2,
+      "explicacao": "A criação definitiva da Diretoria de Sistemas ocorreu em 1989."
+    },
+    {
+      "id": "dtic-q006",
+      "tema": "História da DTIC",
+      "dificuldade": "medio",
+      "enunciado": "Em 2004, a Diretoria de Sistemas foi transformada em:",
+      "alternativas": [
+        "Diretoria de Cibersegurança.",
+        "Diretoria de Telemática.",
+        "Departamento de Aplicações e Sistemas.",
+        "Diretoria de Radiocomunicação."
+      ],
+      "correta": 1,
+      "explicacao": "Em 2004 ocorreu a transformação em Diretoria de Telemática."
+    },
+    {
+      "id": "dtic-q007",
+      "tema": "História da DTIC",
+      "dificuldade": "facil",
+      "enunciado": "Em que ano foi adotada a atual denominação DTIC?",
+      "alternativas": [
+        "1989",
+        "2004",
+        "2010",
+        "2018"
+      ],
+      "correta": 3,
+      "explicacao": "A atual denominação DTIC foi adotada em 2018, após reestruturação administrativa."
+    },
+    {
+      "id": "dtic-q008",
+      "tema": "Estrutura organizacional",
+      "dificuldade": "medio",
+      "enunciado": "A DTIC é classificada como:",
+      "alternativas": [
+        "Órgão de direção setorial e técnico.",
+        "Órgão exclusivamente operacional de policiamento.",
+        "Órgão civil sem função técnica.",
+        "Unidade subordinada diretamente a uma OPM territorial."
+      ],
+      "correta": 0,
+      "explicacao": "O material define a DTIC como órgão de direção setorial e técnico."
+    },
+    {
+      "id": "dtic-q009",
+      "tema": "Subordinação",
+      "dificuldade": "medio",
+      "enunciado": "A DTIC é subordinada diretamente ao:",
+      "alternativas": [
+        "Comandante de cada OPM.",
+        "Subcomandante da Polícia Militar.",
+        "Diretor do Departamento de Comunicação.",
+        "Chefe da unidade administrativa local."
+      ],
+      "correta": 1,
+      "explicacao": "A DTIC é subordinada diretamente ao Subcomandante da Polícia Militar."
+    },
+    {
+      "id": "dtic-q010",
+      "tema": "Missão organizacional",
+      "dificuldade": "facil",
+      "enunciado": "Entre as atividades da DTIC estão:",
+      "alternativas": [
+        "Planejar, coordenar, fiscalizar e controlar as atividades de TIC da Corporação.",
+        "Somente realizar o policiamento ostensivo.",
+        "Apenas administrar recursos humanos.",
+        "Controlar exclusivamente a comunicação externa."
+      ],
+      "correta": 0,
+      "explicacao": "A missão organizacional apresentada inclui planejar, coordenar, fiscalizar e controlar as atividades de Tecnologia da Informação e Comunicação."
+    },
+    {
+      "id": "dtic-q011",
+      "tema": "Departamentos",
+      "dificuldade": "facil",
+      "enunciado": "Quantos departamentos independentes compõem a DTIC, conforme o material?",
+      "alternativas": [
+        "Dois.",
+        "Três.",
+        "Quatro.",
+        "Cinco."
+      ],
+      "correta": 1,
+      "explicacao": "A Diretoria é composta por três departamentos independentes, comandados por Tenentes-Coronéis que respondem ao Diretor de Tecnologia."
+    },
+    {
+      "id": "dtic-q012",
+      "tema": "Departamentos",
+      "dificuldade": "facil",
+      "enunciado": "Quais são os três departamentos apresentados na estrutura da DTIC?",
+      "alternativas": [
+        "DPC, DAS e DCI.",
+        "DAS, DPF e DPM.",
+        "DPC, DTI e DSI.",
+        "DCI, DSist e DTI."
+      ],
+      "correta": 0,
+      "explicacao": "Os três departamentos apresentados são o DPC, o DAS e o DCI."
+    },
+    {
+      "id": "dtic-q013",
+      "tema": "DPC",
+      "dificuldade": "facil",
+      "enunciado": "O que significa a sigla DPC no material?",
+      "alternativas": [
+        "Departamento de Planejamento e Cibersegurança.",
+        "Departamento de Processamento Corporativo.",
+        "Diretoria de Planejamento e Comunicações.",
+        "Departamento de Polícia e Controle."
+      ],
+      "correta": 0,
+      "explicacao": "DPC significa Departamento de Planejamento e Cibersegurança."
+    },
+    {
+      "id": "dtic-q014",
+      "tema": "DPC",
+      "dificuldade": "medio",
+      "enunciado": "É atribuição principal do DPC:",
+      "alternativas": [
+        "Planejamento estratégico de TIC, gestão administrativa e cibersegurança.",
+        "Gestão exclusiva de radiocomunicação e telefonia.",
+        "Desenvolvimento de todos os aplicativos operacionais.",
+        "Controle do policiamento ostensivo em todo o Estado."
+      ],
+      "correta": 0,
+      "explicacao": "O DPC atua no planejamento estratégico de TIC, na gestão administrativa e na cibersegurança."
+    },
+    {
+      "id": "dtic-q015",
+      "tema": "DPC",
+      "dificuldade": "medio",
+      "enunciado": "Entre os impactos operacionais relacionados ao DPC está:",
+      "alternativas": [
+        "Proteção de dados sensíveis e garantia da continuidade dos serviços.",
+        "Somente o atendimento telefônico ao público.",
+        "Exclusivamente a manutenção de viaturas.",
+        "Apenas a criação de redes sociais."
+      ],
+      "correta": 0,
+      "explicacao": "O DPC contribui para a proteção de dados sensíveis, a continuidade dos serviços e a aquisição de bens e serviços de TIC."
+    },
+    {
+      "id": "dtic-q016",
+      "tema": "DAS",
+      "dificuldade": "facil",
+      "enunciado": "O que significa a sigla DAS no material?",
+      "alternativas": [
+        "Departamento de Aplicações e Sistemas.",
+        "Departamento Administrativo de Segurança.",
+        "Diretoria de Aplicações Setoriais.",
+        "Departamento de Análise e Serviços."
+      ],
+      "correta": 0,
+      "explicacao": "DAS significa Departamento de Aplicações e Sistemas."
+    },
+    {
+      "id": "dtic-q017",
+      "tema": "DAS",
+      "dificuldade": "medio",
+      "enunciado": "É atribuição principal do DAS:",
+      "alternativas": [
+        "Desenvolvimento e manutenção de sistemas, redes, servidores e dispositivos inteligentes.",
+        "Somente aquisição de bens de consumo.",
+        "Apenas gestão de radiocomunicação.",
+        "Controle da disciplina dos usuários."
+      ],
+      "correta": 0,
+      "explicacao": "O DAS atua no desenvolvimento e na manutenção de sistemas, redes, servidores e dispositivos inteligentes."
+    },
+    {
+      "id": "dtic-q018",
+      "tema": "DAS",
+      "dificuldade": "facil",
+      "enunciado": "O impacto operacional associado ao DAS é principalmente:",
+      "alternativas": [
+        "Disponibilidade ininterrupta dos sistemas administrativos e operacionais.",
+        "Apenas suporte às radiocomunicações.",
+        "Exclusivamente proteção física dos prédios.",
+        "Somente aquisição de equipamentos."
+      ],
+      "correta": 0,
+      "explicacao": "O DAS contribui para a disponibilidade ininterrupta dos sistemas administrativos e operacionais."
+    },
+    {
+      "id": "dtic-q019",
+      "tema": "DCI",
+      "dificuldade": "facil",
+      "enunciado": "O que significa a sigla DCI no material?",
+      "alternativas": [
+        "Departamento de Comunicação e Infraestrutura.",
+        "Departamento de Controle Institucional.",
+        "Diretoria de Cibersegurança e Informação.",
+        "Departamento de Computação Integrada."
+      ],
+      "correta": 0,
+      "explicacao": "DCI significa Departamento de Comunicação e Infraestrutura."
+    },
+    {
+      "id": "dtic-q020",
+      "tema": "DCI",
+      "dificuldade": "medio",
+      "enunciado": "É atribuição do DCI:",
+      "alternativas": [
+        "Gestão da infraestrutura de radiocomunicação, telefonia, telemetria e logística tecnológica.",
+        "Somente planejamento estratégico de TIC.",
+        "Apenas desenvolvimento de sistemas administrativos.",
+        "Exclusivamente gestão de bancos de dados corporativos."
+      ],
+      "correta": 0,
+      "explicacao": "O DCI gerencia a infraestrutura de radiocomunicação, telefonia, telemetria e logística tecnológica."
+    },
+    {
+      "id": "dtic-q021",
+      "tema": "DCI",
+      "dificuldade": "facil",
+      "enunciado": "O impacto operacional associado ao DCI é:",
+      "alternativas": [
+        "Suporte às comunicações operacionais em todo o Estado.",
+        "Disponibilidade somente de sistemas administrativos.",
+        "Proteção exclusiva de dados sensíveis.",
+        "Apenas planejamento de aquisições."
+      ],
+      "correta": 0,
+      "explicacao": "O DCI oferece suporte às comunicações operacionais em todo o Estado."
+    },
+    {
+      "id": "dtic-q022",
+      "tema": "Missão da DTIC",
+      "dificuldade": "medio",
+      "enunciado": "A missão da DTIC inclui prover:",
+      "alternativas": [
+        "Infraestrutura, sistemas, serviços e soluções tecnológicas inovadoras.",
+        "Somente equipamentos de comunicação pessoal.",
+        "Apenas serviços administrativos sem tecnologia.",
+        "Exclusivamente softwares para uso externo."
+      ],
+      "correta": 0,
+      "explicacao": "A missão é prover infraestrutura, sistemas, serviços e soluções tecnológicas inovadoras que atendam às necessidades de comunicação da Polícia Militar e de outros órgãos."
+    },
+    {
+      "id": "dtic-q023",
+      "tema": "Missão da DTIC",
+      "dificuldade": "medio",
+      "enunciado": "As soluções tecnológicas providas pela DTIC contribuem para:",
+      "alternativas": [
+        "O combate ao crime e o aumento da segurança do cidadão.",
+        "A redução da comunicação operacional.",
+        "A substituição da atividade policial.",
+        "O uso não institucional dos recursos."
+      ],
+      "correta": 0,
+      "explicacao": "A missão relaciona as soluções tecnológicas ao combate ao crime e ao aumento da segurança do cidadão."
+    },
+    {
+      "id": "dtic-q024",
+      "tema": "Visão da DTIC",
+      "dificuldade": "facil",
+      "enunciado": "A visão da DTIC é ser referência:",
+      "alternativas": [
+        "Nacional e internacional em TIC aplicada à Segurança Pública.",
+        "Somente regional em manutenção de computadores.",
+        "Exclusivamente estadual em radiocomunicação.",
+        "Apenas administrativa em gestão de pessoas."
+      ],
+      "correta": 0,
+      "explicacao": "A visão é ser referência nacional e internacional em tecnologia da informação e comunicação aplicada à Segurança Pública."
+    },
+    {
+      "id": "dtic-q025",
+      "tema": "Valores da DTIC",
+      "dificuldade": "facil",
+      "enunciado": "Qual alternativa apresenta valores mencionados no material?",
+      "alternativas": [
+        "Patriotismo, civismo, hierarquia e disciplina.",
+        "Competitividade, informalidade e individualismo.",
+        "Publicidade, anonimato e improvisação.",
+        "Risco, velocidade e ausência de controle."
+      ],
+      "correta": 0,
+      "explicacao": "Entre os valores listados estão patriotismo, civismo, hierarquia e disciplina, além de profissionalismo, lealdade, honra e outros."
+    },
+    {
+      "id": "dtic-q026",
+      "tema": "Valores da DTIC",
+      "dificuldade": "medio",
+      "enunciado": "Qual dos itens abaixo também aparece entre os valores da DTIC?",
+      "alternativas": [
+        "Compromisso com a verdade.",
+        "Uso irrestrito dos recursos.",
+        "Ausência de responsabilidade.",
+        "Compartilhamento de senhas."
+      ],
+      "correta": 0,
+      "explicacao": "O compromisso com a verdade é um dos valores apresentados no material."
+    },
+    {
+      "id": "dtic-q027",
+      "tema": "Reconhecimento institucional",
+      "dificuldade": "facil",
+      "enunciado": "Qual nível do prêmio da Qualidade foi recebido pela DTIC, conforme o material?",
+      "alternativas": [
+        "Bronze.",
+        "Prata.",
+        "Ouro.",
+        "Diamante."
+      ],
+      "correta": 1,
+      "explicacao": "O material informa que a DTIC recebeu o prêmio da Qualidade nível PRATA."
+    },
+    {
+      "id": "dtic-q028",
+      "tema": "Estrutura organizacional",
+      "dificuldade": "dificil",
+      "enunciado": "Os três departamentos da DTIC são comandados por:",
+      "alternativas": [
+        "Tenentes-Coronéis que respondem ao Diretor de Tecnologia.",
+        "Soldados que respondem diretamente às OPMs.",
+        "Funcionários civis sem subordinação.",
+        "Usuários dos sistemas administrativos."
+      ],
+      "correta": 0,
+      "explicacao": "A Diretoria é composta por três departamentos independentes, comandados por Tenentes-Coronéis que respondem ao Diretor de Tecnologia."
+    },
+    {
+      "id": "dtic-q029",
+      "tema": "Comparação dos departamentos",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a associação correta entre departamento e atribuição:",
+      "alternativas": [
+        "DPC — planejamento estratégico e cibersegurança; DAS — sistemas e servidores; DCI — radiocomunicação e infraestrutura.",
+        "DPC — somente telefonia; DAS — somente cibersegurança; DCI — apenas bancos de dados.",
+        "DPC — policiamento ostensivo; DAS — gestão de pessoal; DCI — atividade financeira.",
+        "DPC — redes sociais; DAS — comunicação externa; DCI — auditoria disciplinar."
+      ],
+      "correta": 0,
+      "explicacao": "O DPC concentra planejamento e cibersegurança; o DAS, aplicações, sistemas, redes e servidores; o DCI, comunicação e infraestrutura tecnológica."
+    },
+    {
+      "id": "dtic-q030",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "A evolução histórica apresentada demonstra que a DTIC:",
+      "alternativas": [
+        "Resulta de um processo de evolução institucional acompanhado pelos avanços tecnológicos e pelas necessidades operacionais.",
+        "Foi criada sem relação com as necessidades da Corporação.",
+        "Sempre teve a mesma denominação e estrutura.",
+        "Atua exclusivamente fora da área de Segurança Pública."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta a DTIC como resultado de um processo histórico de evolução institucional, tecnológica e operacional."
+    }
+  ],
+  "stories": [
+    {
+      "id": "dtic-s001",
+      "ordem": 1,
+      "titulo": "DTIC",
+      "texto": "Diretoria de Tecnologia da Informação e Comunicação da PMESP.",
+      "destaque": "Órgão técnico de direção setorial."
+    },
+    {
+      "id": "dtic-s002",
+      "ordem": 2,
+      "titulo": "1927",
+      "texto": "Implantação das comunicações na Força Pública e criação das primeiras estações de radiotelegrafia.",
+      "destaque": "Primeiro marco da linha do tempo."
+    },
+    {
+      "id": "dtic-s003",
+      "ordem": 3,
+      "titulo": "1937",
+      "texto": "Início das atividades de processamento de dados com a Seção de Máquinas do Serviço de Fundos.",
+      "destaque": "Processamento de dados."
+    },
+    {
+      "id": "dtic-s004",
+      "ordem": 4,
+      "titulo": "1967",
+      "texto": "Instalação do primeiro computador da Corporação.",
+      "destaque": "Primeiro computador."
+    },
+    {
+      "id": "dtic-s005",
+      "ordem": 5,
+      "titulo": "1987 e 1989",
+      "texto": "Em 1987 ocorreu a criação experimental da DSist; em 1989, sua criação definitiva.",
+      "destaque": "Experimental antes de definitiva."
+    },
+    {
+      "id": "dtic-s006",
+      "ordem": 6,
+      "titulo": "2004",
+      "texto": "A Diretoria de Sistemas foi transformada em Diretoria de Telemática.",
+      "destaque": "Mudança de denominação."
+    },
+    {
+      "id": "dtic-s007",
+      "ordem": 7,
+      "titulo": "2018",
+      "texto": "Reestruturação administrativa e adoção da atual denominação DTIC.",
+      "destaque": "Nome atual."
+    },
+    {
+      "id": "dtic-s008",
+      "ordem": 8,
+      "titulo": "Subordinação",
+      "texto": "A DTIC é subordinada diretamente ao Subcomandante da Polícia Militar.",
+      "destaque": "Órgão de direção setorial e técnico."
+    },
+    {
+      "id": "dtic-s009",
+      "ordem": 9,
+      "titulo": "Missão organizacional",
+      "texto": "Planejar, coordenar, fiscalizar e controlar as atividades de TIC da Corporação.",
+      "destaque": "Governança de TIC."
+    },
+    {
+      "id": "dtic-s010",
+      "ordem": 10,
+      "titulo": "DPC",
+      "texto": "Departamento de Planejamento e Cibersegurança.",
+      "destaque": "Planejamento estratégico, gestão administrativa e cibersegurança."
+    },
+    {
+      "id": "dtic-s011",
+      "ordem": 11,
+      "titulo": "DAS",
+      "texto": "Departamento de Aplicações e Sistemas.",
+      "destaque": "Desenvolvimento e manutenção de sistemas, redes e servidores."
+    },
+    {
+      "id": "dtic-s012",
+      "ordem": 12,
+      "titulo": "DCI",
+      "texto": "Departamento de Comunicação e Infraestrutura.",
+      "destaque": "Radiocomunicação, telefonia, telemetria e logística tecnológica."
+    },
+    {
+      "id": "dtic-s013",
+      "ordem": 13,
+      "titulo": "Impacto do DPC",
+      "texto": "Proteção de dados sensíveis e garantia da continuidade dos serviços.",
+      "destaque": "Cibersegurança e continuidade."
+    },
+    {
+      "id": "dtic-s014",
+      "ordem": 14,
+      "titulo": "Impacto do DAS",
+      "texto": "Disponibilidade ininterrupta dos sistemas administrativos e operacionais.",
+      "destaque": "Sistemas disponíveis."
+    },
+    {
+      "id": "dtic-s015",
+      "ordem": 15,
+      "titulo": "Impacto do DCI",
+      "texto": "Suporte às comunicações operacionais em todo o Estado.",
+      "destaque": "Comunicação operacional."
+    },
+    {
+      "id": "dtic-s016",
+      "ordem": 16,
+      "titulo": "Missão",
+      "texto": "Prover infraestrutura, sistemas, serviços e soluções tecnológicas inovadoras.",
+      "destaque": "Tecnologia a serviço da Polícia Militar e de outros órgãos."
+    },
+    {
+      "id": "dtic-s017",
+      "ordem": 17,
+      "titulo": "Visão",
+      "texto": "Ser referência nacional e internacional em TIC aplicada à Segurança Pública.",
+      "destaque": "Sistemas que agreguem inteligência aos serviços."
+    },
+    {
+      "id": "dtic-s018",
+      "ordem": 18,
+      "titulo": "Valores",
+      "texto": "Patriotismo, civismo, hierarquia, disciplina, profissionalismo, lealdade, honra e outros valores institucionais.",
+      "destaque": "Valores orientam a atuação."
+    },
+    {
+      "id": "dtic-s019",
+      "ordem": 19,
+      "titulo": "Reconhecimento",
+      "texto": "A DTIC recebeu o prêmio da Qualidade nível PRATA.",
+      "destaque": "Reconhecimento à qualidade dos serviços."
+    },
+    {
+      "id": "dtic-s020",
+      "ordem": 20,
+      "titulo": "Bizu final",
+      "texto": "DPC planeja e protege; DAS desenvolve e mantém; DCI comunica e estrutura.",
+      "destaque": "DPC = planejamento; DAS = sistemas; DCI = infraestrutura."
+    }
+  ]
+}

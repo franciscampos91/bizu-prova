@@ -1,0 +1,587 @@
+{
+  "id": "i-33-pm",
+  "nome": "I-33-PM — Administração de Dados",
+  "sigla": "I-33-PM",
+  "semana": 1,
+  "tipo": "quiz",
+  "descricao": "Fundamentos, conceitos, responsabilidades e diretrizes para a administração de dados no âmbito da PMESP.",
+  "objetivo": "Compreender a finalidade da I-33-PM, os conceitos de dado e informação, a classificação dos bancos de dados e os papéis envolvidos na administração de dados.",
+  "fonte": "Material de aula — I-33-PM",
+  "observacao": "Questões elaboradas exclusivamente com base na apostila fornecida. Para cobrança literal, conferir a versão oficial da I-33-PM.",
+  "palavrasChave": [
+    "administração de dados",
+    "dado",
+    "informação",
+    "banco corporativo",
+    "banco setorial",
+    "Dicionário de Dados",
+    "Administrador de Dados",
+    "Administrador de Banco de Dados",
+    "qualidade dos dados",
+    "interoperabilidade"
+  ],
+  "questoes": [
+    {
+      "id": "i33-q001",
+      "tema": "Finalidade da norma",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a finalidade principal da I-33-PM?",
+      "alternativas": [
+        "Disciplinar a administração dos dados institucionais da PMESP.",
+        "Regular somente a manutenção de computadores.",
+        "Controlar exclusivamente o acesso à Internet.",
+        "Substituir todos os sistemas de informação da Corporação."
+      ],
+      "correta": 0,
+      "explicacao": "A I-33-PM disciplina a administração dos dados institucionais, estabelecendo conceitos, papéis, responsabilidades e diretrizes para o tratamento correto das informações."
+    },
+    {
+      "id": "i33-q002",
+      "tema": "Importância da informação",
+      "dificuldade": "facil",
+      "enunciado": "No contexto da PMESP, a informação é considerada:",
+      "alternativas": [
+        "Um recurso sem relevância operacional.",
+        "Um dos principais ativos institucionais.",
+        "Um dado que deve ser sempre público.",
+        "Um recurso destinado apenas ao setor administrativo."
+      ],
+      "correta": 1,
+      "explicacao": "A apostila destaca que a informação é um dos principais ativos institucionais da Polícia Militar do Estado de São Paulo."
+    },
+    {
+      "id": "i33-q003",
+      "tema": "Administração de dados",
+      "dificuldade": "medio",
+      "enunciado": "A correta administração dos dados contribui para garantir:",
+      "alternativas": [
+        "Eficiência operacional, segurança institucional e confiabilidade das informações.",
+        "Apenas maior velocidade de conexão à Internet.",
+        "Somente a redução do número de usuários.",
+        "Exclusivamente o armazenamento de arquivos pessoais."
+      ],
+      "correta": 0,
+      "explicacao": "A correta administração dos dados é essencial para a eficiência operacional, a segurança institucional e a confiabilidade das informações utilizadas na atividade policial."
+    },
+    {
+      "id": "i33-q004",
+      "tema": "Abrangência",
+      "dificuldade": "medio",
+      "enunciado": "A I-33-PM aplica-se a:",
+      "alternativas": [
+        "Somente aos bancos de dados administrativos.",
+        "Todos os sistemas de informação, bancos de dados e aplicações utilizados pela PMESP.",
+        "Somente aos sistemas utilizados pela DTIC.",
+        "Apenas aos dados estatísticos."
+      ],
+      "correta": 1,
+      "explicacao": "A norma abrange todos os sistemas de informação, bancos de dados e aplicações utilizados pela PMESP, independentemente do meio ou tecnologia empregada."
+    },
+    {
+      "id": "i33-q005",
+      "tema": "Abrangência dos dados",
+      "dificuldade": "facil",
+      "enunciado": "Quais tipos de dados são abrangidos pela I-33-PM?",
+      "alternativas": [
+        "Somente dados operacionais.",
+        "Dados administrativos, operacionais, estatísticos e estratégicos.",
+        "Somente dados pessoais dos policiais.",
+        "Apenas dados armazenados em papel."
+      ],
+      "correta": 1,
+      "explicacao": "A norma abrange dados administrativos, operacionais, estatísticos e estratégicos."
+    },
+    {
+      "id": "i33-q006",
+      "tema": "Ciclo de vida dos dados",
+      "dificuldade": "medio",
+      "enunciado": "A administração dos dados deve assegurar que sua criação, armazenamento, manutenção, utilização e descarte ocorram de forma:",
+      "alternativas": [
+        "Improvisada e independente de normas.",
+        "Padronizada, segura e alinhada aos objetivos estratégicos da Corporação.",
+        "Exclusivamente manual.",
+        "Sem necessidade de controle ou responsabilidade."
+      ],
+      "correta": 1,
+      "explicacao": "A I-33-PM busca garantir que todas essas etapas ocorram de maneira padronizada, segura e alinhada aos objetivos estratégicos da PMESP."
+    },
+    {
+      "id": "i33-q007",
+      "tema": "Conceitos fundamentais",
+      "dificuldade": "facil",
+      "enunciado": "O que é dado, conforme o material?",
+      "alternativas": [
+        "Um fato, conceito ou instrução ainda sem significado completo quando analisado isoladamente.",
+        "Uma informação já interpretada e pronta para decisão.",
+        "Um banco de dados completo.",
+        "Um sistema composto por pessoas e equipamentos."
+      ],
+      "correta": 0,
+      "explicacao": "Dado é um fato, conceito ou instrução que ainda não possui significado completo quando analisado isoladamente."
+    },
+    {
+      "id": "i33-q008",
+      "tema": "Conceitos fundamentais",
+      "dificuldade": "facil",
+      "enunciado": "O que é informação?",
+      "alternativas": [
+        "Um dado tratado, organizado e contextualizado, capaz de apoiar a tomada de decisão.",
+        "Qualquer arquivo sem organização.",
+        "Somente um número armazenado em um computador.",
+        "Um dado sem significado completo."
+      ],
+      "correta": 0,
+      "explicacao": "Informação é o dado tratado, organizado e contextualizado, tornando-se útil para apoiar decisões."
+    },
+    {
+      "id": "i33-q009",
+      "tema": "Sistema de informação",
+      "dificuldade": "medio",
+      "enunciado": "Sistema de Informação é o conjunto de recursos:",
+      "alternativas": [
+        "Somente tecnológicos.",
+        "Humanos, tecnológicos e procedimentais destinados à coleta, processamento, armazenamento e disseminação de informações.",
+        "Exclusivamente financeiros.",
+        "Apenas físicos e documentais."
+      ],
+      "correta": 1,
+      "explicacao": "O conceito inclui recursos humanos, tecnológicos e procedimentais destinados à coleta, ao processamento, ao armazenamento e à disseminação de informações."
+    },
+    {
+      "id": "i33-q010",
+      "tema": "Banco de dados",
+      "dificuldade": "facil",
+      "enunciado": "Banco de dados é definido como:",
+      "alternativas": [
+        "Um conjunto estruturado de dados relacionados, armazenados de forma organizada e acessível.",
+        "Um conjunto de computadores sem dados.",
+        "Uma rede social institucional.",
+        "Um documento exclusivamente impresso."
+      ],
+      "correta": 0,
+      "explicacao": "Banco de dados é um conjunto estruturado de dados relacionados entre si, armazenados de forma organizada e acessível."
+    },
+    {
+      "id": "i33-q011",
+      "tema": "Banco corporativo",
+      "dificuldade": "facil",
+      "enunciado": "O Banco de Dados Corporativo armazena dados de:",
+      "alternativas": [
+        "Interesse institucional.",
+        "Interesse exclusivo de uma única OPM.",
+        "Uso exclusivamente pessoal.",
+        "Acesso público irrestrito."
+      ],
+      "correta": 0,
+      "explicacao": "O Banco de Dados Corporativo é destinado ao armazenamento de dados de interesse institucional."
+    },
+    {
+      "id": "i33-q012",
+      "tema": "Banco corporativo",
+      "dificuldade": "medio",
+      "enunciado": "Uma característica do Banco de Dados Corporativo é:",
+      "alternativas": [
+        "Armazenamento centralizado no Departamento de Aplicações e Sistemas da DTIC.",
+        "Armazenamento exclusivamente no computador de cada usuário.",
+        "Acesso restrito a uma única OPM sem diretrizes da DTIC.",
+        "Ausência de documentação dos dados."
+      ],
+      "correta": 0,
+      "explicacao": "O armazenamento do Banco de Dados Corporativo é centralizado no Departamento de Aplicações e Sistemas da DTIC."
+    },
+    {
+      "id": "i33-q013",
+      "tema": "Dicionário de Dados",
+      "dificuldade": "medio",
+      "enunciado": "O Dicionário de Dados da Polícia Militar é:",
+      "alternativas": [
+        "Um catálogo de referência aos dados corporativos.",
+        "Um sistema de mensagens instantâneas.",
+        "Um arquivo de backup pessoal.",
+        "Um cadastro exclusivo de equipamentos."
+      ],
+      "correta": 0,
+      "explicacao": "O Dicionário de Dados é um catálogo de referência aos dados corporativos, e os dados do Banco Corporativo devem estar nele descritos."
+    },
+    {
+      "id": "i33-q014",
+      "tema": "Banco setorial",
+      "dificuldade": "facil",
+      "enunciado": "O Banco de Dados Setorial é destinado ao armazenamento de dados:",
+      "alternativas": [
+        "De interesse restrito a uma OPM.",
+        "De interesse de toda a Administração Pública.",
+        "Exclusivamente públicos.",
+        "Somente de uso pessoal."
+      ],
+      "correta": 0,
+      "explicacao": "O Banco de Dados Setorial é um SGBD destinado a dados de interesse restrito a uma OPM."
+    },
+    {
+      "id": "i33-q015",
+      "tema": "Banco setorial",
+      "dificuldade": "medio",
+      "enunciado": "No Banco de Dados Setorial, o acesso às informações é:",
+      "alternativas": [
+        "Exclusivo da unidade responsável pelo banco, conforme sua finalidade.",
+        "Livre para qualquer usuário da Internet.",
+        "Exclusivo da DTIC em qualquer situação.",
+        "Permitido somente para terceiros externos."
+      ],
+      "correta": 0,
+      "explicacao": "As informações do Banco Setorial são de interesse e acesso exclusivo da unidade responsável pelo banco."
+    },
+    {
+      "id": "i33-q016",
+      "tema": "Responsabilidade pelo banco setorial",
+      "dificuldade": "medio",
+      "enunciado": "A política de segurança, o backup e o armazenamento local do Banco Setorial são de responsabilidade:",
+      "alternativas": [
+        "Exclusiva da unidade responsável pelo Banco de Dados Setorial.",
+        "Exclusiva de cada usuário externo.",
+        "Somente do fornecedor do sistema.",
+        "Do público em geral."
+      ],
+      "correta": 0,
+      "explicacao": "No Banco Setorial, a política de segurança e backup, bem como o armazenamento local, são de exclusiva responsabilidade da unidade responsável."
+    },
+    {
+      "id": "i33-q017",
+      "tema": "Comparação entre bancos",
+      "dificuldade": "medio",
+      "enunciado": "Assinale a associação correta:",
+      "alternativas": [
+        "Corporativo — centralizado e institucional; Setorial — uso restrito à OPM.",
+        "Corporativo — uso pessoal; Setorial — acesso irrestrito.",
+        "Corporativo — sem responsabilidade da DTIC; Setorial — responsabilidade de qualquer usuário.",
+        "Corporativo — exclusivamente local; Setorial — exclusivamente externo."
+      ],
+      "correta": 0,
+      "explicacao": "O Banco Corporativo é centralizado e institucional; o Banco Setorial é restrito à OPM responsável, observando as diretrizes da DTIC."
+    },
+    {
+      "id": "i33-q018",
+      "tema": "Administrador de Dados",
+      "dificuldade": "facil",
+      "enunciado": "O Administrador de Dados é responsável por:",
+      "alternativas": [
+        "Planejamento, normatização e padronização dos dados institucionais.",
+        "Somente instalar computadores.",
+        "Apenas realizar backup dos bancos.",
+        "Produzir exclusivamente relatórios estatísticos."
+      ],
+      "correta": 0,
+      "explicacao": "O Administrador de Dados atua no planejamento, na normatização e na padronização dos dados institucionais."
+    },
+    {
+      "id": "i33-q019",
+      "tema": "Administrador de Banco de Dados",
+      "dificuldade": "facil",
+      "enunciado": "O Administrador de Banco de Dados atua principalmente na:",
+      "alternativas": [
+        "Gestão técnica dos bancos de dados.",
+        "Definição da missão institucional.",
+        "Produção de campanhas de comunicação.",
+        "Autorização de acesso à Internet."
+      ],
+      "correta": 0,
+      "explicacao": "O Administrador de Banco de Dados é responsável pela gestão técnica dos bancos."
+    },
+    {
+      "id": "i33-q020",
+      "tema": "Administrador de Banco de Dados",
+      "dificuldade": "medio",
+      "enunciado": "São atividades atribuídas ao Administrador de Banco de Dados:",
+      "alternativas": [
+        "Instalação, manutenção, desempenho, backup e recuperação.",
+        "Somente elaboração de normas disciplinares.",
+        "Apenas atualização de dados pelos usuários.",
+        "Exclusivamente fiscalização de redes sociais."
+      ],
+      "correta": 0,
+      "explicacao": "O Administrador de Banco de Dados cuida da instalação, manutenção, desempenho, backup e recuperação dos bancos."
+    },
+    {
+      "id": "i33-q021",
+      "tema": "Responsável pelo Banco de Dados",
+      "dificuldade": "facil",
+      "enunciado": "O Responsável pelo Banco de Dados é o:",
+      "alternativas": [
+        "Gestor da informação, responsável por zelar pela correta utilização e atualização dos dados.",
+        "Técnico que instala exclusivamente o sistema operacional.",
+        "Usuário que possui acesso sem responsabilidade.",
+        "Fornecedor externo do equipamento."
+      ],
+      "correta": 0,
+      "explicacao": "O Responsável pelo Banco de Dados é o gestor da informação e deve zelar pela utilização e atualização corretas dos dados sob sua responsabilidade."
+    },
+    {
+      "id": "i33-q022",
+      "tema": "Segurança da informação",
+      "dificuldade": "facil",
+      "enunciado": "A administração de dados deve observar os princípios de:",
+      "alternativas": [
+        "Confidencialidade, integridade e disponibilidade.",
+        "Velocidade, publicidade e informalidade.",
+        "Anonimato, acesso livre e ausência de controle.",
+        "Exclusividade, lentidão e redundância."
+      ],
+      "correta": 0,
+      "explicacao": "A I-33-PM reforça os princípios de confidencialidade, integridade e disponibilidade da informação."
+    },
+    {
+      "id": "i33-q023",
+      "tema": "Qualidade dos dados",
+      "dificuldade": "medio",
+      "enunciado": "Dados inconsistentes, desatualizados ou imprecisos podem comprometer:",
+      "alternativas": [
+        "Análises, decisões e a credibilidade institucional.",
+        "Somente a aparência das telas.",
+        "Apenas o acesso à Internet pública.",
+        "Exclusivamente o consumo de energia."
+      ],
+      "correta": 0,
+      "explicacao": "A baixa qualidade dos dados compromete análises, decisões e a credibilidade institucional."
+    },
+    {
+      "id": "i33-q024",
+      "tema": "Qualidade dos dados",
+      "dificuldade": "facil",
+      "enunciado": "Cabe aos usuários e gestores assegurar:",
+      "alternativas": [
+        "A correta inserção, manutenção e validação das informações.",
+        "A exclusão de todos os dados antigos sem análise.",
+        "O compartilhamento irrestrito das informações.",
+        "A utilização dos dados para fins pessoais."
+      ],
+      "correta": 0,
+      "explicacao": "Usuários e gestores devem garantir a correta inserção, manutenção e validação das informações."
+    },
+    {
+      "id": "i33-q025",
+      "tema": "Integração e interoperabilidade",
+      "dificuldade": "medio",
+      "enunciado": "A integração e a interoperabilidade entre sistemas buscam evitar:",
+      "alternativas": [
+        "Redundância de dados e retrabalho.",
+        "A segurança da informação.",
+        "A padronização de estruturas.",
+        "A confiabilidade dos dados."
+      ],
+      "correta": 0,
+      "explicacao": "A integração e a interoperabilidade devem evitar redundância de dados e retrabalho."
+    },
+    {
+      "id": "i33-q026",
+      "tema": "Padronização",
+      "dificuldade": "facil",
+      "enunciado": "A padronização deve alcançar principalmente:",
+      "alternativas": [
+        "Estruturas, nomenclaturas e procedimentos.",
+        "Somente os nomes dos usuários.",
+        "Apenas os equipamentos de informática.",
+        "Exclusivamente os documentos impressos."
+      ],
+      "correta": 0,
+      "explicacao": "A padronização de estruturas, nomenclaturas e procedimentos é essencial para eficiência e confiabilidade."
+    },
+    {
+      "id": "i33-q027",
+      "tema": "Importância operacional",
+      "dificuldade": "medio",
+      "enunciado": "A administração eficiente de dados proporciona suporte à:",
+      "alternativas": [
+        "Atividade operacional, inteligência policial, planejamento estratégico e gestão administrativa.",
+        "Somente à atividade financeira.",
+        "Apenas à comunicação externa.",
+        "Exclusivamente ao controle de férias."
+      ],
+      "correta": 0,
+      "explicacao": "A administração eficiente de dados apoia a atividade operacional, a inteligência policial, o planejamento estratégico e a gestão administrativa."
+    },
+    {
+      "id": "i33-q028",
+      "tema": "Uso correto dos dados",
+      "dificuldade": "facil",
+      "enunciado": "Os dados institucionais devem ser utilizados:",
+      "alternativas": [
+        "Exclusivamente para fins de serviço e conforme as normas vigentes.",
+        "Para qualquer finalidade pessoal.",
+        "Sem observar os níveis de acesso.",
+        "Somente depois de divulgados publicamente."
+      ],
+      "correta": 0,
+      "explicacao": "Todo usuário deve utilizar os dados exclusivamente para fins de serviço e de acordo com as normas vigentes."
+    },
+    {
+      "id": "i33-q029",
+      "tema": "Responsabilização",
+      "dificuldade": "medio",
+      "enunciado": "O uso indevido, a manipulação incorreta ou o acesso não autorizado aos dados pode gerar responsabilização:",
+      "alternativas": [
+        "Administrativa, civil e penal.",
+        "Somente verbal.",
+        "Exclusivamente técnica.",
+        "Apenas financeira."
+      ],
+      "correta": 0,
+      "explicacao": "O material informa que o uso indevido, a manipulação incorreta ou o acesso não autorizado podem gerar responsabilização administrativa, civil e penal."
+    },
+    {
+      "id": "i33-q030",
+      "tema": "Síntese da norma",
+      "dificuldade": "dificil",
+      "enunciado": "A I-33-PM fortalece principalmente:",
+      "alternativas": [
+        "A governança da informação por meio de uma administração de dados segura, padronizada e eficiente.",
+        "O uso de dados sem controle institucional.",
+        "A duplicação de bases de dados entre unidades.",
+        "A substituição da atividade policial por sistemas automatizados."
+      ],
+      "correta": 0,
+      "explicacao": "Ao definir conceitos, papéis e responsabilidades, a I-33-PM fortalece a governança da informação e contribui para a missão institucional."
+    }
+  ],
+  "stories": [
+    {
+      "id": "i33-s001",
+      "ordem": 1,
+      "titulo": "I-33-PM",
+      "texto": "Estabelece bases para a administração de dados no âmbito da PMESP.",
+      "destaque": "Dados seguros, padronizados e eficientes."
+    },
+    {
+      "id": "i33-s002",
+      "ordem": 2,
+      "titulo": "Informação é ativo",
+      "texto": "A informação é um dos principais ativos institucionais da PMESP.",
+      "destaque": "Cuidar dos dados é proteger a Instituição."
+    },
+    {
+      "id": "i33-s003",
+      "ordem": 3,
+      "titulo": "Finalidade",
+      "texto": "A norma disciplina a criação, o armazenamento, a manutenção, a utilização e o descarte dos dados.",
+      "destaque": "Tudo deve ocorrer de forma padronizada e segura."
+    },
+    {
+      "id": "i33-s004",
+      "ordem": 4,
+      "titulo": "Dado",
+      "texto": "É um fato, conceito ou instrução ainda sem significado completo quando analisado isoladamente.",
+      "destaque": "Dado ainda não foi contextualizado."
+    },
+    {
+      "id": "i33-s005",
+      "ordem": 5,
+      "titulo": "Informação",
+      "texto": "É o dado tratado, organizado e contextualizado, capaz de apoiar decisões.",
+      "destaque": "Dado + tratamento + contexto = informação."
+    },
+    {
+      "id": "i33-s006",
+      "ordem": 6,
+      "titulo": "Sistema de Informação",
+      "texto": "Reúne recursos humanos, tecnológicos e procedimentais para coletar, processar, armazenar e disseminar informações.",
+      "destaque": "Não é apenas tecnologia."
+    },
+    {
+      "id": "i33-s007",
+      "ordem": 7,
+      "titulo": "Banco de dados",
+      "texto": "É um conjunto estruturado de dados relacionados, organizado e acessível.",
+      "destaque": "Dados relacionados e organizados."
+    },
+    {
+      "id": "i33-s008",
+      "ordem": 8,
+      "titulo": "Banco Corporativo",
+      "texto": "Armazena dados de interesse institucional.",
+      "destaque": "Centralizado no Dpt Aplic Sist da DTIC."
+    },
+    {
+      "id": "i33-s009",
+      "ordem": 9,
+      "titulo": "Dicionário de Dados",
+      "texto": "É o catálogo de referência aos dados corporativos.",
+      "destaque": "Os dados corporativos devem estar descritos nele."
+    },
+    {
+      "id": "i33-s010",
+      "ordem": 10,
+      "titulo": "Banco Setorial",
+      "texto": "Armazena dados de interesse restrito a uma OPM.",
+      "destaque": "A OPM responsável cuida da segurança, backup e armazenamento local."
+    },
+    {
+      "id": "i33-s011",
+      "ordem": 11,
+      "titulo": "Administrador de Dados",
+      "texto": "Planeja, normatiza e padroniza os dados institucionais.",
+      "destaque": "Foco: governança e padronização."
+    },
+    {
+      "id": "i33-s012",
+      "ordem": 12,
+      "titulo": "Administrador de Banco",
+      "texto": "Cuida da instalação, manutenção, desempenho, backup e recuperação.",
+      "destaque": "Foco: gestão técnica."
+    },
+    {
+      "id": "i33-s013",
+      "ordem": 13,
+      "titulo": "Responsável pelo Banco",
+      "texto": "É o gestor da informação e zela pela correta utilização e atualização dos dados.",
+      "destaque": "Foco: uso e atualização correta."
+    },
+    {
+      "id": "i33-s014",
+      "ordem": 14,
+      "titulo": "Segurança",
+      "texto": "A administração deve preservar confidencialidade, integridade e disponibilidade.",
+      "destaque": "Tríade CID."
+    },
+    {
+      "id": "i33-s015",
+      "ordem": 15,
+      "titulo": "Qualidade",
+      "texto": "Dados inconsistentes, desatualizados ou imprecisos prejudicam análises e decisões.",
+      "destaque": "Inserir, manter e validar corretamente."
+    },
+    {
+      "id": "i33-s016",
+      "ordem": 16,
+      "titulo": "Integração",
+      "texto": "Sistemas devem buscar integração e interoperabilidade.",
+      "destaque": "Evitar redundância e retrabalho."
+    },
+    {
+      "id": "i33-s017",
+      "ordem": 17,
+      "titulo": "Padronização",
+      "texto": "Estruturas, nomenclaturas e procedimentos padronizados aumentam eficiência e confiabilidade.",
+      "destaque": "Padrão reduz erro."
+    },
+    {
+      "id": "i33-s018",
+      "ordem": 18,
+      "titulo": "Atividade policial",
+      "texto": "A boa gestão dos dados apoia operações, inteligência, planejamento e gestão administrativa.",
+      "destaque": "Informação confiável melhora decisões."
+    },
+    {
+      "id": "i33-s019",
+      "ordem": 19,
+      "titulo": "Uso correto",
+      "texto": "O usuário deve utilizar os dados exclusivamente para fins de serviço e conforme as normas.",
+      "destaque": "Acesso autorizado exige responsabilidade."
+    },
+    {
+      "id": "i33-s020",
+      "ordem": 20,
+      "titulo": "Bizu final",
+      "texto": "A I-33-PM fortalece a governança da informação na PMESP.",
+      "destaque": "Administrar dados é garantir segurança, qualidade e eficiência."
+    }
+  ]
+}
