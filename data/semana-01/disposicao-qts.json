@@ -1,0 +1,36 @@
+{
+  "id": "disposicao-qts",
+  "nome": "Disposição do QTS",
+  "semana": 1,
+  "descricao": "Questões introdutórias sobre a organização do Quadro de Trabalho Semanal.",
+  "questoes": [
+    {
+      "id": "qts-001",
+      "tema": "Organização do curso",
+      "enunciado": "Qual é a finalidade principal do QTS?",
+      "alternativas": [
+        "Registrar apenas o horário de almoço",
+        "Organizar as atividades, disciplinas, horários e locais de instrução",
+        "Substituir todo o conteúdo das aulas",
+        "Registrar somente a frequência dos alunos"
+      ],
+      "correta": 1,
+      "explicacao": "O QTS organiza as atividades previstas, incluindo disciplinas, horários, locais e demais informações da programação.",
+      "fonte": "Material do curso"
+    },
+    {
+      "id": "qts-002",
+      "tema": "Programação",
+      "enunciado": "Por que é importante consultar o QTS antes das aulas?",
+      "alternativas": [
+        "Para conhecer a programação e preparar-se para as atividades",
+        "Para alterar as disciplinas da semana",
+        "Para substituir a presença em aula",
+        "Para excluir conteúdos do curso"
+      ],
+      "correta": 0,
+      "explicacao": "A consulta prévia permite verificar os horários, disciplinas, locais e atividades programadas.",
+      "fonte": "Material do curso"
+    }
+  ]
+}
