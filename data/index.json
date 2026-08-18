@@ -43,7 +43,7 @@
       "tipo": "quiz",
       "arquivo": "semana-01/estrutura-dtic.json",
       "ativo": true
-    }, 
+    },
     {
       "id": "aula-1-master-site-noc",
       "nome": "Fundamentos de Radiocomunicação, P25, Master Site e NOC",
