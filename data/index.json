@@ -1,0 +1,16 @@
+{
+  "versao": "1.0.0",
+  "curso": "Gestão em Tecnologia da Informação e Comunicação",
+  "instituicao": "PMESP",
+  "atualizadoEm": "2026-08-18",
+  "conteudos": [
+    {
+      "id": "disposicao-qts",
+      "nome": "Disposição do QTS",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/disposicao-qts.json",
+      "ativo": true
+    }
+  ]
+}
