@@ -35,6 +35,22 @@
       "tipo": "quiz",
       "arquivo": "semana-01/i-33-pm.json",
       "ativo": true
+    },
+    {
+      "id": "estrutura-dtic",
+      "nome": "Estrutura da DTIC",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/estrutura-dtic.json",
+      "ativo": true
+    }, 
+    {
+      "id": "aula-1-master-site-noc",
+      "nome": "Fundamentos de Radiocomunicação, P25, Master Site e NOC",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/aula-1-master-site-noc.json",
+      "ativo": true
     }
   ]
 }

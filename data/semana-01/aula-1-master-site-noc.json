@@ -1,0 +1,661 @@
+{
+  "id": "aula-1-master-site-noc",
+  "nome": "Fundamentos de Radiocomunicação, P25, Master Site e NOC",
+  "sigla": "SRDC-P25-NOC",
+  "semana": 1,
+  "tipo": "quiz",
+  "descricao": "Espectro, modulação, radiocomunicação digital crítica, padrão P25, sistemas convencional e troncalizado, Master Site, DSR, NOC, SNMP e Zabbix.",
+  "objetivo": "Compreender como a radiocomunicação digital crítica transforma voz em comunicação coordenada, monitorada e rastreável.",
+  "fonte": "Aula-1-Master-Site-e-NOC.pdf",
+  "observacao": "Questões elaboradas com base no material fornecido. Os conteúdos visíveis no texto extraído das páginas 27 a 33 aparecem de forma parcial; os cartões e questões concentram-se nos conceitos identificados.",
+  "palavrasChave": [
+    "radiocomunicação",
+    "P25",
+    "SRDC",
+    "espectro",
+    "canal",
+    "modulação",
+    "VHF",
+    "UHF",
+    "Master Site",
+    "DSR",
+    "talkgroup",
+    "NOC",
+    "SNMP",
+    "Zabbix"
+  ],
+  "questoes": [
+    {
+      "id": "srdc-q001",
+      "tema": "Radiocomunicação crítica",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a ideia central da aula sobre radiocomunicação digital crítica?",
+      "alternativas": [
+        "Rádio crítico não é apenas PTT: é um sistema que envolve infraestrutura, cadastro e monitoramento.",
+        "O rádio funciona sem infraestrutura ou controle.",
+        "A comunicação crítica depende somente do aparelho portátil.",
+        "O sistema é formado exclusivamente por antenas."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca que o rádio crítico não é apenas o acionamento PTT; ele depende de infraestrutura, cadastro, controle e monitoramento."
+    },
+    {
+      "id": "srdc-q002",
+      "tema": "Evolução da radiocomunicação",
+      "dificuldade": "facil",
+      "enunciado": "Qual sequência representa uma evolução apresentada na aula?",
+      "alternativas": [
+        "Telégrafo sem fio, AM/FM, repetidores, troncalização e digital/P25.",
+        "P25, telégrafo sem fio, AM/FM e depois repetidores.",
+        "Internet, fibra óptica, telefonia e somente depois rádio analógico.",
+        "GPS, satélite, televisão e rádio sem modulação."
+      ],
+      "correta": 0,
+      "explicacao": "A aula apresenta a evolução do telégrafo sem fio para AM/FM, repetidores, troncalização e sistemas digitais P25."
+    },
+    {
+      "id": "srdc-q003",
+      "tema": "Modulação",
+      "dificuldade": "facil",
+      "enunciado": "O que é modulação?",
+      "alternativas": [
+        "O processo de colocar a informação em uma onda portadora.",
+        "A escolha do usuário que receberá a mensagem.",
+        "A instalação física da antena.",
+        "O cadastro de um rádio no sistema."
+      ],
+      "correta": 0,
+      "explicacao": "Modulação é colocar a informação na portadora, permitindo que ela seja transportada pelo meio de transmissão."
+    },
+    {
+      "id": "srdc-q004",
+      "tema": "Portadora",
+      "dificuldade": "facil",
+      "enunciado": "A portadora é:",
+      "alternativas": [
+        "A onda de RF usada como base da transmissão.",
+        "O grupo lógico de conversação.",
+        "O equipamento que monitora alarmes.",
+        "A senha do rádio."
+      ],
+      "correta": 0,
+      "explicacao": "A portadora é a onda de radiofrequência utilizada como base para transportar a informação."
+    },
+    {
+      "id": "srdc-q005",
+      "tema": "Modulação AM e FM",
+      "dificuldade": "facil",
+      "enunciado": "Na modulação AM, o que varia?",
+      "alternativas": [
+        "A amplitude.",
+        "A frequência.",
+        "O talkgroup.",
+        "O endereço IP."
+      ],
+      "correta": 0,
+      "explicacao": "AM significa modulação em amplitude: a amplitude da portadora varia de acordo com a informação."
+    },
+    {
+      "id": "srdc-q006",
+      "tema": "Modulação AM e FM",
+      "dificuldade": "facil",
+      "enunciado": "Na modulação FM, o que varia?",
+      "alternativas": [
+        "A frequência.",
+        "A amplitude exclusivamente.",
+        "O número do rádio.",
+        "A quantidade de sites."
+      ],
+      "correta": 0,
+      "explicacao": "FM significa modulação em frequência: a frequência da portadora varia conforme a informação."
+    },
+    {
+      "id": "srdc-q007",
+      "tema": "Comunicação digital",
+      "dificuldade": "medio",
+      "enunciado": "Na comunicação digital, a voz é transformada em:",
+      "alternativas": [
+        "Bits, que são convertidos em símbolos para modular a portadora.",
+        "Som analógico sem qualquer processamento.",
+        "Somente frequência fixa.",
+        "Um canal físico permanente."
+      ],
+      "correta": 0,
+      "explicacao": "No sistema digital, a voz vira bits; os bits são convertidos em símbolos, que modulam a portadora."
+    },
+    {
+      "id": "srdc-q008",
+      "tema": "P25 digital",
+      "dificuldade": "medio",
+      "enunciado": "Além da voz, o sistema P25 digital pode transportar:",
+      "alternativas": [
+        "Identidade, sinalização, emergência, criptografia e dados.",
+        "Somente o volume da voz.",
+        "Apenas imagens de satélite.",
+        "Somente informações de cobrança."
+      ],
+      "correta": 0,
+      "explicacao": "No digital, trafegam voz, identidade, sinalização, emergência, criptografia, controle e dados."
+    },
+    {
+      "id": "srdc-q009",
+      "tema": "Espectro e canal",
+      "dificuldade": "facil",
+      "enunciado": "O espectro é:",
+      "alternativas": [
+        "O conjunto de frequências utilizado para comunicação sem fio.",
+        "Um grupo lógico de usuários.",
+        "Um servidor de monitoramento.",
+        "Um tipo de criptografia."
+      ],
+      "correta": 0,
+      "explicacao": "Espectro é o conjunto de frequências utilizadas para comunicações sem fio."
+    },
+    {
+      "id": "srdc-q010",
+      "tema": "Frequência e canal",
+      "dificuldade": "medio",
+      "enunciado": "Como o material define canal?",
+      "alternativas": [
+        "Uma fatia do espectro com largura definida.",
+        "Um grupo lógico de conversação.",
+        "Um conjunto de servidores.",
+        "Uma estação de trabalho do NOC."
+      ],
+      "correta": 0,
+      "explicacao": "Canal é uma porção do espectro que possui uma largura definida."
+    },
+    {
+      "id": "srdc-q011",
+      "tema": "Planejamento de frequência",
+      "dificuldade": "medio",
+      "enunciado": "Por que o planejamento e a coordenação do espectro são essenciais?",
+      "alternativas": [
+        "Porque o espectro é limitado.",
+        "Porque todo canal possui largura infinita.",
+        "Porque a modulação não depende da frequência.",
+        "Porque o usuário escolhe qualquer frequência sem controle."
+      ],
+      "correta": 0,
+      "explicacao": "Como o espectro é limitado, é necessário planejar e coordenar o uso das frequências."
+    },
+    {
+      "id": "srdc-q012",
+      "tema": "Bandas",
+      "dificuldade": "facil",
+      "enunciado": "Qual banda é apresentada como tendo boa propagação em áreas amplas e necessidade de antenas maiores?",
+      "alternativas": ["VHF.", "UHF.", "700/800 MHz.", "Bluetooth."],
+      "correta": 0,
+      "explicacao": "O material associa VHF à boa propagação em áreas amplas e a antenas maiores."
+    },
+    {
+      "id": "srdc-q013",
+      "tema": "Bandas",
+      "dificuldade": "medio",
+      "enunciado": "A banda UHF é apresentada como um compromisso entre:",
+      "alternativas": [
+        "Cobertura, penetração e uso urbano.",
+        "Criptografia, cadastro e auditoria.",
+        "Velocidade, armazenamento e backup.",
+        "Somente potência e largura de tela."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta UHF como compromisso entre cobertura, penetração e uso urbano."
+    },
+    {
+      "id": "srdc-q014",
+      "tema": "Bandas",
+      "dificuldade": "medio",
+      "enunciado": "As bandas de 700/800 MHz são muito utilizadas em:",
+      "alternativas": [
+        "Sistemas urbanos troncalizados e redes densas.",
+        "Somente sistemas de radiotelegrafia antigos.",
+        "Redes sem qualquer infraestrutura.",
+        "Comunicação exclusivamente submarina."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca o uso de 700/800 MHz em sistemas urbanos troncalizados e redes densas."
+    },
+    {
+      "id": "srdc-q015",
+      "tema": "Voz ao P25",
+      "dificuldade": "medio",
+      "enunciado": "Qual é uma sequência simplificada da voz até o P25 digital?",
+      "alternativas": [
+        "Microfone capta a voz, vocoder transforma em dados e o rádio adiciona sinalização.",
+        "Antena capta a voz, NOC transforma em imagem e o rádio elimina a sinalização.",
+        "Talkgroup capta a voz e o canal físico define a identidade do usuário.",
+        "Master Site grava a voz analógica sem processamento."
+      ],
+      "correta": 0,
+      "explicacao": "O microfone capta a voz, o vocoder a transforma em dados digitais e o rádio acrescenta identidade, grupo, emergência, criptografia e controle."
+    },
+    {
+      "id": "srdc-q016",
+      "tema": "Missão crítica",
+      "dificuldade": "medio",
+      "enunciado": "Comunicação de missão crítica é aquela em que a indisponibilidade pode:",
+      "alternativas": [
+        "Provocar risco a vidas, e não apenas prejuízo operacional ou econômico.",
+        "Apenas reduzir a qualidade de uma chamada comum.",
+        "Gerar somente custo de manutenção.",
+        "Impedir exclusivamente o acesso administrativo."
+      ],
+      "correta": 0,
+      "explicacao": "A diferença central é que a falha de uma comunicação de missão crítica pode provocar risco a vidas."
+    },
+    {
+      "id": "srdc-q017",
+      "tema": "P25",
+      "dificuldade": "facil",
+      "enunciado": "O que significa P25 no contexto apresentado?",
+      "alternativas": [
+        "APCO Project 25, padrão utilizado no sistema de radiocomunicação digital crítica.",
+        "Protocolo de telefonia analógica privada.",
+        "Programa de controle de acesso predial.",
+        "Padrão de armazenamento de arquivos."
+      ],
+      "correta": 0,
+      "explicacao": "P25 é a denominação associada ao APCO Project 25, padrão utilizado no SRDC apresentado."
+    },
+    {
+      "id": "srdc-q018",
+      "tema": "Histórico do SRDC",
+      "dificuldade": "dificil",
+      "enunciado": "Em que ano os oficiais do CSM/MTel pesquisaram e escolheram o padrão APCO 25 ou Project 25?",
+      "alternativas": ["2000.", "2003.", "2011.", "2018."],
+      "correta": 0,
+      "explicacao": "Segundo o material, essa pesquisa e escolha ocorreram em 2000."
+    },
+    {
+      "id": "srdc-q019",
+      "tema": "Histórico do SRDC",
+      "dificuldade": "dificil",
+      "enunciado": "Quais municípios foram definidos para o projeto-piloto em 2003?",
+      "alternativas": [
+        "São José dos Campos, Campinas e Santos/São Vicente.",
+        "São Paulo, Ribeirão Preto e Bauru.",
+        "Sorocaba, Santos e Guarulhos.",
+        "Campinas, São Paulo e Presidente Prudente."
+      ],
+      "correta": 0,
+      "explicacao": "O projeto-piloto foi definido para São José dos Campos, Campinas e Santos/São Vicente, representando CPI-1, CPI-2 e CPI-6."
+    },
+    {
+      "id": "srdc-q020",
+      "tema": "Histórico do SRDC",
+      "dificuldade": "dificil",
+      "enunciado": "O que ocorreu em 2011, conforme o material?",
+      "alternativas": [
+        "A Resolução 568 da ANATEL, de 15 de junho de 2011, relacionada à necessidade de digitalização.",
+        "A adoção da denominação DTIC.",
+        "A implantação do primeiro computador.",
+        "A unificação dos Master Sites de São Paulo e Campinas."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita a Resolução 568, de 15 de junho de 2011, da ANATEL, relacionada à necessidade de digitalização."
+    },
+    {
+      "id": "srdc-q021",
+      "tema": "SRDC PMESP",
+      "dificuldade": "medio",
+      "enunciado": "Em 2026, o sistema da PMESP é descrito como:",
+      "alternativas": [
+        "Híbrido, de radiocomunicação digital crítica, padrão P25 convencional e troncalizado.",
+        "Exclusivamente analógico e sem troncalização.",
+        "Somente baseado em telefonia móvel pública.",
+        "Um sistema sem comunicação com os Centros de Operações."
+      ],
+      "correta": 0,
+      "explicacao": "O material descreve, em 2026, um sistema híbrido P25 convencional e troncalizado que conecta viaturas, aeronaves, policiais a pé e Centros de Operações."
+    },
+    {
+      "id": "srdc-q022",
+      "tema": "SRDC PMESP",
+      "dificuldade": "dificil",
+      "enunciado": "Qual conjunto corresponde aos números apresentados para o SRDC?",
+      "alternativas": [
+        "Rede 800 MHz, 26.000 rádios cadastrados e 145 sites.",
+        "Rede 100 MHz, 2.600 rádios cadastrados e 14 sites.",
+        "Rede 5 GHz, 145 rádios e 26 sites.",
+        "Rede 700 kHz, 12 rádios e 800 sites."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta rede 800 MHz, 26.000 rádios cadastrados e 145 sites, entre outros indicadores."
+    },
+    {
+      "id": "srdc-q023",
+      "tema": "Funcionalidades do SRDC",
+      "dificuldade": "medio",
+      "enunciado": "Qual funcionalidade está associada à criptografia no SRDC?",
+      "alternativas": ["Servidor KMF.", "Servidor de impressão.", "Sistema de iluminação.", "Gerenciador de documentos."],
+      "correta": 0,
+      "explicacao": "O material lista o servidor KMF como funcionalidade relacionada à criptografia."
+    },
+    {
+      "id": "srdc-q024",
+      "tema": "Funcionalidades do SRDC",
+      "dificuldade": "medio",
+      "enunciado": "IMW/Radio Tracker está relacionado a:",
+      "alternativas": ["GPS.", "Compactação de arquivos.", "Controle de impressão.", "Edição de mensagens."],
+      "correta": 0,
+      "explicacao": "O material relaciona IMW/Radio Tracker ao GPS."
+    },
+    {
+      "id": "srdc-q025",
+      "tema": "P25 convencional",
+      "dificuldade": "facil",
+      "enunciado": "No P25 convencional, o canal é:",
+      "alternativas": [
+        "Previamente definido no rádio ou codeplug.",
+        "Escolhido automaticamente pela rede a cada chamada.",
+        "Sempre um talkgroup lógico sem frequência.",
+        "Definido pelo NOC após cada transmissão."
+      ],
+      "correta": 0,
+      "explicacao": "No P25 convencional, o canal é previamente definido no rádio ou no codeplug."
+    },
+    {
+      "id": "srdc-q026",
+      "tema": "P25 convencional",
+      "dificuldade": "medio",
+      "enunciado": "No P25 convencional, o usuário normalmente:",
+      "alternativas": [
+        "Seleciona o canal ou grupo convencional programado.",
+        "Escolhe apenas o talkgroup e a rede escolhe o canal.",
+        "Não precisa de rádio programado.",
+        "Usa somente um canal público."
+      ],
+      "correta": 0,
+      "explicacao": "O usuário seleciona o canal ou grupo convencional previamente programado, podendo operar diretamente ou por repetidora."
+    },
+    {
+      "id": "srdc-q027",
+      "tema": "P25 troncalizado",
+      "dificuldade": "facil",
+      "enunciado": "No P25 troncalizado, os canais de RF formam:",
+      "alternativas": [
+        "Um conjunto compartilhado pela rede.",
+        "Canais exclusivos e permanentes para cada usuário.",
+        "Somente um canal físico sem controle.",
+        "Uma lista de e-mails."
+      ],
+      "correta": 0,
+      "explicacao": "No sistema troncalizado, os canais de radiofrequência formam um conjunto compartilhado pela rede."
+    },
+    {
+      "id": "srdc-q028",
+      "tema": "P25 troncalizado",
+      "dificuldade": "medio",
+      "enunciado": "No sistema troncalizado, o usuário escolhe o talkgroup e:",
+      "alternativas": [
+        "O sistema escolhe o canal de tráfego disponível.",
+        "O usuário escolhe manualmente a frequência em qualquer chamada.",
+        "O canal permanece sempre reservado.",
+        "O NOC substitui o rádio na transmissão."
+      ],
+      "correta": 0,
+      "explicacao": "O usuário escolhe o talkgroup, enquanto a rede gerencia autorização, disponibilidade e alocação do canal de tráfego."
+    },
+    {
+      "id": "srdc-q029",
+      "tema": "Fluxo troncalizado",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a sequência básica de uma chamada troncalizada?",
+      "alternativas": [
+        "Canal de controle, PTT no talkgroup, pedido de recurso, autorização, canal de tráfego, chamada e liberação.",
+        "Canal de tráfego, desligamento, cadastro e somente depois PTT.",
+        "NOC, e-mail, Internet, talkgroup e rádio analógico.",
+        "Frequência fixa, impressão, backup e chamada."
+      ],
+      "correta": 0,
+      "explicacao": "O fluxo apresentado inicia no canal de controle, passa pelo PTT no talkgroup, pedido e autorização de recurso, canal de tráfego, chamada e liberação."
+    },
+    {
+      "id": "srdc-q030",
+      "tema": "P25 Phase 1 e Phase 2",
+      "dificuldade": "medio",
+      "enunciado": "O P25 Phase 1 utiliza:",
+      "alternativas": [
+        "FDMA, canal de 12,5 kHz e um caminho de voz por canal.",
+        "TDMA, dois slots e canal sem largura definida.",
+        "Somente comunicação analógica.",
+        "Um talkgroup sem canal de RF."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta o Phase 1 como FDMA, com canal de 12,5 kHz e um caminho de voz por canal."
+    },
+    {
+      "id": "srdc-q031",
+      "tema": "P25 Phase 1 e Phase 2",
+      "dificuldade": "medio",
+      "enunciado": "O P25 Phase 2 utiliza normalmente:",
+      "alternativas": [
+        "TDMA, normalmente dois slots em 12,5 kHz.",
+        "FDMA, sem divisão de slots.",
+        "AM, em canal analógico.",
+        "FM, sem controle de tráfego."
+      ],
+      "correta": 0,
+      "explicacao": "O Phase 2 é apresentado como TDMA, normalmente com dois slots em um canal de 12,5 kHz."
+    },
+    {
+      "id": "srdc-q032",
+      "tema": "P25 Phase 2",
+      "dificuldade": "medio",
+      "enunciado": "O principal ganho do P25 Phase 2 é:",
+      "alternativas": [
+        "Capacidade, e não qualidade.",
+        "Somente maior volume de áudio.",
+        "Eliminação da infraestrutura.",
+        "Aumento da largura física do espectro."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca que o principal ganho do Phase 2 é capacidade de tráfego, não qualidade."
+    },
+    {
+      "id": "srdc-q033",
+      "tema": "Master Site",
+      "dificuldade": "facil",
+      "enunciado": "O que é o Master Site?",
+      "alternativas": [
+        "O núcleo central responsável por funções essenciais do sistema troncalizado.",
+        "Um repetidor local de RF.",
+        "Um grupo lógico de conversação.",
+        "Um rádio portátil de alta potência."
+      ],
+      "correta": 0,
+      "explicacao": "O Master Site é o núcleo central que coordena e controla a rede, os recursos e os serviços centrais."
+    },
+    {
+      "id": "srdc-q034",
+      "tema": "Master Site",
+      "dificuldade": "facil",
+      "enunciado": "O Master Site não deve ser confundido com:",
+      "alternativas": [
+        "Um repetidor grande.",
+        "O cérebro de controle da rede.",
+        "O núcleo do sistema troncalizado.",
+        "Um elemento de gerenciamento e disponibilidade."
+      ],
+      "correta": 0,
+      "explicacao": "O material ressalta que Master Site não é um repetidor grande, mas o cérebro de controle do sistema."
+    },
+    {
+      "id": "srdc-q035",
+      "tema": "Master Site",
+      "dificuldade": "medio",
+      "enunciado": "O Master Site:",
+      "alternativas": [
+        "Coordena os sites de RF, mas não os substitui.",
+        "Substitui todos os sites de RF.",
+        "Funciona apenas como canal de voz.",
+        "É usado somente para cadastro de usuários."
+      ],
+      "correta": 0,
+      "explicacao": "O Master Site coordena o funcionamento dos sites de RF, mas não substitui esses sites."
+    },
+    {
+      "id": "srdc-q036",
+      "tema": "Redundância e DSR",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a finalidade da redundância no sistema?",
+      "alternativas": [
+        "Reduzir pontos únicos de falha e aumentar a disponibilidade.",
+        "Eliminar a necessidade de manutenção.",
+        "Impedir o uso de sites de RF.",
+        "Substituir o cadastro de rádios."
+      ],
+      "correta": 0,
+      "explicacao": "A redundância existe para reduzir pontos únicos de falha e aumentar a disponibilidade do sistema."
+    },
+    {
+      "id": "srdc-q037",
+      "tema": "DSR",
+      "dificuldade": "medio",
+      "enunciado": "No modelo DSR, em caso de falha em uma zona:",
+      "alternativas": [
+        "Outra zona pode assumir a operação.",
+        "Todo o sistema necessariamente é desligado.",
+        "O usuário escolhe uma frequência pública.",
+        "O Master Site deixa de existir."
+      ],
+      "correta": 0,
+      "explicacao": "O DSR permite que zonas independentes e redundantes sustentem a operação; outra zona pode assumir quando uma falha ocorre."
+    },
+    {
+      "id": "srdc-q038",
+      "tema": "Redundância",
+      "dificuldade": "medio",
+      "enunciado": "A redundância elimina a necessidade de manutenção preventiva?",
+      "alternativas": [
+        "Não. A manutenção e o acompanhamento operacional continuam necessários.",
+        "Sim, completamente.",
+        "Sim, desde que exista um talkgroup.",
+        "Somente nos sistemas convencionais."
+      ],
+      "correta": 0,
+      "explicacao": "O material afirma que a redundância não elimina a manutenção preventiva nem o acompanhamento operacional."
+    },
+    {
+      "id": "srdc-q039",
+      "tema": "Talkgroup",
+      "dificuldade": "facil",
+      "enunciado": "O talkgroup é:",
+      "alternativas": [
+        "Um grupo lógico de conversação.",
+        "Uma frequência física fixa.",
+        "Uma antena de rádio.",
+        "Um servidor de banco de dados."
+      ],
+      "correta": 0,
+      "explicacao": "Talkgroup é a organização lógica dos usuários em um grupo de conversação."
+    },
+    {
+      "id": "srdc-q040",
+      "tema": "Talkgroup e frequência",
+      "dificuldade": "facil",
+      "enunciado": "Qual frase diferencia corretamente canal e talkgroup?",
+      "alternativas": [
+        "Canal é recurso físico; talkgroup é organização lógica.",
+        "Canal é organização lógica; talkgroup é recurso físico.",
+        "Ambos são exatamente a mesma coisa.",
+        "Nenhum deles se relaciona à comunicação."
+      ],
+      "correta": 0,
+      "explicacao": "O material resume: canal ou frequência é recurso físico de RF; talkgroup é grupo lógico de conversação."
+    },
+    {
+      "id": "srdc-q041",
+      "tema": "Talkgroup troncalizado",
+      "dificuldade": "medio",
+      "enunciado": "No sistema troncalizado, um mesmo talkgroup pode:",
+      "alternativas": [
+        "Usar canais diferentes em momentos diferentes.",
+        "Ficar sempre vinculado a uma única frequência física.",
+        "Existir sem qualquer infraestrutura.",
+        "Substituir o Master Site."
+      ],
+      "correta": 0,
+      "explicacao": "No troncalizado, a rede escolhe o canal disponível; por isso o mesmo talkgroup pode usar canais diferentes ao longo do tempo."
+    },
+    {
+      "id": "srdc-q042",
+      "tema": "Operação do sistema",
+      "dificuldade": "medio",
+      "enunciado": "No P25 troncalizado, quem decide onde a chamada será transportada?",
+      "alternativas": [
+        "A rede, conforme autorização e disponibilidade de recursos.",
+        "O usuário, escolhendo qualquer frequência manualmente.",
+        "Somente o microfone.",
+        "O talkgroup, por ser um canal físico."
+      ],
+      "correta": 0,
+      "explicacao": "O operador seleciona o grupo, enquanto a rede decide o recurso de RF e o canal de tráfego disponível."
+    },
+    {
+      "id": "srdc-q043",
+      "tema": "NOC e monitoramento",
+      "dificuldade": "medio",
+      "enunciado": "Qual é o papel geral do NOC sugerido na aula?",
+      "alternativas": [
+        "Transformar um alarme técnico em ação operacional, com controle e rastreabilidade.",
+        "Substituir os rádios portáteis.",
+        "Escolher os valores institucionais da PMESP.",
+        "Produzir somente documentos administrativos."
+      ],
+      "correta": 0,
+      "explicacao": "A aula relaciona o NOC ao monitoramento e à transformação de alarmes técnicos em ações operacionais, com controle e rastreabilidade."
+    },
+    {
+      "id": "srdc-q044",
+      "tema": "Monitoramento",
+      "dificuldade": "medio",
+      "enunciado": "Quais ferramentas de monitoramento são citadas na visão geral da aula?",
+      "alternativas": [
+        "SNMP e Zabbix.",
+        "HTML e CSS.",
+        "FTP e SMTP apenas.",
+        "Word e Excel exclusivamente."
+      ],
+      "correta": 0,
+      "explicacao": "A visão geral cita o papel do NOC, do SNMP e do Zabbix no monitoramento do sistema."
+    },
+    {
+      "id": "srdc-q045",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa resume melhor o funcionamento do sistema troncalizado?",
+      "alternativas": [
+        "O usuário seleciona o talkgroup e a rede gerencia autorização, disponibilidade e canal de tráfego.",
+        "O usuário seleciona livremente qualquer frequência e a rede não interfere.",
+        "O talkgroup é uma frequência física reservada permanentemente.",
+        "O Master Site é apenas um repetidor local sem função de controle."
+      ],
+      "correta": 0,
+      "explicacao": "No sistema troncalizado, o usuário escolhe o talkgroup e a infraestrutura coordena o recurso disponível, autorização e canal de tráfego."
+    }
+  ],
+  "stories": [
+    {"id": "srdc-s001", "ordem": 1, "titulo": "Rádio crítico", "texto": "Rádio crítico não é apenas PTT: é sistema.", "destaque": "Infraestrutura + cadastro + monitoramento."},
+    {"id": "srdc-s002", "ordem": 2, "titulo": "Modulação", "texto": "É colocar a informação na portadora.", "destaque": "A portadora transporta; a modulação carrega a informação."},
+    {"id": "srdc-s003", "ordem": 3, "titulo": "AM e FM", "texto": "AM varia amplitude; FM varia frequência.", "destaque": "Amplitude = AM; frequência = FM."},
+    {"id": "srdc-s004", "ordem": 4, "titulo": "Espectro", "texto": "É o conjunto de frequências usado na comunicação sem fio.", "destaque": "O espectro é limitado: exige planejamento."},
+    {"id": "srdc-s005", "ordem": 5, "titulo": "Canal", "texto": "É uma fatia do espectro com largura definida.", "destaque": "Canal é recurso físico."},
+    {"id": "srdc-s006", "ordem": 6, "titulo": "VHF", "texto": "Boa propagação em áreas amplas e antenas maiores.", "destaque": "Cobertura ampla."},
+    {"id": "srdc-s007", "ordem": 7, "titulo": "UHF", "texto": "Compromisso entre cobertura, penetração e uso urbano.", "destaque": "Uso urbano e penetração."},
+    {"id": "srdc-s008", "ordem": 8, "titulo": "P25 digital", "texto": "A voz vira bits, símbolos e depois modula a portadora.", "destaque": "Voz + identidade + contexto operacional."},
+    {"id": "srdc-s009", "ordem": 9, "titulo": "Missão crítica", "texto": "A falha pode provocar risco a vidas.", "destaque": "Não é apenas prejuízo econômico."},
+    {"id": "srdc-s010", "ordem": 10, "titulo": "P25", "texto": "APCO Project 25, padrão do sistema de radiocomunicação digital crítica.", "destaque": "P25 convencional e troncalizado."},
+    {"id": "srdc-s011", "ordem": 11, "titulo": "P25 convencional", "texto": "O canal é previamente definido no rádio ou codeplug.", "destaque": "O usuário vai até o canal."},
+    {"id": "srdc-s012", "ordem": 12, "titulo": "P25 troncalizado", "texto": "O usuário escolhe o talkgroup e a rede escolhe o canal de tráfego.", "destaque": "A rede empresta um recurso disponível."},
+    {"id": "srdc-s013", "ordem": 13, "titulo": "Fluxo troncalizado", "texto": "Controle → PTT → pedido → autorização → tráfego → chamada e liberação.", "destaque": "A rede coordena o recurso."},
+    {"id": "srdc-s014", "ordem": 14, "titulo": "Phase 1", "texto": "FDMA, canal de 12,5 kHz e um caminho de voz por canal.", "destaque": "Um caminho por canal."},
+    {"id": "srdc-s015", "ordem": 15, "titulo": "Phase 2", "texto": "TDMA, normalmente dois slots em 12,5 kHz.", "destaque": "O ganho principal é capacidade."},
+    {"id": "srdc-s016", "ordem": 16, "titulo": "Master Site", "texto": "É o núcleo central que coordena rede, recursos e serviços.", "destaque": "É o cérebro de controle."},
+    {"id": "srdc-s017", "ordem": 17, "titulo": "DSR", "texto": "Zonas redundantes podem sustentar a operação quando uma falha.", "destaque": "Reduz ponto único de falha."},
+    {"id": "srdc-s018", "ordem": 18, "titulo": "Talkgroup", "texto": "É grupo lógico de conversação, não frequência.", "destaque": "Canal físico; talkgroup lógico."},
+    {"id": "srdc-s019", "ordem": 19, "titulo": "NOC", "texto": "Transforma alarmes técnicos em ações operacionais monitoradas.", "destaque": "Controle e rastreabilidade."},
+    {"id": "srdc-s020", "ordem": 20, "titulo": "Bizu final", "texto": "No troncalizado, o operador escolhe o grupo; a rede escolhe o recurso.", "destaque": "Talkgroup não é frequência."}
+  ]
+}
