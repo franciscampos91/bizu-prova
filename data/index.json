@@ -2,14 +2,79 @@
   "versao": "1.0.0",
   "curso": "Gestão em Tecnologia da Informação e Comunicação",
   "instituicao": "PMESP",
-  "atualizadoEm": "2026-08-18",
+  "semana": 1,
+  "atualizadoEm": "2026-08-19",
   "conteudos": [
     {
-      "id": "disposicao-qts",
-      "nome": "Disposição do QTS",
+      "id": "aula-1-master-site-noc",
+      "nome": "Fundamentos de Radiocomunicação, P25, Master Site e NOC",
       "semana": 1,
       "tipo": "quiz",
-      "arquivo": "semana-01/disposicao-qts.json",
+      "arquivo": "semana-01/aula-1-master-site-noc.json",
+      "ativo": true
+    },
+    {
+      "id": "aula-2-suporte-tecnico",
+      "nome": "Suporte Técnico ao SRDC P25",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/aula-2-suporte-tecnico.json",
+      "ativo": true
+    },
+    {
+      "id": "cab2-resumo",
+      "nome": "Cabeamento Estruturado — Resumo",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/cabeamento-estruturado.json",
+      "ativo": true
+    },
+    {
+      "id": "cab2-distribuidores",
+      "nome": "Cabeamento Estruturado e Distribuidores de Rede",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/cabeamento-estruturado-distribuidores.json",
+      "ativo": true
+    },
+    {
+      "id": "cop",
+      "nome": "Câmeras Operacionais Portáteis",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/cop.json",
+      "ativo": true
+    },
+    {
+      "id": "desenvolvimento-sistemas",
+      "nome": "Desenvolvimento de Sistemas",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/desenvolvimento-sistemas.json",
+      "ativo": true
+    },
+    {
+      "id": "elaboracao-home-page",
+      "nome": "Elaboração de Home Page",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/elaboracao-home-page.json",
+      "ativo": true
+    },
+    {
+      "id": "elementos-rede-local-configuracao",
+      "nome": "Elementos da Rede Local e Configuração",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/elementos-rede-local-configuracao.json",
+      "ativo": true
+    },
+    {
+      "id": "estrutura-dtic",
+      "nome": "Estrutura da DTIC",
+      "semana": 1,
+      "tipo": "quiz",
+      "arquivo": "semana-01/estrutura-dtic.json",
       "ativo": true
     },
     {
@@ -37,19 +102,11 @@
       "ativo": true
     },
     {
-      "id": "estrutura-dtic",
-      "nome": "Estrutura da DTIC",
+      "id": "videomonitoramento",
+      "nome": "Videomonitoramento por Câmeras Fixas",
       "semana": 1,
       "tipo": "quiz",
-      "arquivo": "semana-01/estrutura-dtic.json",
-      "ativo": true
-    },
-    {
-      "id": "aula-1-master-site-noc",
-      "nome": "Fundamentos de Radiocomunicação, P25, Master Site e NOC",
-      "semana": 1,
-      "tipo": "quiz",
-      "arquivo": "semana-01/aula-1-master-site-noc.json",
+      "arquivo": "semana-01/videomonitoramento.json",
       "ativo": true
     }
   ]

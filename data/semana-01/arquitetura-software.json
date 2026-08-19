@@ -1,0 +1,613 @@
+{
+  "id": "arquitetura-software",
+  "nome": "Arquitetura de Software",
+  "sigla": "ARQ-SW",
+  "semana": 2,
+  "tipo": "quiz",
+  "descricao": "Conceitos de arquitetura de software, arquitetura em camadas, microsserviços, APIs, padrões arquiteturais, conteinerização, DevOps e documentação de sistemas.",
+  "objetivo": "Compreender como os sistemas são organizados, como seus componentes se relacionam e quais padrões e práticas apoiam seu desenvolvimento, implantação e manutenção.",
+  "fonte": "Apresentação — Aula Arquitetura de Software",
+  "observacao": "Questões elaboradas com base no material fornecido. A questão normativa reproduz a composição da equipe de projetos apresentada nos slides.",
+  "palavrasChave": [
+    "arquitetura de software",
+    "camadas",
+    "monolito",
+    "microsserviços",
+    "SOAP",
+    "REST",
+    "gRPC",
+    "MVC",
+    "MVVM",
+    "Clean Architecture",
+    "Docker",
+    "Kubernetes",
+    "DevOps",
+    "CI/CD",
+    "MAS",
+    "DVS"
+  ],
+  "questoes": [
+    {
+      "id": "arq-q001",
+      "tema": "Conceito de arquitetura",
+      "dificuldade": "facil",
+      "enunciado": "O que é arquitetura de software?",
+      "alternativas": [
+        "A estrutura organizacional de um sistema, seus componentes, relações e ambiente de operação.",
+        "Somente o desenho das telas do sistema.",
+        "Apenas o código-fonte de uma aplicação.",
+        "O conjunto de computadores utilizados pelo usuário."
+      ],
+      "correta": 0,
+      "explicacao": "A arquitetura de software define a organização do sistema, seus componentes, as relações entre eles e o ambiente em que operam."
+    },
+    {
+      "id": "arq-q002",
+      "tema": "Conceito de arquitetura",
+      "dificuldade": "medio",
+      "enunciado": "A arquitetura de software define principalmente:",
+      "alternativas": [
+        "Como o sistema será organizado, como suas partes se comunicarão e quais regras deverão ser seguidas.",
+        "Somente as cores e fontes da interface.",
+        "Apenas o nome do banco de dados.",
+        "Exclusivamente o contrato comercial do sistema."
+      ],
+      "correta": 0,
+      "explicacao": "A arquitetura define a organização, a comunicação entre as partes e as regras estruturais da aplicação."
+    },
+    {
+      "id": "arq-q003",
+      "tema": "Equipe de projetos",
+      "dificuldade": "medio",
+      "enunciado": "Conforme o material, qual função faz parte da equipe de projetos de desenvolvimento de sistemas informatizados?",
+      "alternativas": [
+        "Arquiteto de software.",
+        "Somente operador de rádio.",
+        "Exclusivamente designer gráfico externo.",
+        "Apenas responsável pelo patrimônio."
+      ],
+      "correta": 0,
+      "explicacao": "A equipe apresentada inclui administrador do sistema, gerente do projeto, responsável pelo banco de dados, arquiteto corporativo, arquiteto de software, especialista no negócio e representante da OPM interessada."
+    },
+    {
+      "id": "arq-q004",
+      "tema": "Equipe de projetos",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa apresenta somente funções listadas para a equipe de projetos?",
+      "alternativas": [
+        "Administrador do sistema, gerente do projeto, responsável pelo banco de dados e arquiteto de software.",
+        "Operador de rede social, fotógrafo e motorista.",
+        "Auditor externo, usuário final e fornecedor sem designação.",
+        "Somente gerente financeiro e responsável pelo almoxarifado."
+      ],
+      "correta": 0,
+      "explicacao": "As quatro funções da alternativa fazem parte da composição apresentada no Artigo 5º citado no material."
+    },
+    {
+      "id": "arq-q005",
+      "tema": "Arquitetura em camadas",
+      "dificuldade": "facil",
+      "enunciado": "A arquitetura em camadas organiza o sistema em:",
+      "alternativas": [
+        "Níveis de responsabilidade.",
+        "Grupos de usuários sem relação técnica.",
+        "Arquivos independentes sem comunicação.",
+        "Somente servidores físicos."
+      ],
+      "correta": 0,
+      "explicacao": "A arquitetura em camadas separa o sistema em níveis de responsabilidade."
+    },
+    {
+      "id": "arq-q006",
+      "tema": "Arquitetura em camadas",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a regra de ouro apresentada para a comunicação entre camadas?",
+      "alternativas": [
+        "Uma camada deve se comunicar somente com a camada imediatamente abaixo dela.",
+        "Todas as camadas devem acessar diretamente o banco de dados.",
+        "A camada de apresentação deve controlar todas as regras de negócio.",
+        "Não deve existir separação entre responsabilidades."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta como regra de ouro que uma camada só deve se comunicar com a camada imediatamente abaixo dela."
+    },
+    {
+      "id": "arq-q007",
+      "tema": "Camada de apresentação",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a responsabilidade da camada de apresentação?",
+      "alternativas": [
+        "Interface com o usuário, incluindo UI e UX.",
+        "Persistência dos dados no banco.",
+        "Execução exclusiva das regras de negócio.",
+        "Orquestração de containers."
+      ],
+      "correta": 0,
+      "explicacao": "A camada de apresentação é responsável pela interface com o usuário, abrangendo UI e UX."
+    },
+    {
+      "id": "arq-q008",
+      "tema": "Camada de negócio",
+      "dificuldade": "facil",
+      "enunciado": "A camada de negócio concentra:",
+      "alternativas": [
+        "A lógica principal e as regras da aplicação.",
+        "Somente os elementos visuais.",
+        "A comunicação física por rádio.",
+        "Apenas os arquivos de configuração do servidor."
+      ],
+      "correta": 0,
+      "explicacao": "A camada de negócio contém a lógica principal e as regras da aplicação."
+    },
+    {
+      "id": "arq-q009",
+      "tema": "Camada de dados",
+      "dificuldade": "facil",
+      "enunciado": "A camada de dados é responsável por:",
+      "alternativas": [
+        "Persistência e comunicação com o banco de dados.",
+        "Definir a experiência visual do usuário.",
+        "Gerenciar exclusivamente o projeto institucional.",
+        "Escolher o talkgroup do rádio."
+      ],
+      "correta": 0,
+      "explicacao": "A camada de dados trata da persistência e da comunicação com o banco de dados."
+    },
+    {
+      "id": "arq-q010",
+      "tema": "Monolito e microsserviços",
+      "dificuldade": "facil",
+      "enunciado": "Uma característica da arquitetura monolítica é:",
+      "alternativas": [
+        "Implantação única, em que uma alteração pode afetar todo o sistema.",
+        "Cada serviço ser sempre implantado de forma independente.",
+        "Necessidade obrigatória de vários clusters.",
+        "Separação total entre todos os módulos em processos distintos."
+      ],
+      "correta": 0,
+      "explicacao": "Na arquitetura monolítica, o sistema é implantado como uma unidade, e alterações podem afetar o conjunto."
+    },
+    {
+      "id": "arq-q011",
+      "tema": "Monolito e microsserviços",
+      "dificuldade": "medio",
+      "enunciado": "Uma vantagem inicial da arquitetura monolítica apresentada no material é:",
+      "alternativas": [
+        "Facilidade inicial para desenvolver e testar.",
+        "Escalabilidade horizontal automática por serviço.",
+        "Implantação independente de cada componente.",
+        "Ausência completa de impacto nas alterações."
+      ],
+      "correta": 0,
+      "explicacao": "O material aponta a simplicidade inicial de desenvolvimento e teste como uma característica do monolito."
+    },
+    {
+      "id": "arq-q012",
+      "tema": "Microsserviços",
+      "dificuldade": "facil",
+      "enunciado": "A implantação independente em microsserviços significa que:",
+      "alternativas": [
+        "Um serviço pode ser alterado sem afetar necessariamente os demais.",
+        "Todo o sistema deve ser republicado a cada alteração.",
+        "Não existem serviços separados.",
+        "O banco de dados deixa de existir."
+      ],
+      "correta": 0,
+      "explicacao": "Microsserviços permitem a implantação independente, reduzindo o impacto de alterações isoladas."
+    },
+    {
+      "id": "arq-q013",
+      "tema": "Microsserviços",
+      "dificuldade": "medio",
+      "enunciado": "Escalabilidade horizontal em microsserviços significa:",
+      "alternativas": [
+        "Aumentar apenas o serviço que necessita de mais capacidade.",
+        "Aumentar somente a memória de um servidor principal.",
+        "Alterar todas as telas ao mesmo tempo.",
+        "Eliminar a necessidade de monitoramento."
+      ],
+      "correta": 0,
+      "explicacao": "A escalabilidade horizontal permite ampliar o serviço necessário, em vez de dimensionar todo o sistema como uma única unidade."
+    },
+    {
+      "id": "arq-q014",
+      "tema": "Microsserviços",
+      "dificuldade": "medio",
+      "enunciado": "Uma característica que aumenta a complexidade operacional dos microsserviços é a necessidade de:",
+      "alternativas": [
+        "Orquestração.",
+        "Eliminar os testes.",
+        "Usar somente uma tela.",
+        "Manter todos os serviços em um único arquivo."
+      ],
+      "correta": 0,
+      "explicacao": "A arquitetura de microsserviços requer mecanismos de orquestração para administrar múltiplos serviços."
+    },
+    {
+      "id": "arq-q015",
+      "tema": "História das arquiteturas",
+      "dificuldade": "medio",
+      "enunciado": "Segundo a linha do tempo apresentada, qual período teve predomínio da arquitetura monolítica?",
+      "alternativas": [
+        "Anos 1990 a 2005.",
+        "2005 a 2010.",
+        "2010 a 2020.",
+        "Pós-2020."
+      ],
+      "correta": 0,
+      "explicacao": "O material indica predomínio da arquitetura monolítica entre os anos 1990 e 2005."
+    },
+    {
+      "id": "arq-q016",
+      "tema": "História das arquiteturas",
+      "dificuldade": "medio",
+      "enunciado": "Entre 2005 e 2010, ocorreu principalmente:",
+      "alternativas": [
+        "O início da modularização e da SOA.",
+        "A consolidação dos microsserviços em arquiteturas escaláveis.",
+        "O predomínio absoluto do monolito.",
+        "A eliminação das arquiteturas distribuídas."
+      ],
+      "correta": 0,
+      "explicacao": "O período de 2005 a 2010 é associado ao início da modularização e da SOA."
+    },
+    {
+      "id": "arq-q017",
+      "tema": "História das arquiteturas",
+      "dificuldade": "medio",
+      "enunciado": "Entre 2010 e 2020, houve adoção crescente de microsserviços com:",
+      "alternativas": [
+        "DevOps e Cloud.",
+        "Somente processamento manual.",
+        "Ausência de automação.",
+        "Arquitetura exclusivamente monolítica."
+      ],
+      "correta": 0,
+      "explicacao": "A linha do tempo associa o crescimento dos microsserviços à adoção de DevOps e Cloud."
+    },
+    {
+      "id": "arq-q018",
+      "tema": "SOAP",
+      "dificuldade": "facil",
+      "enunciado": "Sobre SOAP, é correto afirmar que:",
+      "alternativas": [
+        "Utiliza XML e tende a ser mais rígido.",
+        "Utiliza somente comunicação binária.",
+        "Não utiliza mensagens estruturadas.",
+        "É exclusivamente um padrão de banco de dados."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta SOAP como uma API que utiliza XML e possui maior rigidez."
+    },
+    {
+      "id": "arq-q019",
+      "tema": "REST",
+      "dificuldade": "facil",
+      "enunciado": "A API REST é caracterizada pelo uso de:",
+      "alternativas": [
+        "HTTP e URLs, com flexibilidade e escalabilidade.",
+        "Somente XML em comunicação rígida.",
+        "Comunicação binária exclusiva para tempo real.",
+        "Apenas arquivos locais."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta REST como uma abordagem que utiliza HTTP e URLs, sendo flexível e escalável."
+    },
+    {
+      "id": "arq-q020",
+      "tema": "gRPC",
+      "dificuldade": "medio",
+      "enunciado": "O gRPC é apresentado como uma API de:",
+      "alternativas": [
+        "Comunicação binária rápida, adequada a microsserviços em tempo real.",
+        "Comunicação baseada exclusivamente em páginas HTML.",
+        "Mensagens XML mais rígidas para sistemas bancários.",
+        "Persistência de dados em arquivos locais."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca o gRPC pela comunicação binária rápida e seu uso em microsserviços em tempo real."
+    },
+    {
+      "id": "arq-q021",
+      "tema": "Arquitetura orientada a eventos",
+      "dificuldade": "facil",
+      "enunciado": "A arquitetura orientada a eventos é baseada em:",
+      "alternativas": [
+        "Eventos que disparam ações no sistema.",
+        "Uma única implantação sem comunicação entre partes.",
+        "Telas que acessam diretamente todos os bancos.",
+        "Servidores sem mensagens ou notificações."
+      ],
+      "correta": 0,
+      "explicacao": "Na arquitetura orientada a eventos, acontecimentos ou eventos desencadeiam ações no sistema."
+    },
+    {
+      "id": "arq-q022",
+      "tema": "Cliente-servidor",
+      "dificuldade": "facil",
+      "enunciado": "Na arquitetura cliente-servidor, o cliente normalmente:",
+      "alternativas": [
+        "Solicita serviços ou recursos disponibilizados por um servidor.",
+        "Substitui todos os servidores.",
+        "Executa obrigatoriamente todo o banco de dados.",
+        "Funciona sem comunicação com qualquer serviço."
+      ],
+      "correta": 0,
+      "explicacao": "O modelo cliente-servidor separa quem solicita ou consome serviços de quem os disponibiliza."
+    },
+    {
+      "id": "arq-q023",
+      "tema": "MVC",
+      "dificuldade": "facil",
+      "enunciado": "O padrão MVC separa principalmente:",
+      "alternativas": [
+        "Modelo, visualização e controle.",
+        "Memória, vídeo e comunicação.",
+        "Monitoramento, versão e cache.",
+        "Mensagem, validação e conexão."
+      ],
+      "correta": 0,
+      "explicacao": "MVC significa Model-View-Controller: Modelo, Visualização e Controle."
+    },
+    {
+      "id": "arq-q024",
+      "tema": "MVC",
+      "dificuldade": "medio",
+      "enunciado": "No MVC, o Controller é associado principalmente à:",
+      "alternativas": [
+        "Lógica de controle e interação da aplicação.",
+        "Persistência física exclusiva dos dados.",
+        "Exibição sem qualquer lógica.",
+        "Infraestrutura de containers."
+      ],
+      "correta": 0,
+      "explicacao": "No modelo MVC, o Controller coordena o fluxo e a lógica de interação entre as partes."
+    },
+    {
+      "id": "arq-q025",
+      "tema": "MVVM",
+      "dificuldade": "medio",
+      "enunciado": "O padrão MVVM destaca:",
+      "alternativas": [
+        "Data Binding e telas reativas.",
+        "Somente comunicação via XML.",
+        "A ausência de separação entre dados e interface.",
+        "A instalação física de servidores."
+      ],
+      "correta": 0,
+      "explicacao": "MVVM é associado à vinculação de dados (Data Binding) e à construção de telas reativas."
+    },
+    {
+      "id": "arq-q026",
+      "tema": "Clean Architecture",
+      "dificuldade": "medio",
+      "enunciado": "A Clean Architecture busca promover:",
+      "alternativas": [
+        "Independência de frameworks, testabilidade e isolamento do negócio.",
+        "Dependência total de uma biblioteca específica.",
+        "Acesso direto da interface a qualquer recurso.",
+        "Ausência de regras de negócio organizadas."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca a independência de frameworks, a testabilidade e o isolamento das regras de negócio."
+    },
+    {
+      "id": "arq-q027",
+      "tema": "Docker",
+      "dificuldade": "facil",
+      "enunciado": "A principal função do Docker apresentada no material é:",
+      "alternativas": [
+        "Empacotar a aplicação com tudo que ela precisa para execução.",
+        "Orquestrar automaticamente todos os clusters em produção.",
+        "Substituir o sistema operacional do computador.",
+        "Criar exclusivamente interfaces de usuário."
+      ],
+      "correta": 0,
+      "explicacao": "Docker empacota a aplicação e suas dependências, facilitando o transporte e a execução em diferentes ambientes."
+    },
+    {
+      "id": "arq-q028",
+      "tema": "Kubernetes",
+      "dificuldade": "facil",
+      "enunciado": "O Kubernetes é utilizado principalmente para:",
+      "alternativas": [
+        "Gerenciar múltiplos containers em produção.",
+        "Editar exclusivamente arquivos XML.",
+        "Criar o modelo visual de uma aplicação.",
+        "Substituir APIs REST."
+      ],
+      "correta": 0,
+      "explicacao": "Kubernetes gerencia múltiplos containers em produção, podendo escalar, distribuir e reiniciá-los automaticamente."
+    },
+    {
+      "id": "arq-q029",
+      "tema": "Docker e Kubernetes",
+      "dificuldade": "medio",
+      "enunciado": "Qual relação está correta?",
+      "alternativas": [
+        "Docker empacota a aplicação; Kubernetes orquestra múltiplos containers.",
+        "Docker orquestra clusters; Kubernetes apenas cria telas.",
+        "Ambos são exclusivamente frameworks de interface.",
+        "Kubernetes substitui o banco de dados e Docker substitui a rede."
+      ],
+      "correta": 0,
+      "explicacao": "Docker está associado ao empacotamento; Kubernetes à gestão e orquestração de containers."
+    },
+    {
+      "id": "arq-q030",
+      "tema": "DevOps",
+      "dificuldade": "facil",
+      "enunciado": "DevOps integra principalmente:",
+      "alternativas": [
+        "Desenvolvimento e operações.",
+        "Banco de dados e design gráfico.",
+        "Radiocomunicação e telefonia.",
+        "Somente segurança física e patrimônio."
+      ],
+      "correta": 0,
+      "explicacao": "DevOps integra desenvolvimento e operações, aproximando a criação, entrega e manutenção do software."
+    },
+    {
+      "id": "arq-q031",
+      "tema": "Testes automatizados",
+      "dificuldade": "facil",
+      "enunciado": "A finalidade dos testes automatizados é:",
+      "alternativas": [
+        "Verificar erros antes da publicação.",
+        "Eliminar a necessidade de desenvolvimento.",
+        "Substituir todos os usuários do sistema.",
+        "Impedir qualquer alteração no código."
+      ],
+      "correta": 0,
+      "explicacao": "Os testes automatizados ajudam a detectar erros antes da publicação do software."
+    },
+    {
+      "id": "arq-q032",
+      "tema": "CI/CD",
+      "dificuldade": "medio",
+      "enunciado": "CI/CD está relacionado à automação de processos para:",
+      "alternativas": [
+        "Testar, empacotar e publicar software.",
+        "Somente desenhar telas.",
+        "Cadastrar usuários manualmente.",
+        "Substituir a arquitetura do sistema."
+      ],
+      "correta": 0,
+      "explicacao": "O material resume CI/CD como processos automatizados de teste, empacotamento e publicação."
+    },
+    {
+      "id": "arq-q033",
+      "tema": "Pipeline",
+      "dificuldade": "facil",
+      "enunciado": "No contexto de DevOps, pipeline pode ser entendido como:",
+      "alternativas": [
+        "Uma linha de montagem do software.",
+        "Uma camada exclusiva de apresentação.",
+        "Um banco de dados corporativo.",
+        "Um canal de rádio."
+      ],
+      "correta": 0,
+      "explicacao": "Pipeline é a sequência automatizada de etapas pelas quais o software passa, como testes, empacotamento e publicação."
+    },
+    {
+      "id": "arq-q034",
+      "tema": "MAS",
+      "dificuldade": "facil",
+      "enunciado": "O MAS — Modelo de Arquitetura de Sistemas — define:",
+      "alternativas": [
+        "A estrutura técnica, os componentes, as integrações e os padrões do sistema.",
+        "Somente os objetivos comerciais do projeto.",
+        "Apenas as telas do usuário.",
+        "Exclusivamente os procedimentos de backup."
+      ],
+      "correta": 0,
+      "explicacao": "O MAS documenta a estrutura técnica, os componentes, as integrações e os padrões arquiteturais."
+    },
+    {
+      "id": "arq-q035",
+      "tema": "DVS",
+      "dificuldade": "facil",
+      "enunciado": "O DVS — Documento de Visão de Sistemas — tem como finalidade:",
+      "alternativas": [
+        "Alinhar os objetivos do sistema às necessidades dos stakeholders.",
+        "Definir exclusivamente a infraestrutura de containers.",
+        "Substituir todos os diagramas técnicos.",
+        "Controlar somente a senha dos usuários."
+      ],
+      "correta": 0,
+      "explicacao": "O DVS alinha os objetivos do sistema às necessidades dos stakeholders."
+    },
+    {
+      "id": "arq-q036",
+      "tema": "Documentação",
+      "dificuldade": "medio",
+      "enunciado": "MAS e DVS são importantes porque contribuem para:",
+      "alternativas": [
+        "Comunicação clara, planejamento e manutenção da arquitetura.",
+        "Eliminar a necessidade de stakeholders.",
+        "Impedir a evolução do sistema.",
+        "Substituir testes automatizados."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca que os dois documentos são essenciais para comunicação clara, planejamento e manutenção da arquitetura."
+    },
+    {
+      "id": "arq-q037",
+      "tema": "Comparação arquitetural",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a comparação correta entre monolito e microsserviços:",
+      "alternativas": [
+        "Monolito tem implantação única; microsserviços favorecem implantação independente.",
+        "Monolito sempre possui escalabilidade horizontal por serviço; microsserviços não escalam.",
+        "Ambos exigem exatamente a mesma operação.",
+        "Microsserviços eliminam a complexidade operacional."
+      ],
+      "correta": 0,
+      "explicacao": "O monolito é implantado como unidade única; microsserviços permitem maior independência, embora tragam mais complexidade operacional."
+    },
+    {
+      "id": "arq-q038",
+      "tema": "Comparação de APIs",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a associação correta entre API e característica:",
+      "alternativas": [
+        "SOAP — XML e rigidez; REST — HTTP e URLs; gRPC — comunicação binária rápida.",
+        "SOAP — somente binário; REST — sem HTTP; gRPC — exclusivamente XML.",
+        "SOAP — containers; REST — banco de dados; gRPC — interface gráfica.",
+        "Todas as alternativas usam necessariamente o mesmo protocolo e formato."
+      ],
+      "correta": 0,
+      "explicacao": "O material diferencia SOAP por XML e maior rigidez, REST por HTTP/URLs e gRPC por comunicação binária rápida."
+    },
+    {
+      "id": "arq-q039",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa resume melhor uma arquitetura bem organizada?",
+      "alternativas": [
+        "Componentes com responsabilidades definidas, comunicação controlada, documentação e práticas de entrega confiáveis.",
+        "Todos os componentes acessam tudo diretamente e sem regras.",
+        "A interface concentra banco, regras e infraestrutura sem separação.",
+        "O sistema não precisa de testes, documentação ou monitoramento."
+      ],
+      "correta": 0,
+      "explicacao": "A arquitetura organiza responsabilidades, comunicação e regras, apoiando documentação, testes, implantação e manutenção."
+    },
+    {
+      "id": "arq-q040",
+      "tema": "Revisão geral",
+      "dificuldade": "medio",
+      "enunciado": "Qual conjunto contém somente conceitos apresentados na aula?",
+      "alternativas": [
+        "MVC, MVVM, Clean Architecture, Docker, Kubernetes e CI/CD.",
+        "VPN, Intragov, Intranet e Master Site somente.",
+        "HTML, CSS, radiotelegrafia e firewall apenas.",
+        "Somente Active Directory, LDAP e backup."
+      ],
+      "correta": 0,
+      "explicacao": "MVC, MVVM, Clean Architecture, Docker, Kubernetes e CI/CD aparecem entre os conceitos e práticas abordados na aula."
+    }
+  ],
+  "stories": [
+    {"id": "arq-s001", "ordem": 1, "titulo": "Arquitetura", "texto": "Define componentes, relações, organização e regras do sistema.", "destaque": "É a estrutura do software."},
+    {"id": "arq-s002", "ordem": 2, "titulo": "Equipe de projetos", "texto": "Inclui administrador, gerente, responsável pelo banco, arquitetos, especialista no negócio e representante da OPM interessada.", "destaque": "Arquitetura também envolve pessoas e responsabilidades."},
+    {"id": "arq-s003", "ordem": 3, "titulo": "Camadas", "texto": "Organizam o sistema por níveis de responsabilidade.", "destaque": "Cada camada tem uma função."},
+    {"id": "arq-s004", "ordem": 4, "titulo": "Regra de ouro", "texto": "Uma camada deve se comunicar com a camada imediatamente abaixo.", "destaque": "Evite dependências desorganizadas."},
+    {"id": "arq-s005", "ordem": 5, "titulo": "Apresentação", "texto": "É a interface com o usuário: UI e UX.", "destaque": "Telas e interação."},
+    {"id": "arq-s006", "ordem": 6, "titulo": "Negócio", "texto": "Concentra a lógica principal e as regras da aplicação.", "destaque": "Onde vivem as regras."},
+    {"id": "arq-s007", "ordem": 7, "titulo": "Dados", "texto": "Cuida da persistência e da comunicação com o banco.", "destaque": "Armazenamento e acesso."},
+    {"id": "arq-s008", "ordem": 8, "titulo": "Monolito", "texto": "Tem implantação única e facilidade inicial de desenvolvimento e testes.", "destaque": "Alterações podem afetar o sistema inteiro."},
+    {"id": "arq-s009", "ordem": 9, "titulo": "Microsserviços", "texto": "Permitem implantação independente e escalabilidade por serviço.", "destaque": "Mais flexibilidade, mais complexidade operacional."},
+    {"id": "arq-s010", "ordem": 10, "titulo": "SOAP", "texto": "Utiliza XML e tende a ser mais rígido.", "destaque": "SOAP = XML e rigidez."},
+    {"id": "arq-s011", "ordem": 11, "titulo": "REST", "texto": "Utiliza HTTP e URLs, com flexibilidade e escalabilidade.", "destaque": "REST = HTTP e URLs."},
+    {"id": "arq-s012", "ordem": 12, "titulo": "gRPC", "texto": "Usa comunicação binária rápida, adequada a microsserviços em tempo real.", "destaque": "gRPC = binário e velocidade."},
+    {"id": "arq-s013", "ordem": 13, "titulo": "Eventos", "texto": "Eventos disparam ações no sistema.", "destaque": "Acontecimento → ação."},
+    {"id": "arq-s014", "ordem": 14, "titulo": "MVC", "texto": "Model, View e Controller separam dados, visualização e controle.", "destaque": "MVC = Modelo, Visão e Controle."},
+    {"id": "arq-s015", "ordem": 15, "titulo": "MVVM", "texto": "Destaca Data Binding e telas reativas.", "destaque": "Dados vinculados à interface."},
+    {"id": "arq-s016", "ordem": 16, "titulo": "Clean Architecture", "texto": "Busca independência de frameworks, testabilidade e isolamento do negócio.", "destaque": "O negócio não depende da tecnologia externa."},
+    {"id": "arq-s017", "ordem": 17, "titulo": "Docker", "texto": "Empacota a aplicação com suas dependências.", "destaque": "Leva o bolo pronto na caixa."},
+    {"id": "arq-s018", "ordem": 18, "titulo": "Kubernetes", "texto": "Gerencia, escala, distribui e reinicia containers em produção.", "destaque": "Orquestra os containers."},
+    {"id": "arq-s019", "ordem": 19, "titulo": "DevOps e CI/CD", "texto": "Integram desenvolvimento e operações, automatizando testes, empacotamento e publicação.", "destaque": "Pipeline = linha de montagem."},
+    {"id": "arq-s020", "ordem": 20, "titulo": "MAS e DVS", "texto": "MAS define a estrutura técnica; DVS alinha objetivos e necessidades dos stakeholders.", "destaque": "Documentação melhora comunicação, planejamento e manutenção."}
+  ]
+}

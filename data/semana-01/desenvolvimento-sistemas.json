@@ -1,0 +1,397 @@
+{
+  "id": "desenvolvimento-sistemas",
+  "nome": "Desenvolvimento de Sistemas",
+  "sigla": "DEV-SISTEMAS",
+  "semana": 2,
+  "tipo": "quiz",
+  "descricao": "Conceitos básicos de desenvolvimento de sistemas, componentes frontend e backend, fluxo de processamento e boas práticas iniciais de programação.",
+  "objetivo": "Apresentar os conceitos básicos de desenvolvimento de sistemas.",
+  "fonte": "Desenvolvimento de Sistemas_260522_091802.pdf",
+  "observacao": "Questões elaboradas com base no material fornecido. O slide de ferramentas apresenta imagens, mas o texto extraído não identifica detalhadamente todos os itens visuais.",
+  "palavrasChave": [
+    "sistema",
+    "frontend",
+    "backend",
+    "variáveis",
+    "condicionais",
+    "laços",
+    "entrada",
+    "processamento",
+    "saída",
+    "boas práticas"
+  ],
+  "questoes": [
+    {
+      "id": "dev-q001",
+      "tema": "Conceito de sistema",
+      "dificuldade": "facil",
+      "enunciado": "Qual é o objetivo da aula de Desenvolvimento de Sistemas?",
+      "alternativas": [
+        "Apresentar os conceitos básicos de desenvolvimento de sistemas.",
+        "Ensinar somente manutenção de computadores.",
+        "Apresentar exclusivamente redes de comunicação.",
+        "Ensinar apenas edição de documentos."
+      ],
+      "correta": 0,
+      "explicacao": "O objetivo declarado no material é apresentar os conceitos básicos de desenvolvimento de sistemas."
+    },
+    {
+      "id": "dev-q002",
+      "tema": "Frontend",
+      "dificuldade": "facil",
+      "enunciado": "O frontend corresponde principalmente à:",
+      "alternativas": [
+        "Interface com o usuário.",
+        "Infraestrutura física do servidor.",
+        "Lógica exclusiva do banco de dados.",
+        "Rotina de backup da aplicação."
+      ],
+      "correta": 0,
+      "explicacao": "Frontend é a parte visual e interativa da aplicação, responsável pela interface com o usuário."
+    },
+    {
+      "id": "dev-q003",
+      "tema": "Tecnologias frontend",
+      "dificuldade": "facil",
+      "enunciado": "Quais tecnologias são citadas como exemplos de frontend?",
+      "alternativas": [
+        "HTML, CSS e JavaScript.",
+        "C#, SQL e banco de dados.",
+        "Docker, Kubernetes e Git.",
+        "SNMP, ICMP e Zabbix."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita HTML, CSS e JavaScript como tecnologias do frontend."
+    },
+    {
+      "id": "dev-q004",
+      "tema": "Backend",
+      "dificuldade": "facil",
+      "enunciado": "O backend está relacionado principalmente à:",
+      "alternativas": [
+        "Lógica e regras de negócio do sistema.",
+        "Apenas aparência da tela.",
+        "Somente escolha de cores.",
+        "Exclusivamente navegação do usuário."
+      ],
+      "correta": 0,
+      "explicacao": "Backend é a parte responsável pela lógica, pelo processamento e pelas regras de negócio."
+    },
+    {
+      "id": "dev-q005",
+      "tema": "Tecnologias backend",
+      "dificuldade": "facil",
+      "enunciado": "Quais exemplos são apresentados para o backend?",
+      "alternativas": [
+        "C# e banco de dados.",
+        "HTML e CSS.",
+        "JavaScript e imagens.",
+        "GitHub e Eclipse apenas."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita C# e banco de dados como exemplos relacionados ao backend."
+    },
+    {
+      "id": "dev-q006",
+      "tema": "Frontend e backend",
+      "dificuldade": "medio",
+      "enunciado": "Em um site de login, o formulário e a validação representam, respectivamente, elementos de:",
+      "alternativas": [
+        "Frontend e backend ou lógica de validação, conforme sua implementação.",
+        "Somente infraestrutura física.",
+        "Apenas banco de dados, sem interface.",
+        "Somente documentação do sistema."
+      ],
+      "correta": 0,
+      "explicacao": "O formulário pertence à interface do usuário; a validação envolve lógica do sistema e pode ser realizada no frontend, no backend ou em ambos. O exemplo do slide relaciona o site de login ao frontend e backend."
+    },
+    {
+      "id": "dev-q007",
+      "tema": "Variáveis",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a finalidade de uma variável?",
+      "alternativas": [
+        "Armazenar dados.",
+        "Executar necessariamente um laço.",
+        "Criar uma tela automaticamente.",
+        "Substituir o banco de dados em qualquer sistema."
+      ],
+      "correta": 0,
+      "explicacao": "Variáveis são espaços identificados usados para armazenar valores e dados durante a execução do programa."
+    },
+    {
+      "id": "dev-q008",
+      "tema": "Variáveis",
+      "dificuldade": "medio",
+      "enunciado": "No exemplo apresentado, qual alternativa utiliza nomes de variáveis mais claros?",
+      "alternativas": [
+        "nome = 'Maria' e idade = 20.",
+        "x = 'Maria' e y = 20.",
+        "a1 = 'Maria' e b2 = 20 sem contexto.",
+        "valor1 = 'Maria' e valor2 = 20 sempre."
+      ],
+      "correta": 0,
+      "explicacao": "Os nomes nome e idade são mais claros porque indicam o significado dos valores armazenados."
+    },
+    {
+      "id": "dev-q009",
+      "tema": "Condicionais",
+      "dificuldade": "facil",
+      "enunciado": "Qual estrutura é utilizada para tomar decisões condicionais?",
+      "alternativas": [
+        "if / else.",
+        "for / while.",
+        "print / input.",
+        "try / database."
+      ],
+      "correta": 0,
+      "explicacao": "As estruturas if e else permitem executar blocos diferentes conforme uma condição seja verdadeira ou falsa."
+    },
+    {
+      "id": "dev-q010",
+      "tema": "Laços",
+      "dificuldade": "facil",
+      "enunciado": "Quais estruturas são apresentadas como exemplos de laços?",
+      "alternativas": [
+        "for e while.",
+        "if e else.",
+        "HTML e CSS.",
+        "C# e SQL."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta for e while como estruturas de repetição ou laços."
+    },
+    {
+      "id": "dev-q011",
+      "tema": "Fluxo do sistema",
+      "dificuldade": "facil",
+      "enunciado": "Qual é o fluxo básico de um sistema apresentado na aula?",
+      "alternativas": [
+        "Entrada → Processamento → Saída.",
+        "Saída → Entrada → Processamento.",
+        "Processamento → Saída → Entrada.",
+        "Entrada → Saída → Banco de dados, sempre."
+      ],
+      "correta": 0,
+      "explicacao": "O fluxo básico apresentado é entrada, processamento e saída."
+    },
+    {
+      "id": "dev-q012",
+      "tema": "Fluxo do sistema",
+      "dificuldade": "medio",
+      "enunciado": "No exemplo de login, qual sequência representa corretamente o fluxo?",
+      "alternativas": [
+        "Usuário digita login → sistema valida → exibe mensagem.",
+        "Sistema exibe mensagem → usuário digita login → sistema valida.",
+        "Usuário recebe mensagem → sistema encerra → login é digitado.",
+        "Banco de dados exibe a tela → usuário instala o sistema."
+      ],
+      "correta": 0,
+      "explicacao": "O usuário fornece a entrada, o sistema processa e valida os dados e, por fim, apresenta uma mensagem."
+    },
+    {
+      "id": "dev-q013",
+      "tema": "Entrada",
+      "dificuldade": "facil",
+      "enunciado": "No fluxo de um sistema, a entrada corresponde:",
+      "alternativas": [
+        "Aos dados fornecidos ao sistema para serem processados.",
+        "Ao resultado final exibido.",
+        "Somente ao banco de dados.",
+        "À documentação do código."
+      ],
+      "correta": 0,
+      "explicacao": "Entrada é o dado ou comando recebido pelo sistema, como o usuário e a senha digitados."
+    },
+    {
+      "id": "dev-q014",
+      "tema": "Processamento",
+      "dificuldade": "facil",
+      "enunciado": "No fluxo de um sistema, o processamento corresponde:",
+      "alternativas": [
+        "À análise e aplicação das regras sobre a entrada recebida.",
+        "Apenas à digitação do usuário.",
+        "Somente à exibição de uma mensagem.",
+        "À escolha do editor de código."
+      ],
+      "correta": 0,
+      "explicacao": "Processamento é a etapa em que o sistema analisa os dados e executa a lógica definida."
+    },
+    {
+      "id": "dev-q015",
+      "tema": "Saída",
+      "dificuldade": "facil",
+      "enunciado": "No fluxo de um sistema, a saída é:",
+      "alternativas": [
+        "O resultado apresentado ao usuário ou a outro sistema.",
+        "Apenas a variável inicial.",
+        "O código ainda não executado.",
+        "A condição usada no if."
+      ],
+      "correta": 0,
+      "explicacao": "Saída é o resultado do processamento, como uma mensagem de sucesso ou de erro."
+    },
+    {
+      "id": "dev-q016",
+      "tema": "Ferramentas",
+      "dificuldade": "facil",
+      "enunciado": "Qual das opções aparece entre as ferramentas ilustradas no material?",
+      "alternativas": [
+        "JavaScript.",
+        "Somente radiocomunicação analógica.",
+        "Apenas sistemas de telefonia.",
+        "Exclusivamente planilhas impressas."
+      ],
+      "correta": 0,
+      "explicacao": "A apresentação ilustra ferramentas e tecnologias como JavaScript, Python, C#, PHP, React, Flutter, SQL Server, MongoDB, MySQL, Eclipse, Visual Studio e GitHub."
+    },
+    {
+      "id": "dev-q017",
+      "tema": "Exercício prático",
+      "dificuldade": "facil",
+      "enunciado": "Qual exercício prático foi proposto?",
+      "alternativas": [
+        "Testar o código JavaScript com diferentes valores de usuário e senha.",
+        "Configurar uma rede de rádio P25.",
+        "Criar um banco corporativo completo.",
+        "Instalar um cluster Kubernetes."
+      ],
+      "correta": 0,
+      "explicacao": "O exercício propõe testar o código JavaScript com diferentes valores de usuário e senha."
+    },
+    {
+      "id": "dev-q018",
+      "tema": "Mensagens de erro",
+      "dificuldade": "medio",
+      "enunciado": "Por que é recomendável utilizar mensagens de erro genéricas em um login?",
+      "alternativas": [
+        "Para não revelar se o usuário existe ou se apenas a senha está incorreta.",
+        "Para informar publicamente todos os dados da conta.",
+        "Para evitar qualquer validação.",
+        "Para impedir o usuário de corrigir os dados."
+      ],
+      "correta": 0,
+      "explicacao": "A mensagem genérica, como 'Usuário ou senha inválidos', evita revelar informações sobre a existência da conta."
+    },
+    {
+      "id": "dev-q019",
+      "tema": "Mensagens de erro",
+      "dificuldade": "facil",
+      "enunciado": "Qual mensagem é mais genérica e adequada para uma falha de login?",
+      "alternativas": [
+        "Usuário ou senha inválidos.",
+        "A senha está errada, mas o usuário existe.",
+        "O usuário João não existe.",
+        "A conta do usuário admin foi encontrada."
+      ],
+      "correta": 0,
+      "explicacao": "'Usuário ou senha inválidos' não revela qual dos dois dados falhou."
+    },
+    {
+      "id": "dev-q020",
+      "tema": "Organização de código",
+      "dificuldade": "facil",
+      "enunciado": "Uma boa prática de organização de código é:",
+      "alternativas": [
+        "Utilizar indentação para deixar a estrutura mais clara.",
+        "Escrever todo o código em uma única linha.",
+        "Omitir espaços e quebras de linha sempre.",
+        "Misturar funções sem separação."
+      ],
+      "correta": 0,
+      "explicacao": "A indentação facilita a leitura e evidencia a estrutura de blocos do código."
+    },
+    {
+      "id": "dev-q021",
+      "tema": "Nomes de variáveis",
+      "dificuldade": "facil",
+      "enunciado": "Por que utilizar nomes claros para variáveis?",
+      "alternativas": [
+        "Para tornar o código mais compreensível e facilitar sua manutenção.",
+        "Para aumentar obrigatoriamente a velocidade do programa.",
+        "Para eliminar a necessidade de comentários em qualquer situação.",
+        "Para impedir alterações no código."
+      ],
+      "correta": 0,
+      "explicacao": "Nomes claros comunicam a finalidade dos dados e facilitam a leitura e a manutenção do código."
+    },
+    {
+      "id": "dev-q022",
+      "tema": "Repetição de código",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a recomendação apresentada sobre repetição de código?",
+      "alternativas": [
+        "Evitar repetir código desnecessariamente.",
+        "Repetir o mesmo bloco sempre que possível.",
+        "Duplicar todas as regras em cada tela.",
+        "Copiar e colar código sem revisão."
+      ],
+      "correta": 0,
+      "explicacao": "Evitar repetição desnecessária torna o código mais organizado e reduz manutenção duplicada."
+    },
+    {
+      "id": "dev-q023",
+      "tema": "Laços e repetição",
+      "dificuldade": "medio",
+      "enunciado": "Qual recurso pode ser utilizado para evitar escrever manualmente a mesma instrução para vários nomes?",
+      "alternativas": [
+        "Um laço, como foreach ou for.",
+        "Uma mensagem de erro genérica.",
+        "Uma variável sem valor.",
+        "Apenas CSS."
+      ],
+      "correta": 0,
+      "explicacao": "Laços permitem repetir uma operação para vários elementos sem duplicar manualmente as mesmas instruções."
+    },
+    {
+      "id": "dev-q024",
+      "tema": "Exemplo de código",
+      "dificuldade": "medio",
+      "enunciado": "No exemplo com nomes, qual alternativa representa uma solução mais organizada?",
+      "alternativas": [
+        "Declarar uma lista de nomes e percorrê-la com foreach.",
+        "Escrever uma linha Console.WriteLine para cada pessoa sempre.",
+        "Criar uma variável diferente sem relação para cada linha.",
+        "Eliminar a variável que contém os nomes."
+      ],
+      "correta": 0,
+      "explicacao": "O exemplo mostra uma coleção de nomes percorrida com foreach, reduzindo repetição e facilitando a inclusão de novos nomes."
+    },
+    {
+      "id": "dev-q025",
+      "tema": "Revisão geral",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa apresenta corretamente o fluxo e uma boa prática do desenvolvimento de sistemas?",
+      "alternativas": [
+        "Entrada → Processamento → Saída; usar nomes claros e mensagens de erro genéricas.",
+        "Saída → Entrada → Processamento; revelar qual dado do login está errado.",
+        "Processamento → Saída → Entrada; repetir código desnecessariamente.",
+        "Entrada → Saída → Processamento; escrever código sem indentação."
+      ],
+      "correta": 0,
+      "explicacao": "O fluxo correto é entrada, processamento e saída, e o material recomenda nomes claros, mensagens genéricas, indentação e redução de repetição."
+    }
+  ],
+  "stories": [
+    {"id": "dev-s001", "ordem": 1, "titulo": "Desenvolvimento de Sistemas", "texto": "A aula apresenta conceitos básicos para entender como sistemas são construídos.", "destaque": "Do código ao sistema funcionando."},
+    {"id": "dev-s002", "ordem": 2, "titulo": "Frontend", "texto": "É a interface com o usuário.", "destaque": "HTML + CSS + JavaScript."},
+    {"id": "dev-s003", "ordem": 3, "titulo": "Backend", "texto": "É onde ficam a lógica e as regras de negócio.", "destaque": "C# + banco de dados, conforme o exemplo da aula."},
+    {"id": "dev-s004", "ordem": 4, "titulo": "Variáveis", "texto": "Armazenam dados durante a execução do programa.", "destaque": "Dê nomes que expliquem o conteúdo."},
+    {"id": "dev-s005", "ordem": 5, "titulo": "Condicionais", "texto": "if e else permitem tomar decisões no código.", "destaque": "Condição verdadeira ou falsa."},
+    {"id": "dev-s006", "ordem": 6, "titulo": "Laços", "texto": "for e while permitem repetir instruções.", "destaque": "Repetir sem duplicar código."},
+    {"id": "dev-s007", "ordem": 7, "titulo": "Fluxo do sistema", "texto": "Entrada → Processamento → Saída.", "destaque": "Dados entram, regras processam e resultado sai."},
+    {"id": "dev-s008", "ordem": 8, "titulo": "Exemplo de login", "texto": "O usuário digita login, o sistema valida e exibe uma mensagem.", "destaque": "Entrada → validação → resposta."},
+    {"id": "dev-s009", "ordem": 9, "titulo": "Ferramentas", "texto": "A aula ilustra JavaScript, Python, C#, PHP, React, Flutter, bancos, IDEs e GitHub.", "destaque": "Ferramenta depende da necessidade do projeto."},
+    {"id": "dev-s010", "ordem": 10, "titulo": "Exercício", "texto": "Teste o código JavaScript com diferentes valores de usuário e senha.", "destaque": "Teste cenários variados."},
+    {"id": "dev-s011", "ordem": 11, "titulo": "Erro genérico", "texto": "Prefira 'Usuário ou senha inválidos'.", "destaque": "Não revele se o usuário existe."},
+    {"id": "dev-s012", "ordem": 12, "titulo": "Indentação", "texto": "Organize o código com indentação.", "destaque": "Código legível é mais fácil de manter."},
+    {"id": "dev-s013", "ordem": 13, "titulo": "Nomes claros", "texto": "Use nome e idade em vez de x e y quando isso tornar o significado evidente.", "destaque": "Clareza reduz dúvidas."},
+    {"id": "dev-s014", "ordem": 14, "titulo": "Evite repetição", "texto": "Não repita código desnecessariamente.", "destaque": "Use funções, listas e laços quando adequado."},
+    {"id": "dev-s015", "ordem": 15, "titulo": "Frontend x Backend", "texto": "Frontend conversa com o usuário; backend executa lógica e regras.", "destaque": "Interface de um lado, processamento do outro."},
+    {"id": "dev-s016", "ordem": 16, "titulo": "Entrada", "texto": "São os dados fornecidos ao sistema.", "destaque": "Exemplo: usuário e senha digitados."},
+    {"id": "dev-s017", "ordem": 17, "titulo": "Processamento", "texto": "É a aplicação das regras sobre os dados recebidos.", "destaque": "Exemplo: validar credenciais."},
+    {"id": "dev-s018", "ordem": 18, "titulo": "Saída", "texto": "É o resultado apresentado pelo sistema.", "destaque": "Exemplo: mensagem de sucesso ou erro."},
+    {"id": "dev-s019", "ordem": 19, "titulo": "Boas práticas", "texto": "Mensagens genéricas, indentação, nomes claros e menos repetição.", "destaque": "Código simples de ler e manter."},
+    {"id": "dev-s020", "ordem": 20, "titulo": "Bizu final", "texto": "Um sistema recebe dados, processa regras e entrega uma saída.", "destaque": "Entrada → Processamento → Saída."}
+  ]
+}

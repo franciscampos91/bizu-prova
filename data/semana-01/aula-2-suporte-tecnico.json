@@ -1,0 +1,601 @@
+{
+  "id": "aula-2-suporte-tecnico",
+  "nome": "Suporte Técnico ao SRDC P25",
+  "sigla": "SUPORTE-SRDC-P25",
+  "semana": 2,
+  "tipo": "quiz",
+  "descricao": "Contrato, suporte técnico, SLA, sistemas suportados, monitoramento, cibersegurança e Central de Serviços TIC do SRDC P25.",
+  "objetivo": "Compreender o modelo de sustentação técnica do SRDC P25, as severidades, os prazos de SLA, os sistemas envolvidos e o fluxo de atendimento de incidentes.",
+  "fonte": "Aula-2-Suporte-Tecnico.pdf",
+  "observacao": "Questões elaboradas com base no material fornecido. Os prazos de SLA e os dados contratuais devem ser estudados conforme a tabela apresentada na aula.",
+  "palavrasChave": [
+    "SRDC P25",
+    "suporte técnico",
+    "Contrato DTIC 009/183/2025",
+    "SLA",
+    "KMF",
+    "KVL",
+    "Zabbix",
+    "SNMP",
+    "ICMP",
+    "cibersegurança",
+    "SIEM",
+    "SOAR",
+    "Central de Serviços TIC",
+    "IMR"
+  ],
+  "questoes": [
+    {
+      "id": "sup-q001",
+      "tema": "Objeto do contrato",
+      "dificuldade": "facil",
+      "enunciado": "Qual é o objeto principal do contrato apresentado na aula?",
+      "alternativas": [
+        "A sustentação técnica do Sistema de Radiocomunicação Digital Crítica SRDC APCO 25.",
+        "A aquisição exclusiva de rádios pessoais.",
+        "A criação de um novo sistema de folha de pagamento.",
+        "A manutenção somente de computadores administrativos."
+      ],
+      "correta": 0,
+      "explicacao": "O contrato tem como objeto principal a sustentação técnica do SRDC APCO 25."
+    },
+    {
+      "id": "sup-q002",
+      "tema": "Regime de suporte",
+      "dificuldade": "facil",
+      "enunciado": "O suporte técnico especializado do SRDC funciona em regime:",
+      "alternativas": ["8x5.", "12x6.", "24x7.", "Somente em horário comercial."],
+      "correta": 2,
+      "explicacao": "O material indica suporte técnico especializado em regime 24x7."
+    },
+    {
+      "id": "sup-q003",
+      "tema": "Manutenção",
+      "dificuldade": "facil",
+      "enunciado": "A manutenção prevista no contrato pode ser:",
+      "alternativas": [
+        "Preventiva e corretiva.",
+        "Somente corretiva.",
+        "Somente preventiva.",
+        "Apenas administrativa."
+      ],
+      "correta": 0,
+      "explicacao": "O contrato contempla manutenção preventiva e corretiva, conforme planejamento e cronograma."
+    },
+    {
+      "id": "sup-q004",
+      "tema": "Atendimento técnico",
+      "dificuldade": "medio",
+      "enunciado": "O atendimento técnico pode ocorrer de forma:",
+      "alternativas": [
+        "Remota, sistêmica e presencial em campo.",
+        "Somente por e-mail.",
+        "Exclusivamente presencial na sede.",
+        "Apenas por atendimento automatizado."
+      ],
+      "correta": 0,
+      "explicacao": "O material prevê atendimento remoto, sistêmico e presencial em campo."
+    },
+    {
+      "id": "sup-q005",
+      "tema": "Escopo do suporte",
+      "dificuldade": "medio",
+      "enunciado": "Entre as atividades do suporte estão o monitoramento de:",
+      "alternativas": [
+        "Rede, sites, enlaces, consoles e sistemas.",
+        "Somente rádios desligados.",
+        "Apenas documentos administrativos.",
+        "Exclusivamente redes sociais externas."
+      ],
+      "correta": 0,
+      "explicacao": "O suporte monitora a rede, os sites, os enlaces, as consoles e os sistemas relacionados ao SRDC."
+    },
+    {
+      "id": "sup-q006",
+      "tema": "Continuidade operacional",
+      "dificuldade": "facil",
+      "enunciado": "Um objetivo do suporte técnico é garantir:",
+      "alternativas": [
+        "A continuidade operacional da rede P25.",
+        "A interrupção programada de todas as comunicações.",
+        "Somente a troca de senhas dos usuários.",
+        "A eliminação do monitoramento."
+      ],
+      "correta": 0,
+      "explicacao": "O contrato busca garantir a continuidade operacional da rede P25."
+    },
+    {
+      "id": "sup-q007",
+      "tema": "Inovações contratuais",
+      "dificuldade": "medio",
+      "enunciado": "Uma inovação em relação ao contrato anterior foi:",
+      "alternativas": [
+        "A ampliação do escopo, de manutenção da rede para sustentação sistêmica do SRDC.",
+        "A eliminação do monitoramento.",
+        "A retirada dos sistemas de criptografia.",
+        "A redução do suporte para horário comercial."
+      ],
+      "correta": 0,
+      "explicacao": "O novo contrato ampliou o escopo de manutenção da rede para sustentação sistêmica do SRDC."
+    },
+    {
+      "id": "sup-q008",
+      "tema": "SLA",
+      "dificuldade": "facil",
+      "enunciado": "A sigla SLA significa:",
+      "alternativas": [
+        "Service Level Agreement — Acordo de Nível de Serviço.",
+        "System Local Access — Acesso Local do Sistema.",
+        "Secure Link Authorization — Autorização de Link Seguro.",
+        "Service License Administration — Administração de Licenças."
+      ],
+      "correta": 0,
+      "explicacao": "SLA significa Service Level Agreement, traduzido como Acordo de Nível de Serviço."
+    },
+    {
+      "id": "sup-q009",
+      "tema": "SLA",
+      "dificuldade": "medio",
+      "enunciado": "O SLA estabelece prazos conforme:",
+      "alternativas": [
+        "A criticidade e o impacto operacional da falha.",
+        "A preferência pessoal do usuário.",
+        "O tamanho do equipamento בלבד.",
+        "A quantidade de mensagens recebidas."
+      ],
+      "correta": 0,
+      "explicacao": "O prazo contratual de atendimento e solução varia conforme a severidade, a criticidade e o impacto operacional da falha."
+    },
+    {
+      "id": "sup-q010",
+      "tema": "Severidade S1",
+      "dificuldade": "facil",
+      "enunciado": "A severidade S1 corresponde a:",
+      "alternativas": [
+        "Falha crítica com interrupção total.",
+        "Falha parcial sem degradação.",
+        "Falha menor sem impacto crítico.",
+        "Solicitação administrativa sem urgência."
+      ],
+      "correta": 0,
+      "explicacao": "Na tabela apresentada, S1 é falha crítica com interrupção total."
+    },
+    {
+      "id": "sup-q011",
+      "tema": "Severidade S2",
+      "dificuldade": "facil",
+      "enunciado": "A severidade S2 corresponde a:",
+      "alternativas": [
+        "Falha parcial com degradação relevante.",
+        "Interrupção total obrigatoriamente.",
+        "Falha sem qualquer impacto.",
+        "Pedido de melhoria sem falha."
+      ],
+      "correta": 0,
+      "explicacao": "S2 é descrita como falha parcial com degradação relevante."
+    },
+    {
+      "id": "sup-q012",
+      "tema": "Severidade S3",
+      "dificuldade": "facil",
+      "enunciado": "A severidade S3 corresponde a:",
+      "alternativas": [
+        "Falha menor sem impacto crítico.",
+        "Interrupção total do sistema.",
+        "Falha parcial com degradação relevante.",
+        "Emergência com risco imediato à vida."
+      ],
+      "correta": 0,
+      "explicacao": "S3 é classificada como falha menor sem impacto crítico."
+    },
+    {
+      "id": "sup-q013",
+      "tema": "SLA A",
+      "dificuldade": "dificil",
+      "enunciado": "Na tabela do material, para S1 com SLA A, o prazo de atendimento e resolução é, respectivamente:",
+      "alternativas": [
+        "2 horas e 4 horas.",
+        "4 horas e 8 horas.",
+        "6 horas e 8 horas.",
+        "8 horas e 24 horas."
+      ],
+      "correta": 0,
+      "explicacao": "Para S1 no SLA A, a tabela apresenta atendimento em 2 horas e resolução em 4 horas."
+    },
+    {
+      "id": "sup-q014",
+      "tema": "SLA B",
+      "dificuldade": "dificil",
+      "enunciado": "Na tabela do material, para S1 com SLA B, o prazo de atendimento e resolução é, respectivamente:",
+      "alternativas": [
+        "2 horas e 4 horas.",
+        "4 horas e 6 horas.",
+        "6 horas e 12 horas.",
+        "8 horas e 16 horas."
+      ],
+      "correta": 1,
+      "explicacao": "Para S1 no SLA B, a tabela apresenta atendimento em 4 horas e resolução em 6 horas."
+    },
+    {
+      "id": "sup-q015",
+      "tema": "SLA C",
+      "dificuldade": "dificil",
+      "enunciado": "Na tabela do material, para S1 com SLA C, o prazo de atendimento e resolução é, respectivamente:",
+      "alternativas": [
+        "4 horas e 6 horas.",
+        "6 horas e 8 horas.",
+        "8 horas e 24 horas.",
+        "12 horas e 24 horas."
+      ],
+      "correta": 1,
+      "explicacao": "Para S1 no SLA C, a tabela apresenta atendimento em 6 horas e resolução em 8 horas."
+    },
+    {
+      "id": "sup-q016",
+      "tema": "KMF",
+      "dificuldade": "facil",
+      "enunciado": "O KMF — Key Management Facility — é o sistema central de gestão de:",
+      "alternativas": [
+        "Chaves criptográficas.",
+        "Licenças de software somente.",
+        "Chamados administrativos.",
+        "Imagens de câmeras."
+      ],
+      "correta": 0,
+      "explicacao": "O KMF é o sistema central de gestão de chaves criptográficas."
+    },
+    {
+      "id": "sup-q017",
+      "tema": "KMF e OTAR",
+      "dificuldade": "medio",
+      "enunciado": "O KMF apoia principalmente:",
+      "alternativas": [
+        "OTAR e a integração com KVLs.",
+        "Somente a impressão de relatórios.",
+        "Apenas o controle de frequência escolar.",
+        "Exclusivamente a gestão de patrimônio."
+      ],
+      "correta": 0,
+      "explicacao": "O material relaciona o KMF ao apoio ao OTAR e à integração com KVLs."
+    },
+    {
+      "id": "sup-q018",
+      "tema": "KVL",
+      "dificuldade": "facil",
+      "enunciado": "KVL significa:",
+      "alternativas": [
+        "Key Variable Loader.",
+        "Key Virtual Link.",
+        "Knowledge Validation Layer.",
+        "Kernel Variable License."
+      ],
+      "correta": 0,
+      "explicacao": "KVL significa Key Variable Loader."
+    },
+    {
+      "id": "sup-q019",
+      "tema": "KVL",
+      "dificuldade": "medio",
+      "enunciado": "A função do KVL apresentada na aula é:",
+      "alternativas": [
+        "Transportar ou carregar chaves criptográficas nos rádios.",
+        "Monitorar exclusivamente a disponibilidade dos sites.",
+        "Gerenciar somente licenças de usuários.",
+        "Criar talkgroups automaticamente."
+      ],
+      "correta": 0,
+      "explicacao": "O KVL é utilizado para transporte ou carregamento de chaves criptográficas nos rádios."
+    },
+    {
+      "id": "sup-q020",
+      "tema": "KVL e Store & Forward",
+      "dificuldade": "dificil",
+      "enunciado": "Na PMESP, o KVL funciona, conforme o material, apenas no modo:",
+      "alternativas": [
+        "Store & Forward.",
+        "Full Broadcast.",
+        "Direct Streaming.",
+        "Cloud Native."
+      ],
+      "correta": 0,
+      "explicacao": "O material informa que, na PMESP, o KVL funciona apenas no modo Store & Forward."
+    },
+    {
+      "id": "sup-q021",
+      "tema": "Motorola Radio Management",
+      "dificuldade": "medio",
+      "enunciado": "O Motorola Radio Management é utilizado para:",
+      "alternativas": [
+        "Gestão de frota, programação, firmware, licenças, IDs e parâmetros operacionais.",
+        "Somente criptografar mensagens.",
+        "Apenas registrar chamados na Central.",
+        "Gerenciar exclusivamente os containers do NOC."
+      ],
+      "correta": 0,
+      "explicacao": "O sistema apoia a gestão da frota e itens como programação, firmware, licenças, IDs, aliases e parâmetros operacionais."
+    },
+    {
+      "id": "sup-q022",
+      "tema": "Zabbix",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a principal ferramenta de monitoramento do NOC apresentada na aula?",
+      "alternativas": ["Zabbix.", "KVL.", "Docker.", "DVS."],
+      "correta": 0,
+      "explicacao": "O material identifica o Zabbix como principal ferramenta de monitoramento do NOC."
+    },
+    {
+      "id": "sup-q023",
+      "tema": "Zabbix",
+      "dificuldade": "medio",
+      "enunciado": "O Zabbix realiza monitoramento e pode gerar alertas por:",
+      "alternativas": [
+        "SNMP e ICMP.",
+        "Somente e-mail pessoal.",
+        "Apenas KVL e OTAR.",
+        "Exclusivamente chamadas de voz."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita monitoramento contínuo e alertas por SNMP e ICMP."
+    },
+    {
+      "id": "sup-q024",
+      "tema": "Zabbix e incidentes",
+      "dificuldade": "medio",
+      "enunciado": "Os incidentes monitorados devem ser registrados na:",
+      "alternativas": [
+        "Central de Serviços TIC.",
+        "Caixa de e-mail pessoal.",
+        "Rede social institucional.",
+        "Planilha local sem acompanhamento."
+      ],
+      "correta": 0,
+      "explicacao": "O fluxo apresentado inclui o registro dos incidentes na Central de Serviços TIC, com escalonamento e acompanhamento até o encerramento."
+    },
+    {
+      "id": "sup-q025",
+      "tema": "NM Client",
+      "dificuldade": "medio",
+      "enunciado": "O NM Client contém aplicações que interagem diretamente com o:",
+      "alternativas": [
+        "Sistema ASTRO 25.",
+        "Sistema de folha de pagamento.",
+        "Servidor de e-mail pessoal.",
+        "Sistema de controle patrimonial."
+      ],
+      "correta": 0,
+      "explicacao": "O material informa que o NM Client contém aplicações que interagem diretamente com o Sistema ASTRO 25."
+    },
+    {
+      "id": "sup-q026",
+      "tema": "NM Client",
+      "dificuldade": "medio",
+      "enunciado": "Qual conjunto contém aplicações citadas como parte do NM Client?",
+      "alternativas": [
+        "Provisioning Manager, Radio Control Manager e ZoneWatch.",
+        "Zabbix, Docker e Kubernetes.",
+        "KMF, KVL e OTAR somente.",
+        "SIEM, SOAR e OWASP."
+      ],
+      "correta": 0,
+      "explicacao": "O material lista Provisioning Manager, Radio Control Manager e ZoneWatch."
+    },
+    {
+      "id": "sup-q027",
+      "tema": "Cibersegurança",
+      "dificuldade": "facil",
+      "enunciado": "Os serviços de cibersegurança buscam proteger:",
+      "alternativas": [
+        "O ambiente técnico do SRDC.",
+        "Somente os telefones pessoais.",
+        "Apenas documentos impressos.",
+        "Exclusivamente os rádios fora da rede."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta a proteção do ambiente técnico do SRDC como objetivo dos serviços de cibersegurança."
+    },
+    {
+      "id": "sup-q028",
+      "tema": "Cibersegurança",
+      "dificuldade": "medio",
+      "enunciado": "Entre os serviços de cibersegurança citados estão:",
+      "alternativas": [
+        "Correção de vulnerabilidades e atualização de softwares, firmwares e sistemas.",
+        "Compartilhamento de senhas e abertura de acessos.",
+        "Desativação de controles de segurança.",
+        "Exclusão de registros de incidentes."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita correção de vulnerabilidades e atualização de softwares, firmwares e sistemas."
+    },
+    {
+      "id": "sup-q029",
+      "tema": "SIEM e SOAR",
+      "dificuldade": "dificil",
+      "enunciado": "Qual associação está correta?",
+      "alternativas": [
+        "SIEM — monitoramento, correlação e registro; SOAR — resposta, fluxo e automação.",
+        "SIEM — carregamento de chaves; SOAR — programação de rádios.",
+        "SIEM — armazenamento local; SOAR — criação de telas.",
+        "SIEM e SOAR são exclusivamente padrões de comunicação de rádio."
+      ],
+      "correta": 0,
+      "explicacao": "O material associa SIEM a monitoramento, correlação e registro; e SOAR a resposta, fluxo e automação."
+    },
+    {
+      "id": "sup-q030",
+      "tema": "Central de Serviços",
+      "dificuldade": "facil",
+      "enunciado": "A Central de Serviços TIC é:",
+      "alternativas": [
+        "O ponto de entrada de todos os serviços de TIC.",
+        "Um sistema usado somente para criptografia.",
+        "Um canal exclusivo para a contratada.",
+        "Uma ferramenta de programação de rádios."
+      ],
+      "correta": 0,
+      "explicacao": "A Central de Serviços TIC é apresentada como ponto de entrada de todos os serviços de TIC."
+    },
+    {
+      "id": "sup-q031",
+      "tema": "Central de Serviços",
+      "dificuldade": "facil",
+      "enunciado": "Quais canais de atendimento da Central de Serviços TIC são citados?",
+      "alternativas": [
+        "0800-738-0190, webchat online e autoatendimento na Intranet.",
+        "Somente aplicativo de mensagens pessoal.",
+        "Apenas comunicação por rádio.",
+        "Exclusivamente atendimento presencial."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita 0800-738-0190, webchat online e autoatendimento pelo site da DTIC na Intranet."
+    },
+    {
+      "id": "sup-q032",
+      "tema": "Acionamento do suporte",
+      "dificuldade": "medio",
+      "enunciado": "O suporte técnico especializado deve ser acionado quando a falha exigir:",
+      "alternativas": [
+        "Análise, diagnóstico ou intervenção técnica.",
+        "Somente uma reclamação informal.",
+        "Apenas impacto em todo o Estado.",
+        "Necessariamente uma interrupção total."
+      ],
+      "correta": 0,
+      "explicacao": "O suporte deve ser acionado quando houver necessidade de análise, diagnóstico ou intervenção técnica, sem precisar aguardar uma falha generalizada."
+    },
+    {
+      "id": "sup-q033",
+      "tema": "Falhas intermitentes",
+      "dificuldade": "facil",
+      "enunciado": "Falhas intermitentes devem ser:",
+      "alternativas": [
+        "Registradas e acompanhadas.",
+        "Ignoradas até se tornarem permanentes.",
+        "Comunicadas somente informalmente.",
+        "Eliminadas dos registros para evitar indicadores."
+      ],
+      "correta": 0,
+      "explicacao": "O material determina que falhas intermitentes também sejam registradas e acompanhadas."
+    },
+    {
+      "id": "sup-q034",
+      "tema": "Manutenção preventiva",
+      "dificuldade": "medio",
+      "enunciado": "A manutenção preventiva:",
+      "alternativas": [
+        "É planejada, segue cronograma e não depende de reclamação dos usuários.",
+        "Somente ocorre depois de uma falha.",
+        "Substitui obrigatoriamente a manutenção corretiva.",
+        "Não precisa ser registrada."
+      ],
+      "correta": 0,
+      "explicacao": "A manutenção preventiva é planejada, segue cronograma e não depende de reclamação."
+    },
+    {
+      "id": "sup-q035",
+      "tema": "Preventiva e corretiva",
+      "dificuldade": "medio",
+      "enunciado": "A manutenção preventiva substitui a manutenção corretiva?",
+      "alternativas": [
+        "Não. Se houver falha, deve haver atendimento corretivo.",
+        "Sim, em qualquer situação.",
+        "Sim, quando a falha for intermitente.",
+        "Somente em sites críticos."
+      ],
+      "correta": 0,
+      "explicacao": "O material afirma que a preventiva não substitui a corretiva; se houver falha, é necessário atendimento corretivo."
+    },
+    {
+      "id": "sup-q036",
+      "tema": "Relatório técnico",
+      "dificuldade": "facil",
+      "enunciado": "Toda intervenção relevante deve gerar:",
+      "alternativas": [
+        "Relatório técnico.",
+        "Somente uma mensagem informal.",
+        "Apenas uma fotografia.",
+        "Um novo contrato."
+      ],
+      "correta": 0,
+      "explicacao": "Toda intervenção relevante deve gerar relatório técnico."
+    },
+    {
+      "id": "sup-q037",
+      "tema": "Relatório técnico",
+      "dificuldade": "medio",
+      "enunciado": "O relatório técnico permite:",
+      "alternativas": [
+        "Histórico, fiscalização, comprovação do serviço e acompanhamento da solução.",
+        "Somente encerrar o chamado sem análise.",
+        "Excluir a necessidade de SLA.",
+        "Evitar qualquer registro formal."
+      ],
+      "correta": 0,
+      "explicacao": "O relatório fornece histórico, auxilia na fiscalização e comprova o serviço e o acompanhamento da solução."
+    },
+    {
+      "id": "sup-q038",
+      "tema": "NOC",
+      "dificuldade": "facil",
+      "enunciado": "No fluxo de suporte, o NOC monitora, registra, acompanha e:",
+      "alternativas": [
+        "Escala chamados quando necessário.",
+        "Apaga os incidentes encerrados.",
+        "Substitui a Central de Serviços em qualquer situação.",
+        "Autoriza toda compra de equipamentos."
+      ],
+      "correta": 0,
+      "explicacao": "O NOC monitora, registra, acompanha e escala chamados quando necessário."
+    },
+    {
+      "id": "sup-q039",
+      "tema": "Chamado bem registrado",
+      "dificuldade": "medio",
+      "enunciado": "Um chamado bem registrado facilita:",
+      "alternativas": [
+        "Diagnóstico, escalonamento, cobrança de SLA e medição pelo IMR.",
+        "Somente a comunicação informal.",
+        "A eliminação de relatórios.",
+        "O bloqueio de todos os sistemas."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca que um bom registro facilita diagnóstico, escalonamento, cobrança de SLA e medição pelo IMR."
+    },
+    {
+      "id": "sup-q040",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa melhor resume o suporte ao SRDC P25?",
+      "alternativas": [
+        "Monitoramento contínuo, atendimento conforme criticidade, manutenção preventiva e corretiva, segurança e rastreabilidade.",
+        "Atendimento somente após falha generalizada e sem registro.",
+        "Manutenção apenas dos rádios, sem sistemas ou infraestrutura.",
+        "Suporte informal sem prazos ou acompanhamento."
+      ],
+      "correta": 0,
+      "explicacao": "O suporte envolve sustentação sistêmica, monitoramento, SLA, manutenção, cibersegurança, registros e acompanhamento até a solução."
+    }
+  ],
+  "stories": [
+    {"id": "sup-s001", "ordem": 1, "titulo": "Objeto do contrato", "texto": "Sustentação técnica do SRDC APCO 25.", "destaque": "Suporte especializado 24x7."},
+    {"id": "sup-s002", "ordem": 2, "titulo": "Manutenção", "texto": "Existe manutenção preventiva e corretiva.", "destaque": "Preventiva segue cronograma; corretiva atende falhas."},
+    {"id": "sup-s003", "ordem": 3, "titulo": "SLA", "texto": "Acordo de Nível de Serviço com prazos conforme criticidade e impacto.", "destaque": "Severidade define prioridade."},
+    {"id": "sup-s004", "ordem": 4, "titulo": "S1", "texto": "Falha crítica com interrupção total.", "destaque": "Maior severidade."},
+    {"id": "sup-s005", "ordem": 5, "titulo": "S2", "texto": "Falha parcial com degradação relevante.", "destaque": "Impacto relevante, mas não necessariamente total."},
+    {"id": "sup-s006", "ordem": 6, "titulo": "S3", "texto": "Falha menor sem impacto crítico.", "destaque": "Menor severidade."},
+    {"id": "sup-s007", "ordem": 7, "titulo": "KMF", "texto": "Key Management Facility: gestão central de chaves criptográficas.", "destaque": "Apoia OTAR e KVLs."},
+    {"id": "sup-s008", "ordem": 8, "titulo": "KVL", "texto": "Key Variable Loader: transporta ou carrega chaves criptográficas nos rádios.", "destaque": "Na PMESP, funciona em Store & Forward."},
+    {"id": "sup-s009", "ordem": 9, "titulo": "Radio Management", "texto": "Gerencia frota, programação, firmware, licenças, IDs e parâmetros.", "destaque": "Gestão dos rádios."},
+    {"id": "sup-s010", "ordem": 10, "titulo": "Zabbix", "texto": "Principal ferramenta de monitoramento do NOC.", "destaque": "Alertas SNMP e ICMP."},
+    {"id": "sup-s011", "ordem": 11, "titulo": "NM Client", "texto": "Contém aplicações que interagem diretamente com o Sistema ASTRO 25.", "destaque": "Provisioning Manager, Radio Control Manager e ZoneWatch."},
+    {"id": "sup-s012", "ordem": 12, "titulo": "Cibersegurança", "texto": "Protege o ambiente técnico, corrige vulnerabilidades e atualiza sistemas.", "destaque": "Reduz risco de acesso indevido e indisponibilidade."},
+    {"id": "sup-s013", "ordem": 13, "titulo": "SIEM", "texto": "Monitoramento, correlação e registro de eventos.", "destaque": "Visibilidade e análise."},
+    {"id": "sup-s014", "ordem": 14, "titulo": "SOAR", "texto": "Resposta, fluxo e automação de ações de segurança.", "destaque": "Automatiza resposta."},
+    {"id": "sup-s015", "ordem": 15, "titulo": "Central de Serviços", "texto": "É o ponto de entrada de todos os serviços de TIC.", "destaque": "0800, webchat e autoatendimento."},
+    {"id": "sup-s016", "ordem": 16, "titulo": "Falha intermitente", "texto": "Também deve ser registrada e acompanhada.", "destaque": "Não espere a falha piorar."},
+    {"id": "sup-s017", "ordem": 17, "titulo": "Preventiva", "texto": "É planejada e segue cronograma.", "destaque": "Não depende de reclamação."},
+    {"id": "sup-s018", "ordem": 18, "titulo": "Relatório", "texto": "Toda intervenção relevante deve gerar relatório técnico.", "destaque": "Histórico e fiscalização."},
+    {"id": "sup-s019", "ordem": 19, "titulo": "NOC", "texto": "Monitora, registra, acompanha e escala chamados.", "destaque": "Do alarme à ação."},
+    {"id": "sup-s020", "ordem": 20, "titulo": "Bizu final", "texto": "Chamado bem registrado facilita diagnóstico, SLA e medição pelo IMR.", "destaque": "Registrar bem é parte do suporte."}
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "id": "elaboracao-home-page",
+  "nome": "Elaboração de Home Page",
+  "sigla": "HOME-PAGE",
+  "semana": 2,
+  "tipo": "quiz",
+  "descricao": "Solicitação de acesso ao ambiente WWW9/Kubernetes, criação de páginas da Intranet, WordPress e conceitos de CI/CD.",
+  "objetivo": "Conhecer os passos institucionais para solicitar acesso, publicar uma Home Page e compreender os riscos e benefícios da automação CI/CD.",
+  "fonte": "Elaboração de Home Page_260522_091933.pdf",
+  "observacao": "O PDF contém páginas práticas e imagens com instruções visuais. As questões foram elaboradas com base no texto extraído e nos conceitos identificáveis do material.",
+  "palavrasChave": [
+    "Home Page",
+    "Intranet",
+    "WWW9",
+    "Kubernetes",
+    "SODC",
+    "SNP",
+    "WordPress",
+    "Elementor",
+    "CI/CD",
+    "pipeline",
+    "rollback",
+    "rastreabilidade"
+  ],
+  "questoes": [
+    {
+      "id": "home-q001",
+      "tema": "Ambiente de publicação",
+      "dificuldade": "facil",
+      "enunciado": "Para criação de páginas da Intranet, o material indica a solicitação de usuário e acesso ao ambiente:",
+      "alternativas": [
+        "WWW9, baseado em Kubernetes.",
+        "Somente GitHub Pages público.",
+        "Apenas computador pessoal.",
+        "Exclusivamente rede social externa."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta o ambiente WWW9 (Kubernetes) como infraestrutura para criação de páginas da Intranet."
+    },
+    {
+      "id": "home-q002",
+      "tema": "Formalização da solicitação",
+      "dificuldade": "facil",
+      "enunciado": "Quem deve formalizar a solicitação de acesso para criação da Home Page?",
+      "alternativas": [
+        "A OPM, como Batalhão ou CPA.",
+        "Qualquer usuário externo.",
+        "Somente o visitante da página.",
+        "A empresa de hospedagem pública."
+      ],
+      "correta": 0,
+      "explicacao": "A OPM solicitante, indicada no material como Batalhão ou CPA, deve formalizar a solicitação."
+    },
+    {
+      "id": "home-q003",
+      "tema": "Central de Serviços",
+      "dificuldade": "facil",
+      "enunciado": "Uma forma de formalizar a solicitação é por meio de:",
+      "alternativas": [
+        "Abertura de chamado na Central de Serviços de TIC.",
+        "Publicação imediata em rede social.",
+        "Mensagem em grupo pessoal sem registro.",
+        "Instalação direta sem autorização."
+      ],
+      "correta": 0,
+      "explicacao": "O material indica a abertura de chamado na Central de Serviços de TIC, pelo 0800, como uma das formas de solicitação."
+    },
+    {
+      "id": "home-q004",
+      "tema": "Solicitação por e-mail",
+      "dificuldade": "medio",
+      "enunciado": "Outra forma indicada para formalizar a solicitação é o envio de e-mail institucional de qual setor para a SODC?",
+      "alternativas": [
+        "Seção Telemática ou P4.",
+        "Seção de Comunicação Social externa somente.",
+        "Qualquer policial sem designação.",
+        "Setor financeiro da unidade."
+      ],
+      "correta": 0,
+      "explicacao": "A solicitação também pode ser feita por e-mail institucional da Seção Telemática ou do P4 para a Seção de Operação de Data Center."
+    },
+    {
+      "id": "home-q005",
+      "tema": "SODC",
+      "dificuldade": "facil",
+      "enunciado": "A sigla SODC corresponde à:",
+      "alternativas": [
+        "Seção de Operação de Data Center.",
+        "Seção Operacional de Desenvolvimento de Código.",
+        "Supervisão de Operações de Dados Corporativos.",
+        "Seção de Organização de Documentos de Comunicação."
+      ],
+      "correta": 0,
+      "explicacao": "SODC significa Seção de Operação de Data Center."
+    },
+    {
+      "id": "home-q006",
+      "tema": "Documentação SNP",
+      "dificuldade": "facil",
+      "enunciado": "O que a SODC envia à unidade solicitante após a formalização?",
+      "alternativas": [
+        "A documentação SNP — Serviço de Nuvem Privada.",
+        "Somente uma senha pessoal.",
+        "Um contrato de telefonia móvel.",
+        "Um arquivo de imagem sem instruções."
+      ],
+      "correta": 0,
+      "explicacao": "A SODC envia a documentação SNP, referente ao Serviço de Nuvem Privada."
+    },
+    {
+      "id": "home-q007",
+      "tema": "Documentação SNP",
+      "dificuldade": "medio",
+      "enunciado": "A documentação SNP deve ser:",
+      "alternativas": [
+        "Preenchida pelo Oficial de Telemática ou responsável, assinada, digitalizada e devolvida por e-mail institucional.",
+        "Preenchida anonimamente e publicada em rede social.",
+        "Enviada sem assinatura e sem identificação.",
+        "Preenchida somente pela empresa contratada."
+      ],
+      "correta": 0,
+      "explicacao": "O fluxo indicado exige preenchimento pelo responsável, assinatura, digitalização e devolução por e-mail institucional."
+    },
+    {
+      "id": "home-q008",
+      "tema": "Informações obrigatórias",
+      "dificuldade": "facil",
+      "enunciado": "Qual informação deve constar na documentação SNP?",
+      "alternativas": [
+        "Nome da unidade solicitante.",
+        "Somente o nome do visitante.",
+        "A senha do usuário pessoal.",
+        "A lista de redes sociais do setor."
+      ],
+      "correta": 0,
+      "explicacao": "O nome da unidade solicitante é uma das informações obrigatórias."
+    },
+    {
+      "id": "home-q009",
+      "tema": "Informações obrigatórias",
+      "dificuldade": "medio",
+      "enunciado": "Além do nome da unidade, a documentação deve indicar:",
+      "alternativas": [
+        "Contatos do Oficial e do Auxiliar de Telemática.",
+        "Somente contatos pessoais de visitantes.",
+        "Apenas o nome do provedor de Internet doméstico.",
+        "Exclusivamente a senha do servidor."
+      ],
+      "correta": 0,
+      "explicacao": "A documentação deve conter os contatos dos responsáveis, incluindo o Oficial e o Auxiliar de Telemática."
+    },
+    {
+      "id": "home-q010",
+      "tema": "Informações obrigatórias",
+      "dificuldade": "medio",
+      "enunciado": "Qual dado técnico do responsável pelo desenvolvimento deve constar na documentação?",
+      "alternativas": [
+        "Endereço ou endereços IP.",
+        "Somente o modelo do celular.",
+        "A senha do e-mail pessoal.",
+        "O número de seguidores da unidade."
+      ],
+      "correta": 0,
+      "explicacao": "O material exige o endereço ou os endereços IP do responsável pelo desenvolvimento da página."
+    },
+    {
+      "id": "home-q011",
+      "tema": "WordPress",
+      "dificuldade": "facil",
+      "enunciado": "O material apresenta etapas relacionadas à instalação de qual plataforma?",
+      "alternativas": [
+        "WordPress.",
+        "Kubernetes somente.",
+        "Microsoft SQL Server apenas.",
+        "React Native exclusivamente."
+      ],
+      "correta": 0,
+      "explicacao": "O material possui uma sequência de páginas sobre a instalação do WordPress."
+    },
+    {
+      "id": "home-q012",
+      "tema": "Plugins",
+      "dificuldade": "facil",
+      "enunciado": "Quais plugins são citados no material?",
+      "alternativas": [
+        "Elementor e WPvivid Backup.",
+        "Zabbix e SNMP.",
+        "KMF e KVL.",
+        "Docker e Kubernetes."
+      ],
+      "correta": 0,
+      "explicacao": "O material indica a instalação dos plugins Elementor e WPvivid Backup."
+    },
+    {
+      "id": "home-q013",
+      "tema": "Elementor",
+      "dificuldade": "facil",
+      "enunciado": "O Elementor é apresentado no material em relação à:",
+      "alternativas": [
+        "Demonstração de instalação de template e uso na elaboração da página.",
+        "Gestão de chaves criptográficas.",
+        "Monitoração de rede pelo NOC.",
+        "Configuração de talkgroups."
+      ],
+      "correta": 0,
+      "explicacao": "O material demonstra a instalação de template e o uso do Elementor na construção da Home Page."
+    },
+    {
+      "id": "home-q014",
+      "tema": "Publicação manual",
+      "dificuldade": "facil",
+      "enunciado": "Como funciona o modelo de publicação manual apresentado?",
+      "alternativas": [
+        "Alterações são copiadas manualmente, usando FileZilla ou compartilhamento SMB.",
+        "Todo commit é automaticamente testado e publicado.",
+        "A publicação ocorre somente por aplicativo móvel.",
+        "Não existe transferência de arquivos."
+      ],
+      "correta": 0,
+      "explicacao": "O material descreve a cópia manual de alterações por FileZilla ou compartilhamento SMB."
+    },
+    {
+      "id": "home-q015",
+      "tema": "Riscos da publicação manual",
+      "dificuldade": "medio",
+      "enunciado": "Qual é um risco da publicação manual?",
+      "alternativas": [
+        "Arquivos esquecidos ou sobrescritos.",
+        "Rastreabilidade completa automática.",
+        "Rollback instantâneo e garantido.",
+        "Eliminação do erro humano."
+      ],
+      "correta": 0,
+      "explicacao": "Entre os riscos estão arquivos esquecidos ou sobrescritos, publicações incompletas e dificuldade para voltar versões."
+    },
+    {
+      "id": "home-q016",
+      "tema": "Riscos da publicação manual",
+      "dificuldade": "medio",
+      "enunciado": "A publicação manual pode gerar:",
+      "alternativas": [
+        "Perda do código-fonte, publicações incompletas e falta de histórico claro.",
+        "Governança automática e rastreabilidade total.",
+        "Maior previsibilidade sem controle de versão.",
+        "Independência completa de pessoas específicas."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca perda do código-fonte, publicações incompletas, falta de histórico e dependência operacional."
+    },
+    {
+      "id": "home-q017",
+      "tema": "CI/CD",
+      "dificuldade": "facil",
+      "enunciado": "O que é CI/CD, conforme a aula?",
+      "alternativas": [
+        "Uma esteira automatizada de entrega.",
+        "Um editor de imagens.",
+        "Um protocolo de rádio.",
+        "Um tipo de banco de dados."
+      ],
+      "correta": 0,
+      "explicacao": "CI/CD funciona como uma esteira automatizada de entrega do software."
+    },
+    {
+      "id": "home-q018",
+      "tema": "CI/CD",
+      "dificuldade": "medio",
+      "enunciado": "No CI/CD, as alterações passam por:",
+      "alternativas": [
+        "Validações automáticas, controle de versão e publicação padronizada.",
+        "Cópias manuais sem histórico.",
+        "Apenas aprovação verbal.",
+        "Publicação direta sem testes."
+      ],
+      "correta": 0,
+      "explicacao": "O material descreve validações automáticas, controle de versão e publicação padronizada."
+    },
+    {
+      "id": "home-q019",
+      "tema": "Pipeline",
+      "dificuldade": "facil",
+      "enunciado": "Um pipeline de CI/CD pode conter etapas de:",
+      "alternativas": [
+        "Teste, build, teste da aplicação e push/publicação.",
+        "Somente edição manual de imagens.",
+        "Apenas cadastro de usuários.",
+        "Exclusivamente backup local."
+      ],
+      "correta": 0,
+      "explicacao": "O exemplo apresenta jobs de sintaxe, testes, teste unitário, build da imagem, teste da aplicação e push."
+    },
+    {
+      "id": "home-q020",
+      "tema": "Benefícios do CI/CD",
+      "dificuldade": "facil",
+      "enunciado": "Qual é um benefício do CI/CD?",
+      "alternativas": [
+        "Processo padronizado.",
+        "Maior dependência de ações manuais.",
+        "Menor rastreabilidade.",
+        "Maior risco de erro humano."
+      ],
+      "correta": 0,
+      "explicacao": "O processo padronizado é um dos benefícios apresentados."
+    },
+    {
+      "id": "home-q021",
+      "tema": "Benefícios do CI/CD",
+      "dificuldade": "medio",
+      "enunciado": "Entre os benefícios do CI/CD estão:",
+      "alternativas": [
+        "Rastreabilidade completa, facilidade de rollback e menor dependência de ações manuais.",
+        "Perda de histórico e publicações incompletas.",
+        "Ausência de previsibilidade nas entregas.",
+        "Impossibilidade de escalar o processo."
+      ],
+      "correta": 0,
+      "explicacao": "O material lista rastreabilidade completa, rollback, menor dependência manual, previsibilidade e escalabilidade."
+    },
+    {
+      "id": "home-q022",
+      "tema": "Governança",
+      "dificuldade": "medio",
+      "enunciado": "O CI/CD não é apenas uma mudança técnica porque também traz:",
+      "alternativas": [
+        "Governança, controle, estabilidade e segurança.",
+        "Somente alteração visual da página.",
+        "Ausência de regras e controles.",
+        "Dependência maior de processos manuais."
+      ],
+      "correta": 0,
+      "explicacao": "A aula apresenta CI/CD como evolução no modelo de entrega, trazendo governança, controle, estabilidade e segurança."
+    },
+    {
+      "id": "home-q023",
+      "tema": "Comparação de publicação",
+      "dificuldade": "dificil",
+      "enunciado": "Assinale a comparação correta entre publicação manual e CI/CD:",
+      "alternativas": [
+        "A manual depende de cópias e pessoas; CI/CD padroniza validações, versão e publicação.",
+        "A manual sempre possui rollback automático; CI/CD não possui histórico.",
+        "Ambas são idênticas em rastreabilidade e risco.",
+        "CI/CD elimina testes para acelerar a publicação."
+      ],
+      "correta": 0,
+      "explicacao": "A publicação manual depende mais de ações humanas; o CI/CD automatiza validações, controle de versão e entrega padronizada."
+    },
+    {
+      "id": "home-q024",
+      "tema": "Infraestrutura e autorização",
+      "dificuldade": "medio",
+      "enunciado": "Antes de criar uma página da Intranet no ambiente apresentado, a unidade deve:",
+      "alternativas": [
+        "Solicitar formalmente usuário e acesso conforme o fluxo institucional.",
+        "Criar uma conta pública sem autorização.",
+        "Copiar arquivos diretamente para qualquer servidor.",
+        "Usar credenciais de outra unidade."
+      ],
+      "correta": 0,
+      "explicacao": "O fluxo começa pela formalização da solicitação e pelo preenchimento da documentação necessária."
+    },
+    {
+      "id": "home-q025",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa resume melhor a elaboração e publicação de uma Home Page institucional?",
+      "alternativas": [
+        "Solicitar acesso, preencher a documentação, utilizar a infraestrutura autorizada e preferir entrega controlada por CI/CD.",
+        "Publicar diretamente sem autorização e sem controle de versão.",
+        "Usar credenciais compartilhadas e copiar arquivos sem registro.",
+        "Ignorar chamados, testes, segurança e rastreabilidade."
+      ],
+      "correta": 0,
+      "explicacao": "A abordagem adequada combina solicitação formal, documentação, ambiente autorizado e processo de entrega controlado, preferencialmente automatizado."
+    }
+  ],
+  "stories": [
+    {"id": "home-s001", "ordem": 1, "titulo": "Home Page", "texto": "A aula apresenta a criação de páginas da Intranet da PMESP.", "destaque": "Infraestrutura e autorização vêm antes da publicação."},
+    {"id": "home-s002", "ordem": 2, "titulo": "WWW9", "texto": "É o ambiente citado para criação das páginas da Intranet, baseado em Kubernetes.", "destaque": "Acesso institucional autorizado."},
+    {"id": "home-s003", "ordem": 3, "titulo": "Solicitação", "texto": "A OPM deve formalizar o pedido de usuário e acesso.", "destaque": "Batalhão ou CPA."},
+    {"id": "home-s004", "ordem": 4, "titulo": "Central de Serviços", "texto": "Uma opção é abrir chamado na Central de Serviços de TIC.", "destaque": "0800 ou canal institucional."},
+    {"id": "home-s005", "ordem": 5, "titulo": "SODC", "texto": "A Seção de Operação de Data Center participa do fluxo de acesso.", "destaque": "Recebe a solicitação institucional."},
+    {"id": "home-s006", "ordem": 6, "titulo": "SNP", "texto": "A SODC envia a documentação do Serviço de Nuvem Privada.", "destaque": "Preencher, assinar, digitalizar e devolver."},
+    {"id": "home-s007", "ordem": 7, "titulo": "Dados obrigatórios", "texto": "Informe unidade, contatos dos responsáveis e IPs do desenvolvimento.", "destaque": "Identificação e conectividade."},
+    {"id": "home-s008", "ordem": 8, "titulo": "WordPress", "texto": "O material demonstra etapas de instalação do WordPress.", "destaque": "Plataforma para elaboração da página."},
+    {"id": "home-s009", "ordem": 9, "titulo": "Plugins", "texto": "Elementor e WPvivid Backup são citados na instalação.", "destaque": "Construção e backup."},
+    {"id": "home-s010", "ordem": 10, "titulo": "Publicação manual", "texto": "Alterações podem ser copiadas manualmente por FileZilla ou SMB.", "destaque": "Processo dependente de pessoas."},
+    {"id": "home-s011", "ordem": 11, "titulo": "Riscos", "texto": "Arquivos esquecidos, sobrescritos, publicação incompleta e perda de fonte.", "destaque": "Sem histórico claro, aumenta o risco."},
+    {"id": "home-s012", "ordem": 12, "titulo": "CI/CD", "texto": "É uma esteira automatizada de entrega.", "destaque": "Validação, versão e publicação."},
+    {"id": "home-s013", "ordem": 13, "titulo": "Pipeline", "texto": "A linha de montagem pode testar, construir e publicar.", "destaque": "Jobs organizados por etapas."},
+    {"id": "home-s014", "ordem": 14, "titulo": "Testes", "texto": "Validações automáticas reduzem erros antes da publicação.", "destaque": "Teste antes de entregar."},
+    {"id": "home-s015", "ordem": 15, "titulo": "Rollback", "texto": "O controle de versões facilita voltar a uma versão anterior.", "destaque": "Recuperação mais previsível."},
+    {"id": "home-s016", "ordem": 16, "titulo": "Rastreabilidade", "texto": "O histórico permite saber o que foi alterado e publicado.", "destaque": "Mais controle operacional."},
+    {"id": "home-s017", "ordem": 17, "titulo": "Governança", "texto": "CI/CD traz padronização, controle, estabilidade e segurança.", "destaque": "Não é apenas uma ferramenta técnica."},
+    {"id": "home-s018", "ordem": 18, "titulo": "Escalabilidade", "texto": "Processos automatizados podem acompanhar o crescimento das entregas.", "destaque": "Mais previsibilidade."},
+    {"id": "home-s019", "ordem": 19, "titulo": "Bizu operacional", "texto": "Chamado, documentação, acesso autorizado, teste e publicação controlada.", "destaque": "Não pule etapas."},
+    {"id": "home-s020", "ordem": 20, "titulo": "Bizu final", "texto": "CI/CD reduz dependência manual e aumenta rastreabilidade.", "destaque": "Entrega automatizada é entrega governada."}
+  ]
+}

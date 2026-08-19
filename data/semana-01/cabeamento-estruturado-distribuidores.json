@@ -1,0 +1,574 @@
+{
+  "id": "cabeamento-estruturado-distribuidores",
+  "nome": "Cabeamento Estruturado e Distribuidores de Rede",
+  "sigla": "CABEAMENTO-REDE",
+  "semana": 2,
+  "tipo": "quiz",
+  "descricao": "Infraestrutura física, organização, segurança e disponibilidade da rede local, incluindo racks, patch panels, switches, hubs, uplinks, fibra óptica e PoE.",
+  "objetivo": "Diferenciar cabeamento estruturado de instalações improvisadas e compreender os elementos físicos e ativos que sustentam uma rede local organizada e segura.",
+  "fonte": "Presencial — Slide Completo — Aulas 3 e 4 — Cabeamento Estruturado e Distribuidores de Rede",
+  "observacao": "Questões elaboradas com base no texto extraído dos slides. A apresentação aborda infraestrutura física e boas práticas de rede; detalhes normativos devem ser conferidos na documentação institucional aplicável.",
+  "palavrasChave": [
+    "cabeamento estruturado",
+    "rack",
+    "patch panel",
+    "switch",
+    "hub",
+    "tabela MAC",
+    "uplink",
+    "fibra óptica",
+    "PoE",
+    "NBR 14565",
+    "segurança física",
+    "disponibilidade"
+  ],
+  "questoes": [
+    {
+      "id": "cab-q001",
+      "tema": "Objetivos da instrução",
+      "dificuldade": "facil",
+      "enunciado": "Qual é um dos objetivos da instrução?",
+      "alternativas": [
+        "Diferenciar cabeamento estruturado de instalações improvisadas.",
+        "Substituir todos os sistemas de informação.",
+        "Ensinar somente programação web.",
+        "Eliminar a necessidade de manutenção."
+      ],
+      "correta": 0,
+      "explicacao": "A instrução busca diferenciar uma infraestrutura estruturada de uma instalação improvisada."
+    },
+    {
+      "id": "cab-q002",
+      "tema": "Objetivos da instrução",
+      "dificuldade": "facil",
+      "enunciado": "A aula busca reconhecer quais componentes?",
+      "alternativas": [
+        "Os principais componentes de uma infraestrutura de cabeamento.",
+        "Somente os sistemas operacionais.",
+        "Apenas os usuários da rede.",
+        "Exclusivamente os cabos de energia."
+      ],
+      "correta": 0,
+      "explicacao": "Reconhecer os componentes da infraestrutura de cabeamento é um dos objetivos apresentados."
+    },
+    {
+      "id": "cab-q003",
+      "tema": "Cabeamento estruturado",
+      "dificuldade": "facil",
+      "enunciado": "Cabeamento estruturado é:",
+      "alternativas": [
+        "Uma infraestrutura padronizada para transmissão de dados e serviços de telecomunicações.",
+        "Apenas um conjunto de cabos passados sem planejamento.",
+        "Um equipamento ativo de rede.",
+        "Um software de monitoramento."
+      ],
+      "correta": 0,
+      "explicacao": "Cabeamento estruturado é uma infraestrutura padronizada, organizada e planejada para transmissão de dados e outros serviços."
+    },
+    {
+      "id": "cab-q004",
+      "tema": "Cabeamento estruturado",
+      "dificuldade": "medio",
+      "enunciado": "O cabeamento estruturado permite:",
+      "alternativas": [
+        "Expansão, manutenção, identificação, gerenciamento e substituição de componentes.",
+        "Somente transmissão sem documentação.",
+        "Apenas instalação inicial sem alterações.",
+        "Eliminação de todos os equipamentos ativos."
+      ],
+      "correta": 0,
+      "explicacao": "A estrutura padronizada facilita expansão, manutenção, identificação, gerenciamento e substituição."
+    },
+    {
+      "id": "cab-q005",
+      "tema": "Cabeamento estruturado",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a ideia-chave apresentada?",
+      "alternativas": [
+        "Cabeamento estruturado não é simplesmente passar cabo; é projetar uma infraestrutura organizada, documentada e padronizada.",
+        "Qualquer cabo produz uma rede adequada.",
+        "A documentação é dispensável.",
+        "A organização física não influencia a operação."
+      ],
+      "correta": 0,
+      "explicacao": "O material enfatiza que o cabeamento estruturado envolve projeto, organização, documentação e padronização."
+    },
+    {
+      "id": "cab-q006",
+      "tema": "Instalação improvisada",
+      "dificuldade": "medio",
+      "enunciado": "Uma instalação improvisada pode funcionar, mas apresenta problema principalmente quando:",
+      "alternativas": [
+        "É necessário descobrir por que a rede parou ou localizar uma falha.",
+        "A rede precisa transmitir qualquer dado.",
+        "O usuário conecta um computador.",
+        "O cabo é novo."
+      ],
+      "correta": 0,
+      "explicacao": "Sem padrão, identificação e documentação, a manutenção e a localização de falhas ficam mais difíceis."
+    },
+    {
+      "id": "cab-q007",
+      "tema": "Cabeamento estruturado",
+      "dificuldade": "medio",
+      "enunciado": "Uma vantagem do cabeamento estruturado é maior:",
+      "alternativas": ["Previsibilidade de desempenho.", "Dependência de improvisos.", "Dificuldade de expansão.", "Risco operacional."],
+      "correta": 0,
+      "explicacao": "A padronização proporciona maior previsibilidade de desempenho e facilita manutenção e expansão."
+    },
+    {
+      "id": "cab-q008",
+      "tema": "NBR 14565",
+      "dificuldade": "facil",
+      "enunciado": "Qual norma técnica é citada no material?",
+      "alternativas": ["NBR 14565.", "NBR 5410 apenas.", "ISO 9001 somente.", "ABNT 802.1X."],
+      "correta": 0,
+      "explicacao": "O material cita a NBR 14565 entre os elementos relacionados ao pilar da disponibilidade."
+    },
+    {
+      "id": "cab-q009",
+      "tema": "Segurança física",
+      "dificuldade": "facil",
+      "enunciado": "A segurança da informação também começa:",
+      "alternativas": [
+        "No ambiente físico.",
+        "Somente no firewall.",
+        "Apenas no software antivírus.",
+        "Exclusivamente no usuário remoto."
+      ],
+      "correta": 0,
+      "explicacao": "O material afirma que a segurança não começa apenas no firewall; ela também começa no ambiente físico."
+    },
+    {
+      "id": "cab-q010",
+      "tema": "Riscos físicos",
+      "dificuldade": "facil",
+      "enunciado": "Qual situação pode comprometer fisicamente a disponibilidade da rede?",
+      "alternativas": [
+        "Acesso não autorizado ao rack.",
+        "Documentação atualizada.",
+        "Identificação correta dos cabos.",
+        "Ventilação adequada."
+      ],
+      "correta": 0,
+      "explicacao": "O acesso não autorizado ao rack é um dos riscos físicos listados."
+    },
+    {
+      "id": "cab-q011",
+      "tema": "Riscos físicos",
+      "dificuldade": "medio",
+      "enunciado": "Qual conjunto contém riscos físicos citados no material?",
+      "alternativas": [
+        "Calor excessivo, umidade, poeira, energia inadequada e ausência de aterramento.",
+        "Somente nomes de usuários e senhas.",
+        "Apenas falta de documentação de software.",
+        "Exclusivamente lentidão do navegador."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita calor, umidade, poeira, energia elétrica inadequada e ausência de aterramento, entre outros riscos."
+    },
+    {
+      "id": "cab-q012",
+      "tema": "Normas técnicas",
+      "dificuldade": "medio",
+      "enunciado": "As normas técnicas contribuem para:",
+      "alternativas": [
+        "Padronização, desempenho, segurança, interoperabilidade, documentação e expansão futura.",
+        "Somente estética do rack.",
+        "Apenas redução do número de cabos.",
+        "Eliminação da necessidade de manutenção."
+      ],
+      "correta": 0,
+      "explicacao": "As normas apoiam padronização, desempenho esperado, segurança, interoperabilidade, organização, documentação, manutenção e expansão."
+    },
+    {
+      "id": "cab-q013",
+      "tema": "Rack",
+      "dificuldade": "facil",
+      "enunciado": "O rack de telecomunicações é apresentado como:",
+      "alternativas": [
+        "O coração físico da infraestrutura de rede.",
+        "Um programa de configuração.",
+        "Um cabo de backbone.",
+        "Um endereço IP."
+      ],
+      "correta": 0,
+      "explicacao": "O material chama o rack de telecomunicações de coração físico da infraestrutura."
+    },
+    {
+      "id": "cab-q014",
+      "tema": "Rack",
+      "dificuldade": "facil",
+      "enunciado": "Qual elemento é encontrado no rack de telecomunicações?",
+      "alternativas": ["Patch panel.", "Somente impressora pessoal.", "Apenas telefone celular.", "Exclusivamente teclado."],
+      "correta": 0,
+      "explicacao": "Patch panels fazem parte dos elementos centralizados no rack."
+    },
+    {
+      "id": "cab-q015",
+      "tema": "Segurança física do rack",
+      "dificuldade": "facil",
+      "enunciado": "Uma boa prática de segurança física do rack é:",
+      "alternativas": [
+        "Restringir o acesso.",
+        "Deixar o rack aberto para qualquer pessoa.",
+        "Remover a identificação dos equipamentos.",
+        "Desligar a ventilação."
+      ],
+      "correta": 0,
+      "explicacao": "O acesso restrito é uma das boas práticas apresentadas."
+    },
+    {
+      "id": "cab-q016",
+      "tema": "Segurança física do rack",
+      "dificuldade": "medio",
+      "enunciado": "Qual conjunto contém boas práticas para o rack?",
+      "alternativas": [
+        "Identificação, organização dos cabos, controle de acesso, proteção contra surtos e ventilação adequada.",
+        "Cabos espalhados, chaves compartilhadas e ausência de documentação.",
+        "Rack aberto, energia improvisada e sem inspeção.",
+        "Remoção dos patch panels e desligamento do nobreak."
+      ],
+      "correta": 0,
+      "explicacao": "O material recomenda identificação, organização, controle de acesso, proteção elétrica, ventilação, documentação e inspeções."
+    },
+    {
+      "id": "cab-q017",
+      "tema": "Energia e proteção",
+      "dificuldade": "facil",
+      "enunciado": "Qual equipamento é citado como ideal para apoio à energia do rack?",
+      "alternativas": ["Nobreak.", "Hub passivo.", "Patch cord.", "NIC."],
+      "correta": 0,
+      "explicacao": "O nobreak aparece entre os equipamentos de energia recomendados para o rack."
+    },
+    {
+      "id": "cab-q018",
+      "tema": "Organização do cabeamento",
+      "dificuldade": "facil",
+      "enunciado": "Qual sequência representa uma organização adequada do ponto de rede?",
+      "alternativas": [
+        "Ponto e cabeamento rígido → patch panel → patch cord → switch.",
+        "Switch → cabo espalhado → ponto sem identificação → patch panel.",
+        "Patch cord → energia → switch → cabo sem terminação.",
+        "Rack aberto → ponto improvisado → cabo sem origem."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta pontos de rede e cabeamento rígido, terminação no patch panel, conexão por patch cords e equipamento ativo switch."
+    },
+    {
+      "id": "cab-q019",
+      "tema": "Rastreabilidade",
+      "dificuldade": "medio",
+      "enunciado": "A identificação dos cabos deve permitir responder a quais perguntas?",
+      "alternativas": [
+        "De onde vem este cabo e para onde vai esta porta?",
+        "Quem comprou o computador e qual é sua senha?",
+        "Qual é a cor da parede e o tamanho do rack?",
+        "Qual usuário está conectado à Internet pessoal?"
+      ],
+      "correta": 0,
+      "explicacao": "A identificação deve facilitar a rastreabilidade entre a origem do cabo e a porta de destino."
+    },
+    {
+      "id": "cab-q020",
+      "tema": "Segurança e disponibilidade",
+      "dificuldade": "medio",
+      "enunciado": "Se alguém consegue abrir o rack e retirar um cabo do switch, existe problema de:",
+      "alternativas": [
+        "Segurança e disponibilidade, mesmo que o firewall esteja configurado.",
+        "Somente estética.",
+        "Apenas nomenclatura de software.",
+        "Exclusivamente velocidade de processamento."
+      ],
+      "correta": 0,
+      "explicacao": "O acesso físico indevido pode causar interrupção e comprometer a segurança, independentemente do firewall."
+    },
+    {
+      "id": "cab-q021",
+      "tema": "Distribuidor de rede",
+      "dificuldade": "facil",
+      "enunciado": "Distribuidor de rede é:",
+      "alternativas": [
+        "O conjunto de elementos responsáveis pela organização, interconexão e distribuição da infraestrutura de telecomunicações.",
+        "Somente um cabo de fibra.",
+        "Apenas o endereço IP do switch.",
+        "Um software de autenticação."
+      ],
+      "correta": 0,
+      "explicacao": "O distribuidor reúne elementos como racks, patch panels, switches, organizadores e conexões de backbone."
+    },
+    {
+      "id": "cab-q022",
+      "tema": "Distribuidor de rede",
+      "dificuldade": "facil",
+      "enunciado": "Qual elemento faz parte de um distribuidor de rede?",
+      "alternativas": ["Conexões de backbone.", "Somente teclado.", "Apenas sistema operacional.", "Exclusivamente cabo de energia residencial."],
+      "correta": 0,
+      "explicacao": "As conexões de backbone são citadas entre os elementos do distribuidor de rede."
+    },
+    {
+      "id": "cab-q023",
+      "tema": "Hub",
+      "dificuldade": "facil",
+      "enunciado": "Como o Hub opera?",
+      "alternativas": [
+        "Como repetidor multiporta, replicando o sinal para as demais portas.",
+        "Aprendendo exclusivamente a porta por meio da tabela MAC.",
+        "Transmitindo energia pelo cabo Ethernet.",
+        "Criando VLANs automaticamente."
+      ],
+      "correta": 0,
+      "explicacao": "O Hub replica o sinal recebido para as demais portas."
+    },
+    {
+      "id": "cab-q024",
+      "tema": "Hub",
+      "dificuldade": "medio",
+      "enunciado": "Uma consequência do uso de Hub é:",
+      "alternativas": [
+        "Meio compartilhado, maior possibilidade de colisões e comunicação tradicionalmente half-duplex.",
+        "Microsegmentação e canal dedicado para cada dispositivo.",
+        "Comutação baseada em MAC.",
+        "Eliminação de qualquer exposição de tráfego."
+      ],
+      "correta": 0,
+      "explicacao": "O Hub cria meio compartilhado, favorece colisões, reduz eficiência e tradicionalmente opera em half-duplex."
+    },
+    {
+      "id": "cab-q025",
+      "tema": "Hub e confidencialidade",
+      "dificuldade": "medio",
+      "enunciado": "Por que o Hub aumenta a exposição do tráfego?",
+      "alternativas": [
+        "Porque os dispositivos conectados recebem os sinais ou quadros que passam pelo segmento.",
+        "Porque criptografa todos os dados.",
+        "Porque impede qualquer dispositivo de receber sinais.",
+        "Porque cria canais dedicados automaticamente."
+      ],
+      "correta": 0,
+      "explicacao": "O Hub replica o tráfego para as portas, aumentando a exposição dos sinais e quadros no segmento."
+    },
+    {
+      "id": "cab-q026",
+      "tema": "Switch",
+      "dificuldade": "facil",
+      "enunciado": "O switch é apresentado como:",
+      "alternativas": ["Um comutador inteligente.", "Um repetidor sem controle.", "Um cabo de backbone.", "Um dispositivo exclusivamente elétrico."],
+      "correta": 0,
+      "explicacao": "O material apresenta o switch como comutador inteligente."
+    },
+    {
+      "id": "cab-q027",
+      "tema": "Tabela MAC",
+      "dificuldade": "facil",
+      "enunciado": "A tabela MAC permite ao switch:",
+      "alternativas": [
+        "Aprender onde estão os dispositivos.",
+        "Fornecer energia a qualquer dispositivo.",
+        "Substituir o endereço IP.",
+        "Criar automaticamente o cabeamento físico."
+      ],
+      "correta": 0,
+      "explicacao": "A tabela MAC permite que o switch aprenda a localização dos dispositivos conectados às portas."
+    },
+    {
+      "id": "cab-q028",
+      "tema": "Controle de acesso por porta",
+      "dificuldade": "medio",
+      "enunciado": "Um switch gerenciável pode controlar o que é conectado a determinada porta por meio de:",
+      "alternativas": [
+        "Port Security, 802.1X, VLANs, ACLs e desativação de portas não utilizadas.",
+        "Somente cabos sem identificação.",
+        "Apenas mensagens de e-mail.",
+        "Exclusivamente a cor do rack."
+      ],
+      "correta": 0,
+      "explicacao": "O material lista Port Security, autenticação 802.1X, VLAN, ACLs, monitoramento e desativação de portas não utilizadas."
+    },
+    {
+      "id": "cab-q029",
+      "tema": "Uplink",
+      "dificuldade": "facil",
+      "enunciado": "Um uplink é utilizado para:",
+      "alternativas": [
+        "Interligar um equipamento de acesso ou distribuição a outro equipamento ou segmento.",
+        "Substituir todas as portas do switch.",
+        "Fornecer somente energia elétrica.",
+        "Identificar usuários por nome."
+      ],
+      "correta": 0,
+      "explicacao": "Uplink é uma conexão entre equipamentos ou segmentos da infraestrutura."
+    },
+    {
+      "id": "cab-q030",
+      "tema": "Fibra óptica",
+      "dificuldade": "medio",
+      "enunciado": "No contexto apresentado, a fibra óptica é importante principalmente para:",
+      "alternativas": [
+        "Backbone e ambientes sujeitos a interferências.",
+        "Somente conexão de teclado.",
+        "Apenas fornecimento de energia.",
+        "Substituição de todas as VLANs."
+      ],
+      "correta": 0,
+      "explicacao": "O resumo final destaca a importância da fibra para backbone e ambientes sujeitos a interferências."
+    },
+    {
+      "id": "cab-q031",
+      "tema": "PoE",
+      "dificuldade": "facil",
+      "enunciado": "O que significa PoE?",
+      "alternativas": [
+        "Power over Ethernet.",
+        "Port over Equipment.",
+        "Protocol of Energy.",
+        "Physical Optical Ethernet."
+      ],
+      "correta": 0,
+      "explicacao": "PoE significa Power over Ethernet, ou energia pelo cabo Ethernet."
+    },
+    {
+      "id": "cab-q032",
+      "tema": "PoE",
+      "dificuldade": "facil",
+      "enunciado": "O PoE permite transmitir pelo mesmo cabo Ethernet:",
+      "alternativas": [
+        "Dados e energia elétrica.",
+        "Somente energia, sem dados.",
+        "Apenas dados, sem qualquer energia.",
+        "Somente sinal de áudio."
+      ],
+      "correta": 0,
+      "explicacao": "PoE transmite dados e energia pelo mesmo cabo Ethernet, quando há compatibilidade e respeito aos limites de potência."
+    },
+    {
+      "id": "cab-q033",
+      "tema": "Aplicações do PoE",
+      "dificuldade": "facil",
+      "enunciado": "Qual equipamento pode utilizar PoE?",
+      "alternativas": ["Access Point, telefone IP ou câmera IP compatível.", "Somente monitor sem rede.", "Apenas impressora USB sem Ethernet.", "Exclusivamente cabo de fibra sem conversor."],
+      "correta": 0,
+      "explicacao": "O material cita Access Points, telefones IP, câmeras IP, dispositivos IoT e outros equipamentos compatíveis."
+    },
+    {
+      "id": "cab-q034",
+      "tema": "PoE",
+      "dificuldade": "medio",
+      "enunciado": "O uso de PoE depende de:",
+      "alternativas": [
+        "Compatibilidade dos equipamentos e respeito aos limites de potência do padrão.",
+        "Qualquer cabo, sem requisitos.",
+        "Somente autorização do usuário.",
+        "Ausência de planejamento elétrico."
+      ],
+      "correta": 0,
+      "explicacao": "O material condiciona o uso do PoE à compatibilidade dos equipamentos e ao respeito aos limites de potência."
+    },
+    {
+      "id": "cab-q035",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa resume corretamente a diferença entre Hub e Switch?",
+      "alternativas": [
+        "Hub replica o tráfego para as portas; Switch comuta com base na tabela MAC.",
+        "Hub aprende a tabela MAC; Switch replica tudo para todas as portas.",
+        "Ambos funcionam exatamente da mesma maneira.",
+        "Switch fornece somente energia e Hub fornece somente fibra."
+      ],
+      "correta": 0,
+      "explicacao": "O Hub compartilha e replica o meio; o Switch realiza comutação baseada na tabela MAC."
+    },
+    {
+      "id": "cab-q036",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa apresenta corretamente o papel do uplink e do PoE?",
+      "alternativas": [
+        "Uplink interliga equipamentos ou segmentos; PoE transporta dados e energia pelo cabo Ethernet.",
+        "Uplink fornece apenas energia; PoE interliga prédios por fibra.",
+        "Uplink substitui VLAN; PoE substitui a tabela MAC.",
+        "Ambos são mecanismos de autenticação de usuários."
+      ],
+      "correta": 0,
+      "explicacao": "Uplink trata da interligação da infraestrutura; PoE permite transportar dados e energia pelo cabo Ethernet."
+    },
+    {
+      "id": "cab-q037",
+      "tema": "Disponibilidade",
+      "dificuldade": "medio",
+      "enunciado": "A organização física da rede influencia principalmente:",
+      "alternativas": [
+        "A disponibilidade, a manutenção e a redução de erros.",
+        "Somente o nome dos dispositivos.",
+        "Apenas a velocidade do processador.",
+        "Exclusivamente o layout das telas."
+      ],
+      "correta": 0,
+      "explicacao": "Rack organizado, cabeamento identificado e infraestrutura documentada facilitam manutenção, reduzem erros e contribuem para disponibilidade."
+    },
+    {
+      "id": "cab-q038",
+      "tema": "Documentação",
+      "dificuldade": "facil",
+      "enunciado": "Uma infraestrutura bem documentada é mais fácil de:",
+      "alternativas": [
+        "Operar, proteger e manter.",
+        "Ocultar e improvisar.",
+        "Desconectar sem controle.",
+        "Substituir sem identificação."
+      ],
+      "correta": 0,
+      "explicacao": "A documentação facilita operação, proteção, manutenção e localização de falhas."
+    },
+    {
+      "id": "cab-q039",
+      "tema": "Segurança física",
+      "dificuldade": "dificil",
+      "enunciado": "Qual situação demonstra uma falha de segurança física?",
+      "alternativas": [
+        "Rack aberto, acesso livre e cabos sem identificação.",
+        "Rack fechado, acesso restrito e documentação atualizada.",
+        "Switch monitorado e portas não utilizadas desativadas.",
+        "Patch panel identificado e cabos organizados."
+      ],
+      "correta": 0,
+      "explicacao": "Acesso livre, rack aberto e cabos sem identificação aumentam riscos físicos, operacionais e de segurança."
+    },
+    {
+      "id": "cab-q040",
+      "tema": "Revisão geral",
+      "dificuldade": "dificil",
+      "enunciado": "Qual frase reúne os principais bizus da aula?",
+      "alternativas": [
+        "Cabeamento organizado, rack seguro, Hub compartilhado, Switch baseado em MAC, uplink interligando e PoE transportando dados e energia.",
+        "Cabeamento improvisado, Hub com canal dedicado e PoE sem limite.",
+        "Switch replica tudo, Hub aprende MAC e fibra fornece energia.",
+        "A segurança começa apenas no firewall e independe do ambiente físico."
+      ],
+      "correta": 0,
+      "explicacao": "A alternativa reúne os conceitos centrais apresentados: organização, segurança física, diferença Hub/Switch, uplink e PoE."
+    }
+  ],
+  "stories": [
+    {"id": "cab-s001", "ordem": 1, "titulo": "Cabeamento estruturado", "texto": "Não é simplesmente passar cabos: é projetar uma infraestrutura padronizada e documentada.", "destaque": "Organização gera previsibilidade."},
+    {"id": "cab-s002", "ordem": 2, "titulo": "Instalação improvisada", "texto": "Pode funcionar, mas dificulta manutenção e localização de falhas.", "destaque": "Funcionar não significa estar tecnicamente adequado."},
+    {"id": "cab-s003", "ordem": 3, "titulo": "NBR 14565", "texto": "Norma técnica citada no pilar da disponibilidade.", "destaque": "Padronização e desempenho."},
+    {"id": "cab-s004", "ordem": 4, "titulo": "Riscos físicos", "texto": "Calor, umidade, poeira, energia inadequada e acesso indevido ameaçam a rede.", "destaque": "Segurança também começa no ambiente físico."},
+    {"id": "cab-s005", "ordem": 5, "titulo": "Rack", "texto": "É o coração físico da infraestrutura.", "destaque": "Centralize, organize e restrinja o acesso."},
+    {"id": "cab-s006", "ordem": 6, "titulo": "Patch panel", "texto": "Centraliza e organiza as terminações do cabeamento.", "destaque": "Identificação facilita rastreabilidade."},
+    {"id": "cab-s007", "ordem": 7, "titulo": "Rastreabilidade", "texto": "Todo cabo deve permitir saber de onde vem e para qual porta vai.", "destaque": "Sem identificação, manutenção vira investigação."},
+    {"id": "cab-s008", "ordem": 8, "titulo": "Distribuidor de rede", "texto": "Reúne racks, patch panels, switches, organizadores e backbone.", "destaque": "Organiza, interconecta e distribui."},
+    {"id": "cab-s009", "ordem": 9, "titulo": "Hub", "texto": "Repetidor multiporta que replica o sinal para as demais portas.", "destaque": "Meio compartilhado e mais colisões."},
+    {"id": "cab-s010", "ordem": 10, "titulo": "Confidencialidade", "texto": "O Hub expõe mais o tráfego porque replica quadros no segmento.", "destaque": "Todos recebem os sinais que passam."},
+    {"id": "cab-s011", "ordem": 11, "titulo": "Switch", "texto": "Comutador inteligente que utiliza a tabela MAC.", "destaque": "Encaminha conforme o dispositivo aprendido."},
+    {"id": "cab-s012", "ordem": 12, "titulo": "Tabela MAC", "texto": "Permite ao switch aprender onde estão os dispositivos.", "destaque": "MAC indica a porta associada."},
+    {"id": "cab-s013", "ordem": 13, "titulo": "Controle por porta", "texto": "Port Security, 802.1X, VLAN, ACLs e monitoramento controlam conexões.", "destaque": "Porta também é ponto de segurança."},
+    {"id": "cab-s014", "ordem": 14, "titulo": "Uplink", "texto": "Interliga equipamentos ou segmentos da infraestrutura.", "destaque": "Conexão de acesso/distribuição."},
+    {"id": "cab-s015", "ordem": 15, "titulo": "Fibra óptica", "texto": "Importante para backbone e ambientes sujeitos a interferências.", "destaque": "Infraestrutura de maior alcance e resistência a interferências."},
+    {"id": "cab-s016", "ordem": 16, "titulo": "PoE", "texto": "Power over Ethernet: dados e energia no mesmo cabo.", "destaque": "Exige compatibilidade e limite de potência."},
+    {"id": "cab-s017", "ordem": 17, "titulo": "Aplicações PoE", "texto": "Access Points, telefones IP, câmeras IP e dispositivos IoT.", "destaque": "Um cabo pode levar comunicação e energia."},
+    {"id": "cab-s018", "ordem": 18, "titulo": "Disponibilidade", "texto": "Organização física, energia adequada e manutenção preservam a rede.", "destaque": "Rede disponível apoia o serviço policial."},
+    {"id": "cab-s019", "ordem": 19, "titulo": "Segurança física", "texto": "Acesso restrito, rack fechado, ventilação e proteção contra surtos são boas práticas.", "destaque": "Firewall não protege contra cabo retirado do switch."},
+    {"id": "cab-s020", "ordem": 20, "titulo": "Bizu final", "texto": "Hub compartilha; Switch comuta; Uplink interliga; PoE alimenta; documentação protege.", "destaque": "Organização física é parte da segurança da rede."}
+  ]
+}

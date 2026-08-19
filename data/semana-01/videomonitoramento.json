@@ -1,0 +1,488 @@
+{
+  "id": "videomonitoramento",
+  "nome": "Videomonitoramento por Câmeras Fixas",
+  "sigla": "VIDEOMONITORAMENTO",
+  "semana": 1,
+  "tipo": "quiz",
+  "descricao": "Videomonitoramento por câmeras fixas, OCR, ALPR, biometria, analíticos, eventos, alarmes e pesquisa de evidências.",
+  "objetivo": "Conhecer a evolução do videomonitoramento, a estrutura do contrato atual, as funções das câmeras e o uso dos analíticos do sistema.",
+  "fonte": "Videomonitoramento.pdf",
+  "observacao": "Questões elaboradas com base no material fornecido. Os nomes de sistemas, endereços e parâmetros operacionais devem ser utilizados conforme autorização e procedimentos institucionais vigentes.",
+  "palavrasChave": [
+    "videomonitoramento",
+    "câmeras fixas",
+    "PTZ",
+    "OCR",
+    "ALPR",
+    "analíticos",
+    "Avigilon Unity Video",
+    "Genetec",
+    "eventos",
+    "alarmes",
+    "reconhecimento facial"
+  ],
+  "questoes": [
+    {
+      "id": "video-q001",
+      "tema": "Projeto Olho de Lince",
+      "dificuldade": "facil",
+      "enunciado": "Qual era a característica do modelo inicial do Projeto Olho de Lince?",
+      "alternativas": [
+        "A contratada fornecia e instalava as câmeras nos locais indicados, e a PMESP mantinha o funcionamento.",
+        "Cada policial adquiria sua própria câmera.",
+        "As câmeras eram instaladas sem contrato.",
+        "O projeto funcionava somente com equipamentos pessoais."
+      ],
+      "correta": 0,
+      "explicacao": "O modelo previa aquisição dos equipamentos, indicação dos locais, instalação pela contratada e manutenção posterior pela PMESP."
+    },
+    {
+      "id": "video-q002",
+      "tema": "Projeto Olho de Lince",
+      "dificuldade": "medio",
+      "enunciado": "Até quando o Projeto Olho de Lince se estendeu, conforme o material?",
+      "alternativas": ["Até o final de 2023.", "Até o final de 2024.", "Até o final de 2025.", "Até o final de 2026."],
+      "correta": 2,
+      "explicacao": "O material informa que o projeto se estendeu até o final de 2025."
+    },
+    {
+      "id": "video-q003",
+      "tema": "Lições aprendidas",
+      "dificuldade": "facil",
+      "enunciado": "Quais áreas são citadas como experiências aprendidas no projeto?",
+      "alternativas": [
+        "Logística, tecnologia e financeiro.",
+        "Somente comunicação social.",
+        "Apenas recursos humanos.",
+        "Exclusivamente policiamento ostensivo."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca aprendizados nas áreas de logística, tecnologia e financeiro."
+    },
+    {
+      "id": "video-q004",
+      "tema": "Software de videomonitoramento",
+      "dificuldade": "facil",
+      "enunciado": "Qual software de videomonitoramento foi adquirido de forma vitalícia no projeto anterior?",
+      "alternativas": ["Genetec.", "Avigilon Unity Video.", "Zabbix.", "Kubernetes."],
+      "correta": 0,
+      "explicacao": "O material informa a aquisição vitalícia do software de videomonitoramento Genetec."
+    },
+    {
+      "id": "video-q005",
+      "tema": "Gestão logística",
+      "dificuldade": "medio",
+      "enunciado": "Um problema logístico apontado no projeto era:",
+      "alternativas": [
+        "A necessidade de adquirir equipamentos e acessórios para substituição e a dificuldade de controle patrimonial.",
+        "A ausência total de câmeras instaladas.",
+        "A impossibilidade de realizar qualquer manutenção.",
+        "A inexistência de custos adicionais."
+      ],
+      "correta": 0,
+      "explicacao": "A manutenção era prejudicada pela necessidade de adquirir peças e acessórios, além das dificuldades de controle e descarga patrimonial."
+    },
+    {
+      "id": "video-q006",
+      "tema": "Gestão tecnológica",
+      "dificuldade": "medio",
+      "enunciado": "Por que a aquisição de câmeras dificultava o acompanhamento tecnológico?",
+      "alternativas": [
+        "Por causa do processo de aquisição, dos custos e da constante necessidade de manutenção.",
+        "Porque as câmeras não possuíam tecnologia.",
+        "Porque o sistema era totalmente manual.",
+        "Porque não havia necessidade de atualização."
+      ],
+      "correta": 0,
+      "explicacao": "O material relaciona a dificuldade ao processo de aquisição, aos custos e à constante manutenção de uma tecnologia em evolução."
+    },
+    {
+      "id": "video-q007",
+      "tema": "Custos",
+      "dificuldade": "facil",
+      "enunciado": "Além do custo do equipamento, quais custos adicionais são citados?",
+      "alternativas": [
+        "TPU, Internet e energia.",
+        "Somente combustível e manutenção de viaturas.",
+        "Apenas licenças de rádio.",
+        "Exclusivamente despesas de pessoal."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita TPU, Internet e energia como custos adicionais decorrentes do contrato."
+    },
+    {
+      "id": "video-q008",
+      "tema": "Contrato 023/183/24",
+      "dificuldade": "facil",
+      "enunciado": "Qual empresa é indicada como contratada no Contrato 023/183/24?",
+      "alternativas": [
+        "Motorola Solutions.",
+        "AXON exclusivamente.",
+        "Genetec.",
+        "Avigilon como empresa de telefonia."
+      ],
+      "correta": 0,
+      "explicacao": "O material indica a Motorola Solutions como contratada."
+    },
+    {
+      "id": "video-q009",
+      "tema": "Contrato 023/183/24",
+      "dificuldade": "medio",
+      "enunciado": "Quantas câmeras foram previstas no Contrato 023/183/24?",
+      "alternativas": ["330.", "414.", "1.200.", "1.130."],
+      "correta": 2,
+      "explicacao": "O contrato contempla 1.200 câmeras, sendo 1.130 PTZ e 70 de alta resolução."
+    },
+    {
+      "id": "video-q010",
+      "tema": "Contrato 023/183/24",
+      "dificuldade": "dificil",
+      "enunciado": "Qual composição corresponde às câmeras do contrato?",
+      "alternativas": [
+        "1.130 PTZ e 70 de alta resolução.",
+        "1.200 PTZ e 50 de alta resolução.",
+        "70 PTZ e 1.130 de alta resolução.",
+        "330 PTZ e 414 de alta resolução."
+      ],
+      "correta": 0,
+      "explicacao": "O material divide as 1.200 câmeras em 1.130 PTZ e 70 de alta resolução."
+    },
+    {
+      "id": "video-q011",
+      "tema": "Contrato 023/183/24",
+      "dificuldade": "medio",
+      "enunciado": "Quantas Mini Centrais foram previstas?",
+      "alternativas": ["30.", "50.", "70.", "100."],
+      "correta": 1,
+      "explicacao": "O contrato prevê 50 Mini Centrais."
+    },
+    {
+      "id": "video-q012",
+      "tema": "Câmera de alta resolução",
+      "dificuldade": "medio",
+      "enunciado": "Qual resolução e taxa de quadros são indicadas para a câmera de alta resolução?",
+      "alternativas": [
+        "6540x416 pixels a 15 fps.",
+        "1920x1080 pixels a 30 fps.",
+        "1280x720 pixels a 15 fps.",
+        "640x480 pixels a 60 fps."
+      ],
+      "correta": 0,
+      "explicacao": "O material informa resolução de 6540x416 pixels a 15 fps."
+    },
+    {
+      "id": "video-q013",
+      "tema": "Lentes",
+      "dificuldade": "facil",
+      "enunciado": "Quais lentes fixas são citadas para a câmera de alta resolução?",
+      "alternativas": ["35 mm e 50 mm.", "18 mm e 24 mm.", "70 mm e 100 mm.", "8 mm e 12 mm."],
+      "correta": 0,
+      "explicacao": "A câmera permite o uso de lentes fixas de 35 mm e 50 mm."
+    },
+    {
+      "id": "video-q014",
+      "tema": "Câmeras PTZ",
+      "dificuldade": "medio",
+      "enunciado": "Qual zoom óptico mínimo é indicado para as câmeras PTZ?",
+      "alternativas": ["8x.", "20x.", "36x.", "80x."],
+      "correta": 2,
+      "explicacao": "As câmeras PTZ devem possuir lente com zoom óptico de pelo menos 36x."
+    },
+    {
+      "id": "video-q015",
+      "tema": "Câmeras PTZ",
+      "dificuldade": "medio",
+      "enunciado": "Qual é o alcance infravermelho mínimo indicado para as câmeras PTZ?",
+      "alternativas": ["30 metros.", "80 metros.", "300 metros.", "800 metros."],
+      "correta": 2,
+      "explicacao": "O material indica tecnologia infravermelha com alcance mínimo de 300 metros."
+    },
+    {
+      "id": "video-q016",
+      "tema": "Câmeras PTZ",
+      "dificuldade": "dificil",
+      "enunciado": "Qual combinação descreve corretamente a movimentação das câmeras PTZ?",
+      "alternativas": [
+        "Rotação horizontal contínua de 360 graus e vertical de -20 a 90 graus.",
+        "Rotação horizontal de 180 graus e vertical de 0 a 45 graus.",
+        "Rotação horizontal de 90 graus sem movimento vertical.",
+        "Somente zoom, sem rotação."
+      ],
+      "correta": 0,
+      "explicacao": "As PTZ possuem rotação horizontal contínua de 360 graus e vertical de -20 a 90 graus, totalizando 110 graus."
+    },
+    {
+      "id": "video-q017",
+      "tema": "Mini Central",
+      "dificuldade": "facil",
+      "enunciado": "Qual item faz parte da Mini Central?",
+      "alternativas": [
+        "Computador, monitor de 50 polegadas e joystick.",
+        "Somente um celular pessoal.",
+        "Apenas uma câmera portátil.",
+        "Exclusivamente um leitor RFID."
+      ],
+      "correta": 0,
+      "explicacao": "A Mini Central inclui computador desktop, monitor de alta resolução de 50 polegadas, joystick, mobiliário e link dedicado."
+    },
+    {
+      "id": "video-q018",
+      "tema": "Armazenamento",
+      "dificuldade": "facil",
+      "enunciado": "Por quanto tempo as imagens devem permanecer arquivadas no sistema em resolução máxima?",
+      "alternativas": ["07 dias.", "15 dias.", "30 dias.", "90 dias."],
+      "correta": 2,
+      "explicacao": "O material determina armazenamento no sistema por 30 dias em resolução máxima, a partir da data de gravação."
+    },
+    {
+      "id": "video-q019",
+      "tema": "Avigilon Unity Video",
+      "dificuldade": "medio",
+      "enunciado": "Para iniciar a conexão no Avigilon Unity Video Client, o usuário deve procurar por:",
+      "alternativas": [
+        "Um site, utilizando a opção '+ Encontrar um site'.",
+        "Um incidente no menu de auditoria.",
+        "Uma ocorrência no CAD.",
+        "Um cartão RFID no sistema."
+      ],
+      "correta": 0,
+      "explicacao": "O passo indicado é iniciar o cliente e clicar em '+ Encontrar um site'."
+    },
+    {
+      "id": "video-q020",
+      "tema": "Interface do sistema",
+      "dificuldade": "facil",
+      "enunciado": "Qual elemento faz parte do Explorador do Sistema?",
+      "alternativas": [
+        "Painel de imagens e menu de tarefas.",
+        "Somente o banco de dados.",
+        "Apenas o cadastro de usuários do SGP.",
+        "Exclusivamente a tela de login."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta visualização, painel de imagens, barra de ferramentas, abas e menu de tarefas."
+    },
+    {
+      "id": "video-q021",
+      "tema": "Analíticos",
+      "dificuldade": "facil",
+      "enunciado": "Qual é um exemplo de analítico de vídeo apresentado?",
+      "alternativas": [
+        "Objeto cruzando o feixe.",
+        "Somente falha de senha.",
+        "Apenas alteração de usuário.",
+        "Exclusivamente mudança de endereço."
+      ],
+      "correta": 0,
+      "explicacao": "Entre os analíticos estão objetos cruzando o feixe, objetos no local, direção violada e outros."
+    },
+    {
+      "id": "video-q022",
+      "tema": "Analíticos",
+      "dificuldade": "medio",
+      "enunciado": "Qual conjunto contém somente analíticos citados no material?",
+      "alternativas": [
+        "Reconhecimento facial, leitura de placas e pesquisa por similaridade.",
+        "Backup, firewall e VPN.",
+        "KMF, KVL e OTAR.",
+        "Docker, Kubernetes e CI/CD."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita reconhecimento facial, leitura de placas, IA para aprendizado de rotina e pesquisa por similaridade."
+    },
+    {
+      "id": "video-q023",
+      "tema": "Criação de eventos",
+      "dificuldade": "medio",
+      "enunciado": "Ao criar um evento analítico, o nome deve ser:",
+      "alternativas": [
+        "Único em todo o site do Avigilon Unity Video.",
+        "Igual ao de qualquer outro evento.",
+        "Opcional e sempre vazio.",
+        "Definido automaticamente sem possibilidade de alteração."
+      ],
+      "correta": 0,
+      "explicacao": "O nome do evento deve ser único em todo o site do Avigilon Unity Video."
+    },
+    {
+      "id": "video-q024",
+      "tema": "Criação de eventos",
+      "dificuldade": "medio",
+      "enunciado": "Se a caixa de seleção Ativado estiver desmarcada, o evento analítico:",
+      "alternativas": [
+        "Não detectará nem acionará eventos.",
+        "Funcionará normalmente.",
+        "Será automaticamente convertido em alarme.",
+        "Gravará em resolução maior."
+      ],
+      "correta": 0,
+      "explicacao": "O material informa que, sem a opção Ativado, o evento não detecta nem aciona eventos."
+    },
+    {
+      "id": "video-q025",
+      "tema": "Sensibilidade",
+      "dificuldade": "medio",
+      "enunciado": "A sensibilidade de um analítico representa:",
+      "alternativas": [
+        "A probabilidade de um objeto disparar o evento.",
+        "A quantidade de câmeras instaladas.",
+        "O tempo de armazenamento das imagens.",
+        "O número de usuários do site."
+      ],
+      "correta": 0,
+      "explicacao": "A sensibilidade indica a probabilidade de um objeto disparar o evento; maior sensibilidade aceita detecções com menor confiança."
+    },
+    {
+      "id": "video-q026",
+      "tema": "Eventos analíticos",
+      "dificuldade": "dificil",
+      "enunciado": "Qual parâmetro define a duração mínima do evento antes do disparo?",
+      "alternativas": [
+        "Tempo de Detecção.",
+        "Tempo limite.",
+        "Intervalo de datas.",
+        "Duração da gravação."
+      ],
+      "correta": 0,
+      "explicacao": "Tempo de Detecção é a duração mínima do evento antes que o sistema dispare um evento."
+    },
+    {
+      "id": "video-q027",
+      "tema": "Eventos analíticos",
+      "dificuldade": "dificil",
+      "enunciado": "O Tempo limite define:",
+      "alternativas": [
+        "A duração máxima do evento e quando ele poderá ser detectado novamente.",
+        "A resolução máxima da câmera.",
+        "O número de destinatários do alarme.",
+        "A quantidade de câmeras do sistema."
+      ],
+      "correta": 0,
+      "explicacao": "O Tempo limite corresponde à duração máxima do evento; após esse tempo, o evento pode ser detectado novamente."
+    },
+    {
+      "id": "video-q028",
+      "tema": "Criação de alarmes",
+      "dificuldade": "medio",
+      "enunciado": "Um alarme pode ser configurado a partir de:",
+      "alternativas": [
+        "Um evento de software externo ou evento analítico criado anteriormente.",
+        "Somente uma mensagem de texto manual.",
+        "Apenas uma senha incorreta.",
+        "Exclusivamente um arquivo de imagem."
+      ],
+      "correta": 0,
+      "explicacao": "O material orienta escolher como fonte um evento de software externo e selecionar a câmera do evento analítico criado."
+    },
+    {
+      "id": "video-q029",
+      "tema": "Criação de alarmes",
+      "dificuldade": "medio",
+      "enunciado": "Na configuração do alarme, pode-se definir:",
+      "alternativas": [
+        "Tempo de gravação antes do alarme e duração da gravação.",
+        "Somente o nome do usuário.",
+        "Apenas a cor da interface.",
+        "Exclusivamente o modelo do monitor."
+      ],
+      "correta": 0,
+      "explicacao": "O alarme permite definir tempo de gravação anterior e duração da gravação."
+    },
+    {
+      "id": "video-q030",
+      "tema": "Destinatários de alarmes",
+      "dificuldade": "facil",
+      "enunciado": "Os destinatários de um alarme podem ser:",
+      "alternativas": ["Usuários e/ou grupos.", "Somente câmeras.", "Apenas objetos detectados.", "Exclusivamente servidores."],
+      "correta": 0,
+      "explicacao": "O material permite adicionar usuários e/ou grupos como destinatários do alarme."
+    },
+    {
+      "id": "video-q031",
+      "tema": "Pesquisa por aparências",
+      "dificuldade": "facil",
+      "enunciado": "A busca por Aparências permite pesquisar principalmente por:",
+      "alternativas": [
+        "Características de pessoas ou veículos.",
+        "Somente nomes de usuários.",
+        "Apenas número de série da câmera.",
+        "Exclusivamente data de instalação."
+      ],
+      "correta": 0,
+      "explicacao": "A busca permite selecionar ícones que representam características da pessoa ou do veículo."
+    },
+    {
+      "id": "video-q032",
+      "tema": "Pesquisa por aparências",
+      "dificuldade": "medio",
+      "enunciado": "Na pesquisa por Aparências, é possível definir:",
+      "alternativas": [
+        "Intervalo de datas e câmeras a serem pesquisadas.",
+        "Somente o nome do operador.",
+        "Apenas o tipo de cabo.",
+        "Exclusivamente a senha do sistema."
+      ],
+      "correta": 0,
+      "explicacao": "O material indica definição de intervalo de datas e seleção das câmeras incluídas na pesquisa."
+    },
+    {
+      "id": "video-q033",
+      "tema": "Reconhecimento facial",
+      "dificuldade": "facil",
+      "enunciado": "Quantas licenças para reconhecimento facial são informadas no material?",
+      "alternativas": ["05.", "20.", "50.", "100."],
+      "correta": 2,
+      "explicacao": "O material informa a disponibilidade de 50 licenças para reconhecimento facial."
+    },
+    {
+      "id": "video-q034",
+      "tema": "Reconhecimento facial",
+      "dificuldade": "medio",
+      "enunciado": "Para acessar os alertas de reconhecimento facial, o usuário deve:",
+      "alternativas": [
+        "Acessar o menu lateral, entrar na aba correspondente e informar login e senha.",
+        "Somente abrir o mapa ao vivo.",
+        "Usar exclusivamente um cartão RFID.",
+        "Criar um incidente sem autenticação."
+      ],
+      "correta": 0,
+      "explicacao": "O fluxo indicado inclui menu lateral, aba Alertas Reconhecimento Facial e autenticação."
+    },
+    {
+      "id": "video-q035",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa resume corretamente o videomonitoramento apresentado?",
+      "alternativas": [
+        "Câmeras, armazenamento, analíticos, eventos, alarmes e pesquisas são integrados para apoiar o monitoramento.",
+        "O sistema serve apenas para visualizar imagens ao vivo.",
+        "Os analíticos não podem gerar eventos ou alarmes.",
+        "A pesquisa depende exclusivamente de nomes de usuários."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta uma solução integrada com câmeras, armazenamento, analíticos, eventos, alarmes, reconhecimento e pesquisa."
+    }
+  ],
+  "stories": [
+    {"id": "video-s001", "ordem": 1, "titulo": "Videomonitoramento", "texto": "Câmeras fixas apoiam OCR, ALPR, biometria e analíticos.", "destaque": "Imagem + inteligência + pesquisa."},
+    {"id": "video-s002", "ordem": 2, "titulo": "Olho de Lince", "texto": "Projeto anterior de videomonitoramento que se estendeu até o final de 2025.", "destaque": "Experiências em logística, tecnologia e financeiro."},
+    {"id": "video-s003", "ordem": 3, "titulo": "Genetec", "texto": "Software de videomonitoramento adquirido de forma vitalícia no projeto anterior.", "destaque": "Legado tecnológico."},
+    {"id": "video-s004", "ordem": 4, "titulo": "Contrato atual", "texto": "Contrato 023/183/24 com a Motorola Solutions.", "destaque": "1.200 câmeras e 50 Mini Centrais."},
+    {"id": "video-s005", "ordem": 5, "titulo": "PTZ", "texto": "Câmeras com zoom óptico, zoom digital, infravermelho e rotação.", "destaque": "360° horizontal contínuo."},
+    {"id": "video-s006", "ordem": 6, "titulo": "Alta resolução", "texto": "Câmera com resolução indicada de 6540x416 pixels a 15 fps.", "destaque": "Lentes fixas de 35 mm e 50 mm."},
+    {"id": "video-s007", "ordem": 7, "titulo": "Armazenamento", "texto": "As imagens ficam arquivadas no sistema por 30 dias em resolução máxima.", "destaque": "Contado a partir da gravação."},
+    {"id": "video-s008", "ordem": 8, "titulo": "Analíticos", "texto": "Detectam objetos, direção, ocupação, placas, rostos e similaridade.", "destaque": "Automação da percepção de eventos."},
+    {"id": "video-s009", "ordem": 9, "titulo": "Evento", "texto": "Deve ter nome único, estar ativado e possuir tipo de objeto e sensibilidade configurados.", "destaque": "Sem ativação, não detecta nem aciona."},
+    {"id": "video-s010", "ordem": 10, "titulo": "Sensibilidade", "texto": "Indica a probabilidade de um objeto disparar o evento.", "destaque": "Maior sensibilidade aceita menor confiança."},
+    {"id": "video-s011", "ordem": 11, "titulo": "Tempo de detecção", "texto": "Define a duração mínima antes do disparo do evento.", "destaque": "Mínimo necessário para acionar."},
+    {"id": "video-s012", "ordem": 12, "titulo": "Tempo limite", "texto": "Define a duração máxima do evento e quando ele poderá ser detectado novamente.", "destaque": "Controla repetição da detecção."},
+    {"id": "video-s013", "ordem": 13, "titulo": "Alarme", "texto": "Pode ser acionado por evento de software externo ou evento analítico.", "destaque": "Pode gravar antes e depois do disparo."},
+    {"id": "video-s014", "ordem": 14, "titulo": "Destinatários", "texto": "Alarmes podem ser enviados a usuários e grupos.", "destaque": "Notificação direcionada."},
+    {"id": "video-s015", "ordem": 15, "titulo": "Aparências", "texto": "Pesquisa por características de pessoas ou veículos.", "destaque": "Filtre por aparência, período e câmeras."},
+    {"id": "video-s016", "ordem": 16, "titulo": "Reconhecimento facial", "texto": "O material informa 50 licenças disponíveis.", "destaque": "Acesso por login e senha."},
+    {"id": "video-s017", "ordem": 17, "titulo": "Mini Central", "texto": "Inclui computador, monitor de 50 polegadas, joystick, mobiliário e link dedicado.", "destaque": "Ponto de operação do sistema."},
+    {"id": "video-s018", "ordem": 18, "titulo": "Pesquisa", "texto": "A pesquisa pode incluir todas as câmeras por padrão ou somente as selecionadas.", "destaque": "Defina período e fonte."},
+    {"id": "video-s019", "ordem": 19, "titulo": "OCR e ALPR", "texto": "Tecnologias para reconhecimento óptico e leitura automatizada de placas.", "destaque": "Dados extraídos da imagem."},
+    {"id": "video-s020", "ordem": 20, "titulo": "Bizu final", "texto": "Analítico detecta; evento organiza; alarme notifica; pesquisa localiza.", "destaque": "Câmera → analítico → evento → alarme → ação."}
+  ]
+}

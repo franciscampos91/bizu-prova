@@ -1,0 +1,567 @@
+{
+  "id": "cop",
+  "nome": "Câmeras Operacionais Portáteis",
+  "sigla": "COP",
+  "semana": 1,
+  "tipo": "quiz",
+  "descricao": "Gestão e capacitação em TIC sobre Câmeras Operacionais Portáteis, contratos, equipamentos, atribuições, acionamentos, evidências, hierarquia de acesso, monitoramento e fiscalização.",
+  "objetivo": "Conhecer o funcionamento das COP, os principais tipos de acionamento, os perfis de acesso, a gestão das evidências e os procedimentos administrativos relacionados aos equipamentos.",
+  "fonte": "COP.pdf",
+  "observacao": "Questões elaboradas com base no material fornecido. Alguns slides são predominantemente visuais; os detalhes de botões e telas devem ser conferidos diretamente na apresentação original.",
+  "palavrasChave": [
+    "Câmera Operacional Portátil",
+    "COP",
+    "AXON",
+    "RFID",
+    "Live Streaming",
+    "acionamento manual",
+    "acionamento por proximidade",
+    "supervisão remota",
+    "incidente",
+    "auditoria"
+  ],
+  "questoes": [
+    {
+      "id": "cop-q001",
+      "tema": "Contrato 001/183/21",
+      "dificuldade": "facil",
+      "enunciado": "Qual foi o primeiro contrato de câmeras corporais apresentado no material?",
+      "alternativas": [
+        "Contrato 001/183/21, da AXON.",
+        "Contrato 031/183/21, da DTIC.",
+        "Contrato 010/183/24, da SODC.",
+        "Contrato 009/183/25, do SRDC."
+      ],
+      "correta": 0,
+      "explicacao": "O material identifica o Contrato 001/183/21, da AXON, como o primeiro contrato de câmeras corporais."
+    },
+    {
+      "id": "cop-q002",
+      "tema": "Contrato 001/183/21",
+      "dificuldade": "medio",
+      "enunciado": "Quantas COP foram adquiridas inicialmente no Contrato 001/183/21 e qual foi o total após o acréscimo?",
+      "alternativas": [
+        "2.500 inicialmente e 3.125 no total.",
+        "3.125 inicialmente e 2.500 no total.",
+        "7.000 inicialmente e 15.000 no total.",
+        "12.000 inicialmente e 15.000 no total."
+      ],
+      "correta": 0,
+      "explicacao": "Foram adquiridas 2.500 COP, acrescidas de 625, totalizando 3.125 COP."
+    },
+    {
+      "id": "cop-q003",
+      "tema": "Resolução de vídeo",
+      "dificuldade": "facil",
+      "enunciado": "No primeiro contrato, os vídeos intencionais eram gravados em:",
+      "alternativas": ["720p.", "480p.", "1080i somente.", "240p."],
+      "correta": 0,
+      "explicacao": "O material informa vídeos intencionais em 720p e vídeos de rotina/intermitentes em 480p."
+    },
+    {
+      "id": "cop-q004",
+      "tema": "Contrato 031/183/21",
+      "dificuldade": "medio",
+      "enunciado": "Qual foi a quantidade de COP adquirida no Contrato 031/183/21?",
+      "alternativas": ["2.500.", "3.125.", "7.000.", "15.000."],
+      "correta": 2,
+      "explicacao": "O Contrato 031/183/21 contemplou a aquisição de 7.000 COP."
+    },
+    {
+      "id": "cop-q005",
+      "tema": "Contrato 031/183/21",
+      "dificuldade": "medio",
+      "enunciado": "Uma funcionalidade destacada no Contrato 031/183/21 foi:",
+      "alternativas": [
+        "Visualização das COP no mapa e Live Streaming.",
+        "Somente gravação em 480p sem localização.",
+        "Apenas acionamento por cartão RFID.",
+        "Exclusivamente edição de relatórios."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca a possibilidade de visualizar as COP no mapa e utilizar Live Streaming."
+    },
+    {
+      "id": "cop-q006",
+      "tema": "Contrato 010/183/24",
+      "dificuldade": "medio",
+      "enunciado": "Qual foi o total de COP após o acréscimo previsto no Contrato 010/183/24?",
+      "alternativas": ["3.125.", "7.000.", "12.000.", "15.000."],
+      "correta": 3,
+      "explicacao": "Foram adquiridas 12.000 COP, acrescidas de 3.000, totalizando 15.000 COP."
+    },
+    {
+      "id": "cop-q007",
+      "tema": "Contrato 010/183/24",
+      "dificuldade": "facil",
+      "enunciado": "Quantas OPM foram contempladas pelo Contrato 010/183/24?",
+      "alternativas": ["22.", "42.", "64.", "106."],
+      "correta": 3,
+      "explicacao": "O contrato contemplou 106 OPM."
+    },
+    {
+      "id": "cop-q008",
+      "tema": "Equipamentos",
+      "dificuldade": "facil",
+      "enunciado": "Qual item faz parte do conjunto de equipamentos apresentado?",
+      "alternativas": [
+        "Cartão RFID e leitor do cartão.",
+        "Somente teclado e monitor externo.",
+        "Apenas antena de radiocomunicação.",
+        "Exclusivamente servidor de banco de dados."
+      ],
+      "correta": 0,
+      "explicacao": "O conjunto inclui COP, suportes, computador, mobília, celular, cartão RFID, leitor do cartão e doca."
+    },
+    {
+      "id": "cop-q009",
+      "tema": "Qualidade de imagem",
+      "dificuldade": "facil",
+      "enunciado": "Qual é a qualidade de imagem Full HD indicada para a COP?",
+      "alternativas": ["1280x720p.", "1920x1080p.", "640x480p.", "3840x2160p obrigatoriamente."],
+      "correta": 1,
+      "explicacao": "O material indica qualidade Full HD de 1920x1080p."
+    },
+    {
+      "id": "cop-q010",
+      "tema": "Cadastro e atribuição",
+      "dificuldade": "facil",
+      "enunciado": "O cadastro da plataforma e a atribuição da COP são descritos como:",
+      "alternativas": [
+        "Cadastro automático e atribuição automática.",
+        "Cadastro manual e atribuição manual obrigatória.",
+        "Cadastro externo e atribuição por sorteio.",
+        "Sem cadastro e sem atribuição."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca cadastro automático da plataforma e atribuição automática, sem atribuição manual."
+    },
+    {
+      "id": "cop-q011",
+      "tema": "Funcionalidades da COP",
+      "dificuldade": "medio",
+      "enunciado": "Qual funcionalidade está presente na COP?",
+      "alternativas": [
+        "Acionamento remoto e por proximidade.",
+        "Somente acionamento por cabo.",
+        "Apenas gravação sem metadados.",
+        "Exclusivamente comunicação por e-mail."
+      ],
+      "correta": 0,
+      "explicacao": "O material lista acionamento remoto, acionamento por proximidade, acionamento automático e acionamento manual."
+    },
+    {
+      "id": "cop-q012",
+      "tema": "Funcionalidades da COP",
+      "dificuldade": "medio",
+      "enunciado": "A COP permite:",
+      "alternativas": [
+        "Visualização no mapa, Live Streaming e áudio bidirecional.",
+        "Somente gravação local sem transmissão.",
+        "Apenas reprodução de áudio sem vídeo.",
+        "Exclusivamente edição de texto."
+      ],
+      "correta": 0,
+      "explicacao": "Entre as funcionalidades estão visualização no mapa, Live Streaming e áudio bidirecional."
+    },
+    {
+      "id": "cop-q013",
+      "tema": "Cadastro no sistema",
+      "dificuldade": "medio",
+      "enunciado": "De onde vêm os dados utilizados pela DTIC para alimentar o cadastro da plataforma?",
+      "alternativas": [
+        "Do SGP.",
+        "Somente de redes sociais.",
+        "De planilhas pessoais dos policiais.",
+        "Exclusivamente de cadastro manual externo."
+      ],
+      "correta": 0,
+      "explicacao": "A DTIC realiza a extração dos dados provenientes do SGP para alimentar o sistema."
+    },
+    {
+      "id": "cop-q014",
+      "tema": "Cadastro no sistema",
+      "dificuldade": "medio",
+      "enunciado": "Qual conjunto contém dados coletados do SGP para o cadastro?",
+      "alternativas": [
+        "Nome completo, RE, CPF, OPM, CIA, e-mail e função principal.",
+        "Somente nome e telefone pessoal.",
+        "Apenas posto e endereço residencial.",
+        "Senha, biometria e dados bancários."
+      ],
+      "correta": 0,
+      "explicacao": "O material lista nome completo, RE, CPF, OPM, CIA, e-mail e função principal exercida."
+    },
+    {
+      "id": "cop-q015",
+      "tema": "Grupos e permissões",
+      "dificuldade": "dificil",
+      "enunciado": "O grupo ao qual o policial pertence está diretamente relacionado ao cadastro de:",
+      "alternativas": [
+        "OPM e CIA no SGP.",
+        "Somente ao modelo da câmera.",
+        "Apenas ao endereço residencial.",
+        "Exclusivamente ao número do telefone."
+      ],
+      "correta": 0,
+      "explicacao": "O grupo está atrelado ao cadastro da OPM e da CIA no SGP; a função está relacionada à função principal habilitada."
+    },
+    {
+      "id": "cop-q016",
+      "tema": "Perfil Patrulheiro",
+      "dificuldade": "facil",
+      "enunciado": "Qual é uma permissão do perfil Patrulheiro (PTR)?",
+      "alternativas": [
+        "Visualizar e reproduzir a própria mídia.",
+        "Editar dados de todos os incidentes.",
+        "Baixar todas as trilhas de auditoria.",
+        "Acionar qualquer COP do Estado."
+      ],
+      "correta": 0,
+      "explicacao": "O Patrulheiro pode visualizar e reproduzir a própria mídia, entre outras permissões apresentadas."
+    },
+    {
+      "id": "cop-q017",
+      "tema": "Perfil Supervisão",
+      "dificuldade": "medio",
+      "enunciado": "Uma permissão do perfil Supervisão é:",
+      "alternativas": [
+        "Visualizar e reproduzir mídias dos policiais supervisionados.",
+        "Acessar todas as mídias sem relação hierárquica.",
+        "Alterar qualquer cadastro do SGP.",
+        "Excluir todos os registros de auditoria."
+      ],
+      "correta": 0,
+      "explicacao": "A Supervisão pode visualizar e reproduzir mídias dos policiais supervisionados."
+    },
+    {
+      "id": "cop-q018",
+      "tema": "Perfil Supervisão",
+      "dificuldade": "medio",
+      "enunciado": "Entre as funções da Supervisão estão:",
+      "alternativas": [
+        "Criar incidente, visualizar COP supervisionadas no mapa e acionar remotamente.",
+        "Baixar qualquer incidente sem restrição.",
+        "Alterar o CPF de todos os usuários.",
+        "Editar a estrutura do SGP."
+      ],
+      "correta": 0,
+      "explicacao": "O perfil Supervisão pode criar incidente, visualizar COP supervisionadas no mapa e acioná-las remotamente."
+    },
+    {
+      "id": "cop-q019",
+      "tema": "Perfil P/2",
+      "dificuldade": "dificil",
+      "enunciado": "Uma permissão específica apresentada para o Agente de Inteligência — P/2 — é:",
+      "alternativas": [
+        "Visualizar a lista de usuários do grupo ou supervisionados e alterar cartão RFID.",
+        "Acessar somente a própria mídia.",
+        "Editar qualquer dado institucional sem auditoria.",
+        "Excluir todos os vídeos compartilhados."
+      ],
+      "correta": 0,
+      "explicacao": "O material lista visualização da lista de usuários do grupo ou supervisionados e alteração do cartão RFID do usuário."
+    },
+    {
+      "id": "cop-q020",
+      "tema": "Perfil PJMD",
+      "dificuldade": "dificil",
+      "enunciado": "Entre as permissões do perfil PJMD está:",
+      "alternativas": [
+        "Editar dados dos incidentes e baixar trilhas de auditoria.",
+        "Apenas visualizar a própria mídia.",
+        "Acionar remotamente qualquer COP sem supervisão.",
+        "Alterar diretamente os dados do SGP."
+      ],
+      "correta": 0,
+      "explicacao": "O material atribui ao PJMD a possibilidade de editar dados dos incidentes, baixar trilhas de auditoria e baixar incidentes."
+    },
+    {
+      "id": "cop-q021",
+      "tema": "Hierarquia de acesso",
+      "dificuldade": "medio",
+      "enunciado": "As restrições de acesso às evidências são definidas principalmente conforme:",
+      "alternativas": [
+        "A hierarquia funcional, a OPM e o complemento/cadastro correspondente.",
+        "A preferência pessoal do usuário.",
+        "A marca da câmera apenas.",
+        "A ordem de acesso à Internet."
+      ],
+      "correta": 0,
+      "explicacao": "O sistema restringe o acesso conforme a hierarquia funcional, o cadastro da função, a OPM e o complemento."
+    },
+    {
+      "id": "cop-q022",
+      "tema": "Tipos de acionamento",
+      "dificuldade": "facil",
+      "enunciado": "Qual conjunto apresenta tipos de acionamento das COP?",
+      "alternativas": [
+        "Manual, CAD, proximidade e supervisão/remoto.",
+        "Somente manual e por cabo.",
+        "Apenas automático e por senha.",
+        "E-mail, telefone e rádio analógico."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta acionamento manual, vinculado ao CAD/ocorrência, por proximidade e por supervisão/remoto."
+    },
+    {
+      "id": "cop-q023",
+      "tema": "Acionamento manual",
+      "dificuldade": "facil",
+      "enunciado": "O acionamento manual ocorre por:",
+      "alternativas": [
+        "Ação direta do policial no equipamento.",
+        "Comando automático do Bluetooth.",
+        "Ação exclusiva do juiz.",
+        "Atualização do SGP."
+      ],
+      "correta": 0,
+      "explicacao": "No acionamento manual, o policial aciona diretamente a COP no equipamento."
+    },
+    {
+      "id": "cop-q024",
+      "tema": "Acionamento por CAD",
+      "dificuldade": "medio",
+      "enunciado": "O acionamento vinculado ao CAD ocorre quando:",
+      "alternativas": [
+        "Está relacionado ao despacho da ocorrência/talão.",
+        "Outra COP aproxima-se a menos de 5 metros.",
+        "A supervisão seleciona uma COP no mapa.",
+        "O usuário lê um QR Code."
+      ],
+      "correta": 0,
+      "explicacao": "O acionamento pelo CAD está vinculado ao despacho da ocorrência e ao talão."
+    },
+    {
+      "id": "cop-q025",
+      "tema": "Acionamento por proximidade",
+      "dificuldade": "facil",
+      "enunciado": "O acionamento por proximidade utiliza:",
+      "alternativas": [
+        "Bluetooth.",
+        "Somente GPS.",
+        "Rede social.",
+        "Cabo USB obrigatório."
+      ],
+      "correta": 0,
+      "explicacao": "O acionamento por proximidade ocorre via Bluetooth."
+    },
+    {
+      "id": "cop-q026",
+      "tema": "Acionamento por proximidade",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a distância mínima indicada para o acionamento por proximidade?",
+      "alternativas": [
+        "05 metros.",
+        "50 metros.",
+        "500 metros.",
+        "1 quilômetro."
+      ],
+      "correta": 0,
+      "explicacao": "O material indica alcance mínimo de 05 metros, podendo variar conforme o ambiente."
+    },
+    {
+      "id": "cop-q027",
+      "tema": "Supervisão remota",
+      "dificuldade": "facil",
+      "enunciado": "Como a supervisão pode acionar remotamente uma COP?",
+      "alternativas": [
+        "Selecionando uma COP supervisionada no mapa ao vivo.",
+        "Enviando uma mensagem em rede social.",
+        "Alterando manualmente o SGP.",
+        "Usando somente o cartão RFID."
+      ],
+      "correta": 0,
+      "explicacao": "A supervisão pode selecionar uma COP que esteja sob sua supervisão no mapa ao vivo e acioná-la."
+    },
+    {
+      "id": "cop-q028",
+      "tema": "Mapa ao vivo",
+      "dificuldade": "medio",
+      "enunciado": "O mapa ao vivo permite:",
+      "alternativas": [
+        "Ver a localização da COP em tempo real e visualizar várias COP no Videowall.",
+        "Armazenar permanentemente todo o rastro da COP.",
+        "Editar o cadastro do SGP.",
+        "Visualizar somente COP desligadas."
+      ],
+      "correta": 0,
+      "explicacao": "O mapa permite verificar localização em tempo real, visualizar várias COP no Videowall e acionar equipamentos."
+    },
+    {
+      "id": "cop-q029",
+      "tema": "Rastro da COP",
+      "dificuldade": "medio",
+      "enunciado": "Sobre o rastro da COP no mapa, o material informa que:",
+      "alternativas": [
+        "Ele auxilia na visualização ao vivo, mas não fica armazenado no sistema.",
+        "É armazenado permanentemente.",
+        "Só aparece após exportação de incidente.",
+        "Substitui o registro de auditoria."
+      ],
+      "correta": 0,
+      "explicacao": "O rastro é exibido por breve período para auxílio na visualização ao vivo e não fica armazenado no sistema."
+    },
+    {
+      "id": "cop-q030",
+      "tema": "Áudio bidirecional",
+      "dificuldade": "facil",
+      "enunciado": "O áudio bidirecional permite que:",
+      "alternativas": [
+        "A supervisão se comunique com o policial pela saída de áudio da COP.",
+        "A COP funcione sem qualquer rede.",
+        "O policial edite o SGP pelo equipamento.",
+        "O sistema substitua a gravação de vídeo."
+      ],
+      "correta": 0,
+      "explicacao": "O áudio bidirecional permite comunicação da supervisão com o policial por meio da saída de áudio da COP."
+    },
+    {
+      "id": "cop-q031",
+      "tema": "VB SmartControl",
+      "dificuldade": "medio",
+      "enunciado": "O VB SmartControl é apresentado como:",
+      "alternativas": [
+        "Aplicativo para visualizar evidências da COP e inserir dados nos vídeos.",
+        "Sistema de gestão de chaves criptográficas.",
+        "Ferramenta exclusiva de auditoria do SGP.",
+        "Aplicativo de despacho de ocorrências."
+      ],
+      "correta": 0,
+      "explicacao": "O VB SmartControl é um aplicativo para visualização de evidências e inserção de dados nos vídeos."
+    },
+    {
+      "id": "cop-q032",
+      "tema": "Incidentes",
+      "dificuldade": "facil",
+      "enunciado": "A finalidade de um incidente é:",
+      "alternativas": [
+        "Reunir evidências relacionadas ao mesmo fato.",
+        "Excluir todas as mídias do sistema.",
+        "Substituir o registro de auditoria.",
+        "Alterar automaticamente o SGP."
+      ],
+      "correta": 0,
+      "explicacao": "O material orienta reunir em um incidente as evidências do mesmo fato."
+    },
+    {
+      "id": "cop-q033",
+      "tema": "Evidências e download",
+      "dificuldade": "medio",
+      "enunciado": "Para baixar evidências relacionadas a um fato, deve-se:",
+      "alternativas": [
+        "Inserir as evidências desejadas em um incidente.",
+        "Apagar as mídias após visualizá-las.",
+        "Usar somente o mapa ao vivo.",
+        "Alterar o cartão RFID."
+      ],
+      "correta": 0,
+      "explicacao": "As evidências que se deseja baixar devem ser inseridas em um incidente."
+    },
+    {
+      "id": "cop-q034",
+      "tema": "Relatórios e auditoria",
+      "dificuldade": "medio",
+      "enunciado": "O relatório de auditoria consiste no ato de verificar:",
+      "alternativas": [
+        "Todas as ações efetuadas no sistema.",
+        "Somente os vídeos baixados.",
+        "Apenas os usuários externos.",
+        "Exclusivamente a localização das docas."
+      ],
+      "correta": 0,
+      "explicacao": "O material define relatórios como verificação das ações efetuadas no sistema, envolvendo usuários, dispositivos, mídia, incidentes, docas e eventos."
+    },
+    {
+      "id": "cop-q035",
+      "tema": "Fiscais de contrato",
+      "dificuldade": "facil",
+      "enunciado": "Quem são os fiscais de contrato?",
+      "alternativas": [
+        "Policiais militares nomeados pelo Batalhão para acompanhar o serviço.",
+        "Qualquer usuário que assista a um vídeo.",
+        "Somente representantes da empresa contratada.",
+        "Apenas policiais da DTIC."
+      ],
+      "correta": 0,
+      "explicacao": "São policiais militares nomeados pelo Batalhão para acompanhar o serviço."
+    },
+    {
+      "id": "cop-q036",
+      "tema": "Fiscais de contrato",
+      "dificuldade": "medio",
+      "enunciado": "Uma responsabilidade dos fiscais de contrato é:",
+      "alternativas": [
+        "Entregar mensalmente o Relatório Mensal dos equipamentos.",
+        "Alterar todos os usuários do sistema.",
+        "Liberar acesso irrestrito às evidências.",
+        "Configurar o SGP de toda a Corporação."
+      ],
+      "correta": 0,
+      "explicacao": "Os fiscais são responsáveis pela entrega mensal do Relatório Mensal dos equipamentos e fazem a ligação da OPM com o gestor contratual."
+    },
+    {
+      "id": "cop-q037",
+      "tema": "Readequação de equipamentos",
+      "dificuldade": "medio",
+      "enunciado": "Para solicitar readequação de equipamentos, a comunicação deve ser feita com antecedência mínima de:",
+      "alternativas": ["05 dias.", "15 dias.", "30 dias.", "90 dias."],
+      "correta": 1,
+      "explicacao": "O material exige comunicação por e-mail à DTIC com no mínimo 15 dias de antecedência para readequações."
+    },
+    {
+      "id": "cop-q038",
+      "tema": "Remanejamento de endereço",
+      "dificuldade": "medio",
+      "enunciado": "Para remanejamento para outro endereço, a comunicação deve ser feita com antecedência mínima de:",
+      "alternativas": ["05 dias.", "15 dias.", "30 dias.", "90 dias."],
+      "correta": 2,
+      "explicacao": "O remanejamento para outro endereço exige comunicação com no mínimo 30 dias de antecedência."
+    },
+    {
+      "id": "cop-q039",
+      "tema": "Remanejamento de endereço",
+      "dificuldade": "dificil",
+      "enunciado": "Após a mudança física para um novo endereço, o equipamento pode ficar inoperante por falta de link por até:",
+      "alternativas": ["15 dias.", "30 dias.", "60 dias.", "90 dias."],
+      "correta": 3,
+      "explicacao": "O material alerta que o novo endereço pode ficar até 90 dias com o equipamento sem link de Internet, portanto inoperante."
+    },
+    {
+      "id": "cop-q040",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa resume corretamente a gestão das COP?",
+      "alternativas": [
+        "Cadastro automático pelo SGP, atribuição conforme função e unidade, acionamentos variados, acesso hierárquico e registro das evidências.",
+        "Cadastro manual sem relação com a OPM, acesso irrestrito e ausência de auditoria.",
+        "Acionamento somente manual e armazenamento sem controle.",
+        "Gestão baseada apenas no equipamento, sem usuários, grupos ou incidentes."
+      ],
+      "correta": 0,
+      "explicacao": "A gestão combina dados do SGP, atribuição automática, acionamentos manual/CAD/proximidade/remoto, permissões hierárquicas, incidentes e auditoria."
+    }
+  ],
+  "stories": [
+    {"id": "cop-s001", "ordem": 1, "titulo": "COP", "texto": "Câmera Operacional Portátil utilizada na atividade policial.", "destaque": "Vídeo, áudio, localização e evidências."},
+    {"id": "cop-s002", "ordem": 2, "titulo": "Contrato 001/183/21", "texto": "Primeiro contrato de câmeras corporais, com 2.500 COP inicialmente e 3.125 após acréscimo.", "destaque": "AXON; vídeos intencionais em 720p."},
+    {"id": "cop-s003", "ordem": 3, "titulo": "Contrato 031/183/21", "texto": "Aquisição de 7.000 COP e possibilidade de mapa e Live Streaming.", "destaque": "42 OPM contempladas."},
+    {"id": "cop-s004", "ordem": 4, "titulo": "Contrato 010/183/24", "texto": "12.000 COP mais 3.000, totalizando 15.000.", "destaque": "106 OPM contempladas."},
+    {"id": "cop-s005", "ordem": 5, "titulo": "Full HD", "texto": "A COP possui qualidade de imagem Full HD de 1920x1080p.", "destaque": "Gravação de alta resolução."},
+    {"id": "cop-s006", "ordem": 6, "titulo": "Atribuição automática", "texto": "Não há atribuição manual: o sistema realiza a atribuição automaticamente.", "destaque": "Cadastro e função vêm do SGP."},
+    {"id": "cop-s007", "ordem": 7, "titulo": "Dados do SGP", "texto": "Nome, RE, CPF, OPM, CIA, e-mail e função principal alimentam o cadastro.", "destaque": "OPM e CIA definem o grupo."},
+    {"id": "cop-s008", "ordem": 8, "titulo": "PTR", "texto": "O Patrulheiro pode visualizar, reproduzir e compartilhar mídias dentro das permissões.", "destaque": "Acesso à própria mídia."},
+    {"id": "cop-s009", "ordem": 9, "titulo": "Supervisão", "texto": "Pode acessar mídias de supervisionados, criar incidentes, ver mapa e acionar COP remotamente.", "destaque": "Permissão ligada à hierarquia."},
+    {"id": "cop-s010", "ordem": 10, "titulo": "P/2", "texto": "O Agente de Inteligência pode acessar usuários supervisionados e alterar cartão RFID.", "destaque": "Função vinculada à Inteligência."},
+    {"id": "cop-s011", "ordem": 11, "titulo": "PJMD", "texto": "Pode editar incidentes e baixar trilhas de auditoria e incidentes.", "destaque": "Acesso relacionado à Justiça e Disciplina."},
+    {"id": "cop-s012", "ordem": 12, "titulo": "Acionamentos", "texto": "Manual, CAD, proximidade e supervisão/remoto.", "destaque": "Quatro formas principais."},
+    {"id": "cop-s013", "ordem": 13, "titulo": "Proximidade", "texto": "Acionamento automático via Bluetooth quando outra COP está a pelo menos 05 metros.", "destaque": "O ambiente pode alterar o alcance."},
+    {"id": "cop-s014", "ordem": 14, "titulo": "Talão/CAD", "texto": "Quando a equipe é atrelada ao talão, as COP podem ser acionadas pelo despacho.", "destaque": "Dados do talão podem ser ligados ao vídeo."},
+    {"id": "cop-s015", "ordem": 15, "titulo": "Mapa ao vivo", "texto": "Permite verificar localização, rastro temporário, várias COP e acionar equipamentos.", "destaque": "Live Streaming e Videowall."},
+    {"id": "cop-s016", "ordem": 16, "titulo": "Rastro", "texto": "O rastro auxilia a visualização ao vivo, mas não fica armazenado no sistema.", "destaque": "Visualização temporária."},
+    {"id": "cop-s017", "ordem": 17, "titulo": "Áudio bidirecional", "texto": "A supervisão pode se comunicar com o policial pela saída de áudio da COP.", "destaque": "Comunicação em duas vias."},
+    {"id": "cop-s018", "ordem": 18, "titulo": "Incidentes", "texto": "Reúnem evidências do mesmo fato e permitem organizar mídias para download.", "destaque": "Evidência relacionada ao fato."},
+    {"id": "cop-s019", "ordem": 19, "titulo": "Auditoria", "texto": "Relatórios verificam ações de usuários, dispositivos, mídias, incidentes, docas e eventos.", "destaque": "Rastreabilidade do sistema."},
+    {"id": "cop-s020", "ordem": 20, "titulo": "Bizu final", "texto": "COP é tecnologia, mas também cadastro, hierarquia, acionamento, evidência e fiscalização.", "destaque": "Uso correto protege a operação e a prova."}
+  ]
+}

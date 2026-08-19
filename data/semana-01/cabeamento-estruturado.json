@@ -1,0 +1,222 @@
+{
+  "id": "cabeamento-estruturado",
+  "nome": "Cabeamento Estruturado e Distribuidores de Rede",
+  "sigla": "CABEAMENTO-ESTRUTURADO",
+  "semana": 2,
+  "tipo": "quiz",
+  "descricao": "Cabeamento estruturado, normas técnicas, categorias de cabos, rack, fibra óptica, Hub, Switch, tabela MAC, controle de acesso por porta, uplinks e PoE.",
+  "objetivo": "Compreender os fundamentos da infraestrutura física da rede e diferenciar instalações organizadas de soluções improvisadas.",
+  "fonte": "Presencial — Slide Completo — Aulas 3 e 4 — Cabeamento Estruturado",
+  "observacao": "Este arquivo corresponde à versão resumida do material. Ele deve ser tratado como conteúdo complementar ao arquivo cabeamento-estruturado-distribuidores.json, caso ambos sejam mantidos.",
+  "palavrasChave": [
+    "cabeamento estruturado",
+    "gambiarra",
+    "NBR 14565",
+    "Cat5e",
+    "Cat6",
+    "Cat6a",
+    "atenuação",
+    "rack",
+    "fibra óptica",
+    "Hub",
+    "Switch",
+    "MAC",
+    "PoE"
+  ],
+  "questoes": [
+    {
+      "id": "cab2-q001",
+      "tema": "Cabeamento estruturado",
+      "dificuldade": "facil",
+      "enunciado": "Um dos objetivos da instrução é diferenciar cabeamento estruturado de:",
+      "alternativas": ["Gambiarra ou instalação improvisada.", "Fibra óptica.", "Tabela MAC.", "PoE."],
+      "correta": 0,
+      "explicacao": "O material propõe diferenciar uma infraestrutura organizada de uma instalação improvisada ou 'gambiarra'."
+    },
+    {
+      "id": "cab2-q002",
+      "tema": "Normas técnicas",
+      "dificuldade": "facil",
+      "enunciado": "Qual norma técnica é citada no material?",
+      "alternativas": ["NBR 14565.", "NBR 802.1X.", "NBR 10.000.", "NBR 5G."],
+      "correta": 0,
+      "explicacao": "A NBR 14565 é citada como parte do pilar da disponibilidade."
+    },
+    {
+      "id": "cab2-q003",
+      "tema": "Disponibilidade",
+      "dificuldade": "medio",
+      "enunciado": "O pilar da disponibilidade relaciona-se a:",
+      "alternativas": ["NBR 14565, organização física e disponibilidade.", "Somente velocidade de Internet.", "Apenas firewall e antivírus.", "Exclusivamente troca de cabos."],
+      "correta": 0,
+      "explicacao": "O material apresenta NBR 14565, organização física e disponibilidade como elementos desse pilar."
+    },
+    {
+      "id": "cab2-q004",
+      "tema": "Categorias de cabos",
+      "dificuldade": "facil",
+      "enunciado": "Qual capacidade é associada ao Cat5e no material?",
+      "alternativas": ["1 Gbps.", "10 Gbps.", "100 Gbps.", "10 Mbps."],
+      "correta": 0,
+      "explicacao": "O slide associa Cat5e à capacidade de 1 Gbps."
+    },
+    {
+      "id": "cab2-q005",
+      "tema": "Categorias de cabos",
+      "dificuldade": "facil",
+      "enunciado": "Cat6 e Cat6a são associados no material a:",
+      "alternativas": ["10 Gbps.", "1 Mbps.", "10 Mbps.", "100 Kbps."],
+      "correta": 0,
+      "explicacao": "O material compara Cat5e de 1 Gbps com Cat6/6a de 10 Gbps."
+    },
+    {
+      "id": "cab2-q006",
+      "tema": "Atenuação",
+      "dificuldade": "medio",
+      "enunciado": "A atenuação em cabos está relacionada à:",
+      "alternativas": ["Redução ou perda da intensidade do sinal ao longo do meio.", "Criação de usuários no switch.", "Energia fornecida pelo PoE.", "Organização de incidentes."],
+      "correta": 0,
+      "explicacao": "Atenuação é a perda ou redução da intensidade do sinal durante sua transmissão."
+    },
+    {
+      "id": "cab2-q007",
+      "tema": "Rack",
+      "dificuldade": "facil",
+      "enunciado": "O rack de telecomunicações é apresentado como:",
+      "alternativas": ["O coração físico da infraestrutura.", "Um endereço lógico.", "Um protocolo de autenticação.", "Uma categoria de cabo."],
+      "correta": 0,
+      "explicacao": "O rack centraliza e organiza componentes físicos da infraestrutura."
+    },
+    {
+      "id": "cab2-q008",
+      "tema": "Rack",
+      "dificuldade": "facil",
+      "enunciado": "Qual conjunto contém elementos relacionados ao rack?",
+      "alternativas": ["Patch panels, centralização e segurança física.", "Somente IP e DNS.", "Apenas usuários e senhas.", "Exclusivamente aplicativos móveis."],
+      "correta": 0,
+      "explicacao": "O material destaca patch panels, centralização e segurança física no rack."
+    },
+    {
+      "id": "cab2-q009",
+      "tema": "Fibra óptica",
+      "dificuldade": "medio",
+      "enunciado": "Uma vantagem da fibra óptica apresentada é:",
+      "alternativas": ["Imunidade a ruídos.", "Fornecimento direto de energia PoE.", "Replicação de tráfego como Hub.", "Substituição da tabela MAC."],
+      "correta": 0,
+      "explicacao": "O slide associa a fibra óptica à imunidade a ruídos."
+    },
+    {
+      "id": "cab2-q010",
+      "tema": "Backbone",
+      "dificuldade": "facil",
+      "enunciado": "A fibra óptica pode ser utilizada para:",
+      "alternativas": ["Interligar andares ou prédios.", "Apenas conectar teclados.", "Substituir todos os switches.", "Fornecer energia aos telefones IP sem equipamento compatível."],
+      "correta": 0,
+      "explicacao": "O material destaca a interligação de andares e prédios por fibra óptica."
+    },
+    {
+      "id": "cab2-q011",
+      "tema": "Hub",
+      "dificuldade": "facil",
+      "enunciado": "Como o Hub é caracterizado no material?",
+      "alternativas": ["Concentrador burro.", "Comutador inteligente.", "Servidor de aplicação.", "Controlador de energia."],
+      "correta": 0,
+      "explicacao": "O Hub é apresentado como um concentrador sem a inteligência de comutação do switch."
+    },
+    {
+      "id": "cab2-q012",
+      "tema": "Hub",
+      "dificuldade": "medio",
+      "enunciado": "O uso de Hub está associado a:",
+      "alternativas": ["Colisão e risco à confidencialidade.", "Microsegmentação automática.", "Canal dedicado por porta.", "Aprendizado da tabela MAC."],
+      "correta": 0,
+      "explicacao": "O material destaca colisão e risco de exposição do tráfego com o uso de Hub."
+    },
+    {
+      "id": "cab2-q013",
+      "tema": "Switch",
+      "dificuldade": "facil",
+      "enunciado": "O Switch é apresentado como:",
+      "alternativas": ["Comutador inteligente.", "Concentrador burro.", "Repetidor analógico.", "Fonte de energia sem dados."],
+      "correta": 0,
+      "explicacao": "O switch realiza comutação e utiliza informações como a tabela MAC."
+    },
+    {
+      "id": "cab2-q014",
+      "tema": "Switch",
+      "dificuldade": "medio",
+      "enunciado": "Qual item está associado ao funcionamento do switch?",
+      "alternativas": ["Tabela MAC e monitoramento.", "Somente cabo de energia.", "Apenas repetição de sinal.", "Exclusivamente senha de usuário."],
+      "correta": 0,
+      "explicacao": "O material relaciona switch à tabela MAC, monitoramento, uplink e PoE."
+    },
+    {
+      "id": "cab2-q015",
+      "tema": "Controle por porta",
+      "dificuldade": "medio",
+      "enunciado": "O controle de acesso baseado em porta utiliza principalmente:",
+      "alternativas": ["Tabela MAC e monitoramento.", "Somente arquivos de texto.", "Apenas cabos sem identificação.", "Exclusivamente o firewall externo."],
+      "correta": 0,
+      "explicacao": "O slide apresenta tabela MAC e monitoramento no controle de acesso baseado em porta."
+    },
+    {
+      "id": "cab2-q016",
+      "tema": "Uplink",
+      "dificuldade": "facil",
+      "enunciado": "Qual conexão é citada como uplink?",
+      "alternativas": ["Fibra óptica.", "Cabo de energia residencial.", "Patch cord sem conexão com switch.", "Endereço IP."],
+      "correta": 0,
+      "explicacao": "A fibra óptica é apresentada como conexão de uplink."
+    },
+    {
+      "id": "cab2-q017",
+      "tema": "PoE",
+      "dificuldade": "facil",
+      "enunciado": "O que significa PoE?",
+      "alternativas": ["Power over Ethernet.", "Port over Equipment.", "Protocol of Ethernet.", "Physical Optical Extension."],
+      "correta": 0,
+      "explicacao": "PoE significa Power over Ethernet."
+    },
+    {
+      "id": "cab2-q018",
+      "tema": "PoE",
+      "dificuldade": "medio",
+      "enunciado": "O PoE permite:",
+      "alternativas": ["Transportar energia pelo cabo de rede, junto com os dados.", "Transmitir somente energia sem dados.", "Substituir o switch.", "Eliminar a necessidade de compatibilidade entre equipamentos."],
+      "correta": 0,
+      "explicacao": "PoE permite a transmissão de energia pelo cabo Ethernet junto com os dados, respeitando compatibilidade e limites do padrão."
+    },
+    {
+      "id": "cab2-q019",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual associação está correta?",
+      "alternativas": ["Hub: concentrador e colisão; Switch: tabela MAC e monitoramento; Uplink: fibra; PoE: energia no cabo.", "Hub: tabela MAC; Switch: repetição de tráfego; Uplink: senha; PoE: somente dados.", "Hub: canal dedicado; Switch: meio compartilhado; Uplink: ausência de conexão; PoE: fibra.", "Todos os equipamentos possuem exatamente a mesma função."],
+      "correta": 0,
+      "explicacao": "A alternativa reúne os principais conceitos apresentados na aula."
+    },
+    {
+      "id": "cab2-q020",
+      "tema": "Revisão geral",
+      "dificuldade": "dificil",
+      "enunciado": "Qual é a ideia central das aulas 3 e 4?",
+      "alternativas": ["Uma infraestrutura organizada e padronizada melhora segurança, disponibilidade e manutenção.", "A organização física é irrelevante quando existe Internet.", "O Hub é sempre preferível ao Switch.", "PoE funciona em qualquer equipamento sem limites."],
+      "correta": 0,
+      "explicacao": "O conteúdo destaca que cabeamento, rack, equipamentos e conexões devem ser organizados para garantir segurança, disponibilidade e manutenção."
+    }
+  ],
+  "stories": [
+    {"id": "cab2-s001", "ordem": 1, "titulo": "Cabeamento", "texto": "Cabeamento estruturado não é gambiarra.", "destaque": "Organização e padrão."},
+    {"id": "cab2-s002", "ordem": 2, "titulo": "NBR 14565", "texto": "Norma técnica citada no pilar da disponibilidade.", "destaque": "Infraestrutura padronizada."},
+    {"id": "cab2-s003", "ordem": 3, "titulo": "Cat5e", "texto": "Associado a 1 Gbps no material.", "destaque": "Categoria e capacidade importam."},
+    {"id": "cab2-s004", "ordem": 4, "titulo": "Cat6/6a", "texto": "Associados a 10 Gbps no material.", "destaque": "Maior capacidade apresentada."},
+    {"id": "cab2-s005", "ordem": 5, "titulo": "Atenuação", "texto": "Redução da intensidade do sinal no meio de transmissão.", "destaque": "Distância e meio influenciam o sinal."},
+    {"id": "cab2-s006", "ordem": 6, "titulo": "Rack", "texto": "O coração físico da rede.", "destaque": "Patch panels, centralização e segurança."},
+    {"id": "cab2-s007", "ordem": 7, "titulo": "Fibra", "texto": "Imunidade a ruídos e interligação de andares/prédios.", "destaque": "Backbone da infraestrutura."},
+    {"id": "cab2-s008", "ordem": 8, "titulo": "Hub", "texto": "Concentrador burro com colisões e tráfego compartilhado.", "destaque": "Maior risco à confidencialidade."},
+    {"id": "cab2-s009", "ordem": 9, "titulo": "Switch", "texto": "Comutador inteligente associado à tabela MAC.", "destaque": "Monitoramento e controle."},
+    {"id": "cab2-s010", "ordem": 10, "titulo": "PoE", "texto": "Power over Ethernet: energia no cabo de rede.", "destaque": "Dados e energia juntos."},
+    {"id": "cab2-s011", "ordem": 11, "titulo": "Uplink", "texto": "Fibra ou outra conexão que interliga segmentos e equipamentos.", "destaque": "Acesso e distribuição."},
+    {"id": "cab2-s012", "ordem": 12, "titulo": "Bizu final", "texto": "Hub compartilha; Switch comuta; Fibra interliga; PoE alimenta.", "destaque": "Infraestrutura organizada é disponibilidade."}
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "id": "elementos-rede-local-configuracao",
+  "nome": "Elementos da Rede Local e Configuração",
+  "sigla": "LAN-CONFIG",
+  "semana": 2,
+  "tipo": "quiz",
+  "descricao": "Equipamentos gerenciáveis, LAN, hosts, endereçamento MAC e IP, VLANs, defesa em profundidade, QoS, WLAN e inventário de ativos.",
+  "objetivo": "Compreender os elementos de uma rede local e como as configurações de rede influenciam a segurança, a continuidade e o serviço policial.",
+  "fonte": "Presencial — Slide Completo — Aulas 1 e 2 — Elementos da Rede Local e Configuração",
+  "observacao": "Questões elaboradas com base no texto extraído dos slides. O material apresenta alguns conceitos de forma resumida e visual; a cobrança literal deve ser conferida na apresentação original.",
+  "palavrasChave": [
+    "LAN",
+    "WLAN",
+    "host",
+    "NIC",
+    "MAC",
+    "IP",
+    "IPv4",
+    "VLAN",
+    "QoS",
+    "Access Point",
+    "defesa em profundidade",
+    "inventário de ativos"
+  ],
+  "questoes": [
+    {
+      "id": "lan-q001",
+      "tema": "Objetivos da instrução",
+      "dificuldade": "facil",
+      "enunciado": "Qual é um dos objetivos da instrução sobre elementos da rede local?",
+      "alternativas": [
+        "Entender o escopo de uma LAN.",
+        "Configurar somente redes sociais.",
+        "Substituir todos os sistemas da Corporação.",
+        "Eliminar o controle de ativos."
+      ],
+      "correta": 0,
+      "explicacao": "A instrução busca compreender o escopo de uma LAN, seus elementos e configurações."
+    },
+    {
+      "id": "lan-q002",
+      "tema": "Objetivos da instrução",
+      "dificuldade": "facil",
+      "enunciado": "O que a instrução pretende diferenciar?",
+      "alternativas": [
+        "Endereçamento físico MAC e endereçamento lógico IP.",
+        "Somente redes públicas e redes sociais.",
+        "Apenas cabos e monitores.",
+        "Sistemas operacionais e editores de texto."
+      ],
+      "correta": 0,
+      "explicacao": "Um dos objetivos é diferenciar o endereço físico MAC do endereço lógico IP."
+    },
+    {
+      "id": "lan-q003",
+      "tema": "Configuração e serviço policial",
+      "dificuldade": "medio",
+      "enunciado": "Por que compreender a configuração de rede é importante no contexto da aula?",
+      "alternativas": [
+        "Porque a configuração pode afetar o serviço policial.",
+        "Porque elimina a necessidade de usuários.",
+        "Porque substitui todos os equipamentos de rádio.",
+        "Porque impede qualquer manutenção."
+      ],
+      "correta": 0,
+      "explicacao": "O material destaca que a configuração da rede pode afetar diretamente a prestação do serviço policial."
+    },
+    {
+      "id": "lan-q004",
+      "tema": "Equipamentos gerenciáveis",
+      "dificuldade": "facil",
+      "enunciado": "Qual tema é apresentado em oposição aos equipamentos gerenciáveis?",
+      "alternativas": [
+        "Equipamentos Plug and Play.",
+        "Servidores de aplicação.",
+        "Endereços IP lógicos.",
+        "Sistemas de inventário."
+      ],
+      "correta": 0,
+      "explicacao": "A aula compara equipamentos gerenciáveis com equipamentos Plug and Play."
+    },
+    {
+      "id": "lan-q005",
+      "tema": "Plug and Play",
+      "dificuldade": "facil",
+      "enunciado": "Uma característica associada aos equipamentos Plug and Play no material é:",
+      "alternativas": [
+        "Ausência de configuração.",
+        "Necessidade de configuração avançada obrigatória.",
+        "Segmentação por VLAN como padrão.",
+        "Monitoramento centralizado obrigatório."
+      ],
+      "correta": 0,
+      "explicacao": "Os slides associam Plug and Play à ausência de configuração, baixo custo e indicam sua proibição no contexto apresentado."
+    },
+    {
+      "id": "lan-q006",
+      "tema": "Plug and Play",
+      "dificuldade": "medio",
+      "enunciado": "Por que a utilização de equipamentos Plug and Play é problemática no contexto institucional apresentado?",
+      "alternativas": [
+        "Porque não oferecem o nível de configuração e controle esperado para a rede.",
+        "Porque são sempre mais caros.",
+        "Porque funcionam apenas sem energia.",
+        "Porque não possuem qualquer conexão física."
+      ],
+      "correta": 0,
+      "explicacao": "A ausência de configuração e de controle é incompatível com a necessidade de administrar e proteger a rede institucional."
+    },
+    {
+      "id": "lan-q007",
+      "tema": "Defesa em profundidade",
+      "dificuldade": "facil",
+      "enunciado": "O princípio de defesa em profundidade envolve:",
+      "alternativas": [
+        "Múltiplas camadas, isolamento e segmentação.",
+        "Uma única barreira sem segmentação.",
+        "Acesso livre entre todos os dispositivos.",
+        "Ausência de controles para facilitar o uso."
+      ],
+      "correta": 0,
+      "explicacao": "O material resume a defesa em profundidade em múltiplas camadas, isolamento e segmentação."
+    },
+    {
+      "id": "lan-q008",
+      "tema": "Defesa em profundidade",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a finalidade de utilizar múltiplas camadas de defesa?",
+      "alternativas": [
+        "Evitar que uma única falha comprometa todo o ambiente.",
+        "Eliminar a necessidade de configuração.",
+        "Permitir acesso irrestrito.",
+        "Substituir o inventário de ativos."
+      ],
+      "correta": 0,
+      "explicacao": "Múltiplas camadas, isolamento e segmentação reduzem o impacto de falhas ou acessos indevidos."
+    },
+    {
+      "id": "lan-q009",
+      "tema": "VLAN",
+      "dificuldade": "facil",
+      "enunciado": "VLANs são apresentadas como:",
+      "alternativas": [
+        "Redes virtuais com separação lógica.",
+        "Cabos físicos de longa distância.",
+        "Endereços MAC duplicados.",
+        "Sistemas de backup local."
+      ],
+      "correta": 0,
+      "explicacao": "O material associa VLANs a redes virtuais e separação lógica."
+    },
+    {
+      "id": "lan-q010",
+      "tema": "VLAN e privilégio mínimo",
+      "dificuldade": "medio",
+      "enunciado": "A separação lógica por VLAN contribui para:",
+      "alternativas": [
+        "Aplicar segmentação e limitar a exposição entre grupos de rede.",
+        "Eliminar todos os endereços IP.",
+        "Fazer todos os dispositivos pertencerem à mesma rede.",
+        "Impedir qualquer gerenciamento."
+      ],
+      "correta": 0,
+      "explicacao": "A separação lógica permite segmentar a rede e apoiar o princípio do privilégio mínimo."
+    },
+    {
+      "id": "lan-q011",
+      "tema": "QoS",
+      "dificuldade": "facil",
+      "enunciado": "O que significa QoS?",
+      "alternativas": [
+        "Qualidade de Serviço.",
+        "Quantidade de Sistemas.",
+        "Quadro Operacional de Segurança.",
+        "Controle de Operação de Servidores."
+      ],
+      "correta": 0,
+      "explicacao": "QoS significa Quality of Service, ou Qualidade de Serviço."
+    },
+    {
+      "id": "lan-q012",
+      "tema": "QoS",
+      "dificuldade": "medio",
+      "enunciado": "Qual prática é associada ao QoS no material?",
+      "alternativas": [
+        "Priorização de fila.",
+        "Exclusão de todos os pacotes.",
+        "Ausência de controle de tráfego.",
+        "Compartilhamento irrestrito de banda."
+      ],
+      "correta": 0,
+      "explicacao": "O slide associa QoS à priorização de fila e à continuidade."
+    },
+    {
+      "id": "lan-q013",
+      "tema": "Continuidade",
+      "dificuldade": "medio",
+      "enunciado": "A continuidade da rede é importante porque:",
+      "alternativas": [
+        "A indisponibilidade da rede pode afetar os serviços dependentes dela.",
+        "A rede nunca suporta serviços críticos.",
+        "Somente a aparência da tela é afetada.",
+        "A continuidade elimina a necessidade de segurança."
+      ],
+      "correta": 0,
+      "explicacao": "O material relaciona QoS e continuidade, destacando a importância de manter os serviços disponíveis."
+    },
+    {
+      "id": "lan-q014",
+      "tema": "LAN",
+      "dificuldade": "facil",
+      "enunciado": "LAN é a sigla de:",
+      "alternativas": [
+        "Local Area Network.",
+        "Logical Access Node.",
+        "Local Administrative Number.",
+        "Link Area Network."
+      ],
+      "correta": 0,
+      "explicacao": "LAN significa Local Area Network, ou rede local."
+    },
+    {
+      "id": "lan-q015",
+      "tema": "Perímetro da LAN",
+      "dificuldade": "medio",
+      "enunciado": "O perímetro da LAN está relacionado ao:",
+      "alternativas": [
+        "Domínio administrativo da rede local.",
+        "Número de série do monitor.",
+        "Modelo do teclado.",
+        "Tamanho físico do prédio apenas."
+      ],
+      "correta": 0,
+      "explicacao": "O material associa o perímetro da LAN ao domínio administrativo da rede local."
+    },
+    {
+      "id": "lan-q016",
+      "tema": "Hosts",
+      "dificuldade": "facil",
+      "enunciado": "Na rede local, hosts são:",
+      "alternativas": [
+        "Elementos finais ou dispositivos conectados à rede.",
+        "Somente cabos de energia.",
+        "Apenas regras de firewall.",
+        "Exclusivamente VLANs."
+      ],
+      "correta": 0,
+      "explicacao": "A instrução busca identificar os elementos finais da rede, chamados hosts."
+    },
+    {
+      "id": "lan-q017",
+      "tema": "NIC",
+      "dificuldade": "facil",
+      "enunciado": "O que significa NIC?",
+      "alternativas": [
+        "Network Interface Card.",
+        "Network Internal Control.",
+        "Node Internet Configuration.",
+        "National Interface Channel."
+      ],
+      "correta": 0,
+      "explicacao": "NIC significa Network Interface Card, ou placa de interface de rede."
+    },
+    {
+      "id": "lan-q018",
+      "tema": "NIC",
+      "dificuldade": "facil",
+      "enunciado": "A NIC é responsável principalmente por:",
+      "alternativas": [
+        "Permitir a interface de um dispositivo com a rede.",
+        "Armazenar todos os vídeos da rede.",
+        "Substituir o endereço IP.",
+        "Criar automaticamente todas as VLANs."
+      ],
+      "correta": 0,
+      "explicacao": "A placa de rede fornece a interface necessária para o dispositivo se conectar e comunicar na rede."
+    },
+    {
+      "id": "lan-q019",
+      "tema": "Endereço MAC",
+      "dificuldade": "facil",
+      "enunciado": "O endereço MAC é apresentado como um endereço:",
+      "alternativas": [
+        "Físico, associado à interface de rede.",
+        "Lógico, definido exclusivamente pelo usuário.",
+        "Temporário, usado apenas para login.",
+        "Virtual, sem relação com a placa de rede."
+      ],
+      "correta": 0,
+      "explicacao": "O MAC é tratado como endereço físico, associado à interface/NIC do dispositivo."
+    },
+    {
+      "id": "lan-q020",
+      "tema": "Endereço IP",
+      "dificuldade": "facil",
+      "enunciado": "O endereço IP é apresentado como um endereço:",
+      "alternativas": [
+        "Lógico.",
+        "Físico e gravado permanentemente na placa.",
+        "Exclusivamente patrimonial.",
+        "Relacionado somente ao teclado."
+      ],
+      "correta": 0,
+      "explicacao": "O material diferencia o IP como endereço lógico, enquanto o MAC é o endereço físico."
+    },
+    {
+      "id": "lan-q021",
+      "tema": "MAC e IP",
+      "dificuldade": "medio",
+      "enunciado": "Qual alternativa diferencia corretamente MAC e IP?",
+      "alternativas": [
+        "MAC é físico; IP é lógico.",
+        "MAC é lógico; IP é físico.",
+        "Ambos são exclusivamente físicos.",
+        "Ambos são nomes de usuários."
+      ],
+      "correta": 0,
+      "explicacao": "A distinção central apresentada é MAC como endereço físico e IP como endereço lógico."
+    },
+    {
+      "id": "lan-q022",
+      "tema": "IPv4 local",
+      "dificuldade": "facil",
+      "enunciado": "O material menciona o IPv4 local no contexto de:",
+      "alternativas": [
+        "Endereçamento IP e domínio CMDO.",
+        "Controle de impressão.",
+        "Gerenciamento de câmeras somente.",
+        "Criptografia de arquivos."
+      ],
+      "correta": 0,
+      "explicacao": "O slide aborda endereço lógico, IPv4 local e o domínio CMDO."
+    },
+    {
+      "id": "lan-q023",
+      "tema": "WLAN",
+      "dificuldade": "facil",
+      "enunciado": "WLAN se refere a:",
+      "alternativas": [
+        "Rede local sem fio.",
+        "Rede física de longa distância.",
+        "Endereço MAC do servidor.",
+        "Controle de inventário."
+      ],
+      "correta": 0,
+      "explicacao": "WLAN é a rede local sem fio, associada no material aos Access Points."
+    },
+    {
+      "id": "lan-q024",
+      "tema": "Access Points",
+      "dificuldade": "facil",
+      "enunciado": "Access Points são dispositivos utilizados em:",
+      "alternativas": [
+        "Redes sem fio locais.",
+        "Somente redes cabeadas sem rádio.",
+        "Apenas inventário patrimonial.",
+        "Exclusivamente bancos de dados."
+      ],
+      "correta": 0,
+      "explicacao": "O material cita Access Points no tópico de redes sem fio locais (WLAN)."
+    },
+    {
+      "id": "lan-q025",
+      "tema": "WLAN e segurança",
+      "dificuldade": "medio",
+      "enunciado": "Qual risco é associado às redes sem fio locais no material?",
+      "alternativas": [
+        "Vazamento de sinal.",
+        "Ausência de qualquer transmissão.",
+        "Impossibilidade de conectar hosts.",
+        "Eliminação do endereço IP."
+      ],
+      "correta": 0,
+      "explicacao": "O slide destaca o risco de vazamento de sinal em redes sem fio locais."
+    },
+    {
+      "id": "lan-q026",
+      "tema": "Dispositivos particulares",
+      "dificuldade": "medio",
+      "enunciado": "Por que dispositivos particulares merecem atenção em uma WLAN institucional?",
+      "alternativas": [
+        "Porque podem introduzir riscos de segurança e comprometer o controle da rede.",
+        "Porque sempre melhoram a segmentação.",
+        "Porque substituem os Access Points.",
+        "Porque eliminam a necessidade de inventário."
+      ],
+      "correta": 0,
+      "explicacao": "Dispositivos particulares podem introduzir riscos e dificultar o controle sobre os ativos conectados."
+    },
+    {
+      "id": "lan-q027",
+      "tema": "Inventário de ativos",
+      "dificuldade": "facil",
+      "enunciado": "O inventário de ativos envolve:",
+      "alternativas": [
+        "Mapeamento de hosts e política de controle de ativos.",
+        "Somente criação de senhas.",
+        "Apenas monitoramento de redes sociais.",
+        "Exclusivamente aquisição de cabos."
+      ],
+      "correta": 0,
+      "explicacao": "O material apresenta mapeamento de hosts e política de controle de ativos no tópico de inventário."
+    },
+    {
+      "id": "lan-q028",
+      "tema": "Inventário de ativos",
+      "dificuldade": "medio",
+      "enunciado": "Qual é a importância de mapear os hosts da rede?",
+      "alternativas": [
+        "Conhecer os dispositivos conectados e apoiar o controle dos ativos.",
+        "Permitir qualquer dispositivo sem identificação.",
+        "Substituir a configuração de IP.",
+        "Eliminar a segmentação lógica."
+      ],
+      "correta": 0,
+      "explicacao": "O mapeamento permite conhecer os hosts e apoiar uma política de controle dos ativos de rede."
+    },
+    {
+      "id": "lan-q029",
+      "tema": "Autossuficiência",
+      "dificuldade": "medio",
+      "enunciado": "No contexto dos equipamentos gerenciáveis, a autossuficiência deve ser entendida com cautela porque:",
+      "alternativas": [
+        "A unidade deve observar as configurações, os controles e as diretrizes institucionais.",
+        "A unidade pode instalar qualquer equipamento sem autorização.",
+        "A autossuficiência elimina a necessidade de segurança.",
+        "A rede local não precisa de planejamento."
+      ],
+      "correta": 0,
+      "explicacao": "A autossuficiência operacional não significa ausência de governança; a configuração deve respeitar controles e diretrizes institucionais."
+    },
+    {
+      "id": "lan-q030",
+      "tema": "Síntese",
+      "dificuldade": "dificil",
+      "enunciado": "Qual alternativa resume melhor os elementos e a configuração de uma rede local?",
+      "alternativas": [
+        "LAN, hosts, NIC, MAC, IP, VLAN, WLAN, QoS e inventário devem ser administrados de forma controlada e segura.",
+        "Somente o cabo define a segurança da rede.",
+        "IP e MAC são a mesma coisa e não exigem controle.",
+        "Equipamentos Plug and Play devem substituir todos os gerenciáveis."
+      ],
+      "correta": 0,
+      "explicacao": "A aula integra elementos físicos e lógicos, segmentação, priorização, redes sem fio e inventário para apoiar segurança e continuidade."
+    }
+  ],
+  "stories": [
+    {"id": "lan-s001", "ordem": 1, "titulo": "LAN", "texto": "LAN significa Local Area Network: rede local.", "destaque": "O perímetro da LAN envolve um domínio administrativo."},
+    {"id": "lan-s002", "ordem": 2, "titulo": "Hosts", "texto": "Hosts são os elementos finais conectados à rede.", "destaque": "Computadores e dispositivos podem ser hosts."},
+    {"id": "lan-s003", "ordem": 3, "titulo": "Gerenciável", "texto": "Equipamentos gerenciáveis permitem configuração e controle.", "destaque": "Controle é essencial na rede institucional."},
+    {"id": "lan-s004", "ordem": 4, "titulo": "Plug and Play", "texto": "Sem configuração e de baixo custo, mas proibido no contexto apresentado.", "destaque": "Baixo custo não significa controle adequado."},
+    {"id": "lan-s005", "ordem": 5, "titulo": "Defesa em profundidade", "texto": "Use múltiplas camadas, isolamento e segmentação.", "destaque": "Uma única barreira não é suficiente."},
+    {"id": "lan-s006", "ordem": 6, "titulo": "VLAN", "texto": "Rede virtual com separação lógica.", "destaque": "Segmentar ajuda a aplicar privilégio mínimo."},
+    {"id": "lan-s007", "ordem": 7, "titulo": "QoS", "texto": "Qualidade de Serviço com priorização de fila.", "destaque": "Priorizar tráfego ajuda na continuidade."},
+    {"id": "lan-s008", "ordem": 8, "titulo": "NIC", "texto": "Network Interface Card: placa de interface de rede.", "destaque": "É a interface do dispositivo com a rede."},
+    {"id": "lan-s009", "ordem": 9, "titulo": "MAC", "texto": "Endereço físico associado à interface de rede.", "destaque": "Pense no MAC como o chassi."},
+    {"id": "lan-s010", "ordem": 10, "titulo": "IP", "texto": "Endereço lógico usado na comunicação de rede.", "destaque": "MAC físico; IP lógico."},
+    {"id": "lan-s011", "ordem": 11, "titulo": "IPv4 local", "texto": "Endereçamento lógico usado no domínio local apresentado.", "destaque": "Relaciona-se ao domínio CMDO."},
+    {"id": "lan-s012", "ordem": 12, "titulo": "WLAN", "texto": "Rede local sem fio.", "destaque": "Utiliza Access Points."},
+    {"id": "lan-s013", "ordem": 13, "titulo": "Vazamento de sinal", "texto": "Redes sem fio exigem atenção ao alcance do sinal.", "destaque": "Sinal fora do perímetro pode gerar risco."},
+    {"id": "lan-s014", "ordem": 14, "titulo": "Dispositivo particular", "texto": "Equipamentos particulares podem comprometer o controle dos ativos.", "destaque": "Conecte somente o que for autorizado."},
+    {"id": "lan-s015", "ordem": 15, "titulo": "Inventário", "texto": "Mapeie hosts e mantenha política de controle de ativos.", "destaque": "O que não é conhecido não é bem protegido."},
+    {"id": "lan-s016", "ordem": 16, "titulo": "Configuração", "texto": "A configuração da rede pode afetar o serviço policial.", "destaque": "Rede é parte da continuidade operacional."},
+    {"id": "lan-s017", "ordem": 17, "titulo": "Privilégio mínimo", "texto": "A separação lógica ajuda a limitar acessos e exposição.", "destaque": "Cada segmento deve ter finalidade definida."},
+    {"id": "lan-s018", "ordem": 18, "titulo": "Continuidade", "texto": "QoS e planejamento contribuem para manter os serviços disponíveis.", "destaque": "Disponibilidade também é segurança."},
+    {"id": "lan-s019", "ordem": 19, "titulo": "Memorização", "texto": "NIC conecta; MAC identifica fisicamente; IP endereça logicamente.", "destaque": "Três conceitos para não confundir."},
+    {"id": "lan-s020", "ordem": 20, "titulo": "Bizu final", "texto": "Rede local segura exige equipamentos controláveis, segmentação, priorização e inventário.", "destaque": "LAN organizada apoia o serviço policial."}
+  ]
+}
