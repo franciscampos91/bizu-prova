@@ -492,3 +492,145 @@ form button:hover,
     transition-duration: 0.01ms !important;
   }
 }
+
+.simulado-carregando,
+.simulado-erro,
+.resultado-simulado {
+  max-width: 680px;
+  margin: 32px auto;
+  text-align: center;
+}
+
+.simulado-cabecalho {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.simulado-cabecalho h1 {
+  margin-bottom: 0;
+  font-size: clamp(25px, 6vw, 36px);
+}
+
+.simulado-barra {
+  height: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-radius: 999px;
+  background: var(--surface-soft);
+}
+
+.simulado-barra span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primary);
+  transition: width 180ms ease;
+}
+
+.simulado-card-questao {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.simulado-identificacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.simulado-card-questao h2 {
+  margin-bottom: 24px;
+  font-size: clamp(22px, 5vw, 32px);
+}
+
+.simulado-opcoes {
+  display: grid;
+  gap: 12px;
+}
+
+.simulado-opcoes .alternativa {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  min-height: 54px;
+}
+
+.letra-alternativa {
+  display: grid;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--surface-soft);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 900;
+  place-items: center;
+}
+
+.simulado-retorno {
+  margin-top: 18px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  padding: 16px;
+  text-align: left;
+}
+
+.simulado-retorno strong {
+  color: var(--primary);
+}
+
+.simulado-retorno p {
+  margin: 6px 0 0;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.simulado-avancar {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.resultado-percentual {
+  margin: 28px 0;
+  color: var(--primary);
+  font-size: clamp(64px, 18vw, 112px);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.resultado-acoes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+@media (max-width: 560px) {
+  .simulado-cabecalho {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  .simulado-identificacao {
+    display: grid;
+  }
+
+  .resultado-acoes {
+    display: grid;
+  }
+
+  .resultado-acoes button {
+    width: 100%;
+  }
+}
